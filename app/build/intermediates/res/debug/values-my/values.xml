@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-my/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.zoom_in">ချဲ့</string>
+    <string name="acc.zoom_out">ချုံ့</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-my/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs_map_tile_summary"/>
+</resources>

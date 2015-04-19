@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-bn/strings.xml -->
+    <eat-comment/>
+    <string name="app_short_name">ওএসএমট্র্যাকার</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-bn/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs_map_tile_summary"/>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-bn/strings.xml -->
+    <eat-comment/>
+    <string name="tracklogger_voicerec_text">{0} এর অডিও ক্লিপ রেকর্ড করা হচ্ছে।</string>
+    <string name="tracklogger_voicerec_title">ভয়েস রেকর্ডিং</string>
+</resources>

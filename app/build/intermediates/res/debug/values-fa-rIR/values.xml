@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-fa-rIR/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.osmtracker_logo">لوگوی OSMTracker</string>
+    <string name="acc.record_indicator">نشانگر ضبط در جریان</string>
+    <string name="acc.sat_indicator">نشانگر قدرت سیگنال ماهواره</string>
+    <string name="acc.track_status">نشانگر وضعیت مسیر</string>
+    <string name="acc.upload_status">نشانگر وضعیت بارگزاری به OpenStreetMap </string>
+    <string name="acc.zoom_in">بزرگنمایی</string>
+    <string name="acc.zoom_out">کوچکنمایی</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-fa-rIR/strings.xml -->
+    <eat-comment/>
+    <string name="osm_visibility_identifiable">قابل تعریف</string>
+    <string name="osm_visibility_private">خصوصی</string>
+    <string name="osm_visibility_public">عمومی</string>
+    <string name="osm_visibility_trackable">قابل ردیابی</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-fa-rIR/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs">تنظیمات</string>
+    <string name="prefs_check_gps_startup">بررسی GPS هنگام شروع</string>
+    <string name="prefs_check_gps_startup_summary">بررسی غیرفعال بودن GPS هنگام شروع برنامه و پیشنهاد برای فعالسازی آن</string>
+    <string name="prefs_display_always_on">روشن ماندن صفحه</string>
+    <string name="prefs_displaytrack_osm">نقشه پیش‌زمینه</string>
+    <string name="prefs_gps">GPS</string>
+    <string name="prefs_gps_ignore_clock">نادیده گرفتن ساعت GPS</string>
+    <string name="prefs_gps_logging_interval">فواصل ثبت GPS</string>
+    <string name="prefs_gps_logging_interval_seconds">ثانیه</string>
+    <string name="prefs_gps_os_settings">تنظیمات GPS </string>
+    <string name="prefs_gps_os_settings_summary">نمایش صفحه تنظیمات GPS سیستم</string>
+    <string name="prefs_map_tile_summary"/>
+    <string name="prefs_output">تنظیمات GPS</string>
+    <string name="prefs_output_accuracy">میزان دقت در فایل GPS</string>
+    <string name="prefs_output_one_dir_per_track">یک شاخه برای هر مسیر</string>
+    <string name="prefs_output_one_dir_per_track_summary">هر مسیر و فایلهای پیوست آنرا در شاخه مجزا ذخیره کن</string>
+    <string name="prefs_sound_enabled">فعالسازی صدا</string>
+    <string name="prefs_theme">قالب گرافیکی صفحه اصلی</string>
+    <string name="prefs_ui">رابط کاربری</string>
+    <string name="prefs_ui_buttons_layout">پیشفرض دکمه‌ها</string>
+    <string name="prefs_ui_buttons_layout_defaut">پیش فرض</string>
+    <string name="prefs_ui_buttons_layout_summary">انتخاب دکمه‌های دلخواه (مستندات را ببینید)</string>
+    <string name="prefs_ui_orientation">جهت</string>
+    <string name="prefs_ui_picture_source">منبع پیشفرض تصویر</string>
+    <string name="prefs_voicerec_duration">مدت ضبط صدا</string>
+    <string name="prefs_voicerec_duration_seconds">ثانیه</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-fa-rIR/strings-tags.xml -->
+    <eat-comment/>
+    <string name="tag.amenity">مکان</string>
+    <string name="tag.amenity_bench">نمیکت</string>
+    <string name="tag.amenity_doctors">بیمارستان\nپزشک</string>
+    <string name="tag.amenity_library">کتابخانه</string>
+    <string name="tag.amenity_marina">دریایی</string>
+    <string name="tag.amenity_more">مکان (+)</string>
+    <string name="tag.amenity_pharmacy">داروخانه</string>
+    <string name="tag.amenity_place_of_worship">نمازخانه</string>
+    <string name="tag.amenity_post_office">اداره پست</string>
+    <string name="tag.amenity_recycling">بازیافت</string>
+    <string name="tag.amenity_shop">مغازه</string>
+    <string name="tag.amenity_sport">ورزشی</string>
+    <string name="tag.amenity_taxi">تاکسی</string>
+    <string name="tag.amenity_water">آب</string>
+    <string name="tag.amenitymore_bank">بانک</string>
+    <string name="tag.amenitymore_camp_site">اردوگاه</string>
+    <string name="tag.amenitymore_fastfood">فست فود</string>
+    <string name="tag.amenitymore_fire_station">ایستگاه آتش‌نشانی</string>
+    <string name="tag.amenitymore_hostel">مهمانپذیر</string>
+    <string name="tag.amenitymore_hotel">هتل</string>
+    <string name="tag.amenitymore_motel">متل</string>
+    <string name="tag.amenitymore_playground">زمین بازی</string>
+    <string name="tag.amenitymore_police">پلیس</string>
+    <string name="tag.amenitymore_pub">بار</string>
+    <string name="tag.amenitymore_restaurant">رستوران</string>
+    <string name="tag.amenitymore_school">مدرسه</string>
+    <string name="tag.car">خودرو</string>
+    <string name="tag.car_emergency_phone">تلفن اضطراری</string>
+    <string name="tag.car_fuel_station">پمپ بنزین</string>
+    <string name="tag.car_parking">پارکینگ</string>
+    <string name="tag.car_speed_camera">دوربین سرعت</string>
+    <string name="tag.car_turning_circle">محل دورزدن</string>
+    <string name="tag.landuse">کاربری اراضی</string>
+    <string name="tag.landuse_basin">حوضچه</string>
+    <string name="tag.landuse_cemetery">گورستان</string>
+    <string name="tag.landuse_farm">مزرعه</string>
+    <string name="tag.landuse_forest">جنگا</string>
+    <string name="tag.landuse_landfill">محل دفن زباله</string>
+    <string name="tag.landuse_recreation_ground">زمین بازی</string>
+    <string name="tag.landuse_reservoir">مخزن</string>
+    <string name="tag.misc">متفرقه</string>
+    <string name="tag.misc_atm">خودپرداز</string>
+    <string name="tag.misc_bus_stop">ایستگاه اتوبوس</string>
+    <string name="tag.misc_post_box">صندوق پست</string>
+    <string name="tag.misc_railway">راه‌آهن</string>
+    <string name="tag.misc_shelter">پناهگاه</string>
+    <string name="tag.misc_surveillance">نظارت</string>
+    <string name="tag.misc_telephone">تلفن</string>
+    <string name="tag.misc_toilets">دستشویی</string>
+    <string name="tag.restriction">محدوده</string>
+    <string name="tag.restriction_100">حداکثر سرعت ۱۰۰</string>
+    <string name="tag.restriction_110">حداکثر سرعت ۱۱۰</string>
+    <string name="tag.restriction_120">حداکثر سرعت ۱۲۰</string>
+    <string name="tag.restriction_130">حداکثر سرعت ۱۳۰</string>
+    <string name="tag.restriction_20">حداکثر سرعت ۲۰</string>
+    <string name="tag.restriction_30">حداکثر سرعت ۳۰</string>
+    <string name="tag.restriction_40">حداکثر سرعت ۴۰</string>
+    <string name="tag.restriction_50">حداکثر سرعت ۵۰</string>
+    <string name="tag.restriction_60">حداکثر سرعت ۶۰</string>
+    <string name="tag.restriction_70">حداکثر سرعت ۷۰</string>
+    <string name="tag.restriction_80">حداکثر سرعت ۸۰</string>
+    <string name="tag.restriction_90">حداکثر سرعت ۹۰</string>
+    <string name="tag.restriction_no_exit">بن‌بست</string>
+    <string name="tag.restriction_one_way">یکطرفه</string>
+    <string name="tag.restriction_traffic_light">چراغ راهنمایی رانندگی</string>
+    <string name="tag.tourism">گردشگری</string>
+    <string name="tag.tourism_attraction">جاذبه‌ها</string>
+    <string name="tag.tourism_castle">قلعه</string>
+    <string name="tag.tourism_cinema">سینما</string>
+    <string name="tag.tourism_information">اطلاعات</string>
+    <string name="tag.tourism_monument">کوهستان</string>
+    <string name="tag.tourism_museum">موزه</string>
+    <string name="tag.tourism_picnic">محل اردو</string>
+    <string name="tag.tourism_theme_park">پارک تفریحی</string>
+    <string name="tag.tourism_view_point">مکان دیدنی</string>
+    <string name="tag.track">مسیر</string>
+    <string name="tag.track_bridleway">مسیر مال‌رو</string>
+    <string name="tag.track_cycleway">مسیر دوچرخه</string>
+    <string name="tag.track_footway">پیادهرو</string>
+    <string name="tag.track_grade1">درجه ۱</string>
+    <string name="tag.track_grade2">درجه ۲</string>
+    <string name="tag.track_grade3">درجه ۳</string>
+    <string name="tag.track_grade4">درجه ۴</string>
+    <string name="tag.track_grade5">درجه ۵</string>
+    <string name="tag.track_living_street">خیابان محلی</string>
+    <string name="tag.track_pedestrian">پیاده‌رو</string>
+    <string name="tag.track_steps">پله</string>
+    <string name="tag.track_track">جاده خاکی</string>
+    <string name="tag.way">جاده</string>
+    <string name="tag.way_bridge">پل</string>
+    <string name="tag.way_motorway">آزادراه</string>
+    <string name="tag.way_primary">خیابان اولیه</string>
+    <string name="tag.way_residential">خیابان مسکونی</string>
+    <string name="tag.way_secondary">خیابان ثانویه</string>
+    <string name="tag.way_trunk">بزرگراه</string>
+    <string name="tag.way_zebra_crossing">خط‌کشی عابر پیاده</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-fa-rIR/strings.xml -->
+    <eat-comment/>
+    <string name="trackdetail_description">توضیح</string>
+    <string name="trackdetail_enddate">زمان خاتمه:</string>
+    <string name="trackdetail_endloc">خاتمه در:</string>
+    <string name="trackdetail_save">ذخیره</string>
+    <string name="trackdetail_startdate">زمان شروع:</string>
+    <string name="trackdetail_startloc">شروع در:</string>
+    <string name="tracklogger_btnBack">عقب</string>
+    <string name="tracklogger_gps_disabled">GPS غیرفعال</string>
+    <string name="tracklogger_gps_disabled_hint">GPS غیرفعال است. آنرا فعال میکنید؟</string>
+    <string name="tracklogger_voicerec_stop">توقف</string>
+    <string name="trackmgr_contextmenu_delete">حذف</string>
+    <string name="trackmgr_contextmenu_details">جزئیات</string>
+    <string name="trackmgr_contextmenu_display">نمایش</string>
+    <string name="various_accuracy">دقت</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-fa-rIR/waypoints.xml -->
+    <eat-comment/>
+    <string name="wpt_stillimage">تصویر</string>
+    <string name="wpt_voicerec">ضبط صدا</string>
+</resources>

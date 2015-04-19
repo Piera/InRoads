@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nl/strings-preferences.xml -->
+    <eat-comment/>
+    <string-array name="prefs_compass_heading_keys">
+    <item>Geen</item>
+    <item>in opmerking</item>
+    <item>in extensie</item>
+  </string-array>
+    <string-array name="prefs_map_tile_keys">
+    <item>Mapnik</item>
+    <item>Cycle Map</item>
+    <item>MapQuest Open</item>
+  </string-array>
+    <string-array name="prefs_output_accuracy_keys">
+    <item>Geen</item>
+    <item>Met naam van routepunt</item>
+    <item>In routepunt-opmerking</item>
+  </string-array>
+    <string-array name="prefs_output_filename_keys">
+    <item>Trajectnaam</item>
+    <item>Naam, begindatum en -tijd</item>
+    <item>Begindatum en -tijd</item>
+  </string-array>
+    <string-array name="prefs_theme_keys">
+    <item>OS standaard</item>
+    <item>OS standaard (donker)</item>
+    <item>OS standaard (licht)</item>
+    <item>Hoog contrast</item>
+  </string-array>
+    <string-array name="prefs_ui_orientation_options_keys">
+    <item>Automatisch</item>
+    <item>Staand</item>
+    <item>Liggend</item>
+  </string-array>
+    <string-array name="prefs_ui_picture_source_keys">
+    <item>Camera</item>
+    <item>Galerij</item>
+    <item>Altijd vragen</item>
+  </string-array>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="about">Over</string>
+    <string name="about_debug_info">Debug-info</string>
+    <string name="about_text">Bezoek de project-webpagina voor meer informatie, documenten en melden van problemen.</string>
+    <string name="about_translate_text">Help OSMTracker vertalen:</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nl/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.osmtracker_logo">OSMTracker logo</string>
+    <string name="acc.record_indicator">Aanduiding opname bezig</string>
+    <string name="acc.sat_indicator">Satelliet-signaalsterkte</string>
+    <string name="acc.track_status">Aanduiding trajectstatus</string>
+    <string name="acc.upload_status">Aanduiding status OpenStreetMap-upload</string>
+    <string name="acc.zoom_in">Inzoomen</string>
+    <string name="acc.zoom_out">Uitzoomen</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="app_description">Geïnspireerd door OSMTracker op Windows Mobile, stelt OSMTracker u in staat om uw routes op te nemen, belangrijke punten te markeren (geluidsopname, foto\'s), en alles te exporteren in GPX-formaat voor later gebruik met Open Street Map toools zoals JOSM.</string>
+    <string name="app_name">OSMTracker voor Android™</string>
+    <string name="app_short_name">OSMTracker</string>
+    <string name="displaytrack">Traject weergeven</string>
+    <string name="displaytrack_map">Achtergrondkaart weergeven</string>
+    <string name="displaytrack_north">N</string>
+    <string name="displaytrackmap">OpenStreetMap trajectweergave</string>
+    <string name="error_create_track_dir">Kan de trajectmap %s niet aanmaken</string>
+    <string name="error_externalstorage_not_writable">Kan niet naar externe opslag schrijven.</string>
+    <string name="error_externalstorage_not_writable_hint">Controleer of de SD-kaart correct geplaatst is.</string>
+    <string name="error_userlayout_parsing">Fout bij inlezen van XML lay-out-bestand. Gelieve terug te keren naar de standaard lay-out.</string>
+    <string name="error_voicerec_failed">Stemopname mislukt</string>
+    <string name="gpsstatus_record_stillimage">Foto nemen</string>
+    <string name="gpsstatus_record_textnote">Notitie</string>
+    <string name="gpsstatus_record_voicerec">Stemopname</string>
+    <string name="gpx_hdop_approximation_cmt">Waarschuwing: HDOP-waarden worden niet uit de gps-apparaat gelezen. Ze worden benaderd op basis van de nauwkeurigheid van de locatie (in meter).</string>
+    <string name="gpx_track_name">Opgenomen met OSMTracker voor Android™</string>
+    <string name="menu_about">Over</string>
+    <string name="menu_cancel">Annuleren</string>
+    <string name="menu_center_to_gps">Centreren op gps</string>
+    <string name="menu_continue">Doorgaan met traject</string>
+    <string name="menu_deletetracks">Alle trajecten verwijderen</string>
+    <string name="menu_displaytrack">Traject weergeven</string>
+    <string name="menu_export">Exporteren als GPX</string>
+    <string name="menu_exportall">Alles als GPX exporteren</string>
+    <string name="menu_newtrack">Nieuw traject</string>
+    <string name="menu_osm_upload">OpenStreetMap-upload</string>
+    <string name="menu_save">Opslaan</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="menu_stopcurrenttrack">Huidig traject stoppen</string>
+    <string name="menu_stoptracking">Stoppen &amp; opslaan</string>
+    <string name="menu_waypointlist">Routepunten</string>
+    <string name="notification_text">Aanraken om het hoofdscherm weer te geven</string>
+    <string name="notification_ticker_text">OSMTracker is aan het opnemen</string>
+    <string name="notification_title">OSMTracker is (#{0}) aan het opnemen</string>
+    <string name="osm_upload">OpenStreetMap upload</string>
+    <string name="osm_upload_bad_response">Foutmelding van de OSM server:  ({0}) bericht {1}</string>
+    <string name="osm_upload_error">Fout bij uploaden traject</string>
+    <string name="osm_upload_oauth_failed">Aanmelden bij OSM lukt niet</string>
+    <string name="osm_upload_ok">Opslaan en uploaden</string>
+    <string name="osm_upload_sending">Traject #{0} verzenden…</string>
+    <string name="osm_upload_sucess">Uploaden naar OpenStreetMap geslaagd</string>
+    <string name="osm_upload_tmpfile_failed">Kan het traject niet exporteren naar een tijdelijk bestand</string>
+    <string name="osm_upload_unauthorized">Foute naam/wachtwoord. Wilt u de opgeslagen OpenStreetMap aanmeldgegevens wissen?</string>
+    <string name="osm_upload_waiting_response">Wachten op antwoord van de OpenStreetMap-server...</string>
+    <string name="osm_visibility_identifiable">Te identificeren</string>
+    <string name="osm_visibility_private">Persoonlijk</string>
+    <string name="osm_visibility_public">Publiek</string>
+    <string name="osm_visibility_trackable">Te volgen</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nl/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs">Instellingen</string>
+    <string name="prefs_check_gps_startup">Gps controleren tijdens opstarten</string>
+    <string name="prefs_check_gps_startup_summary">Controleren of gps uitgeschakeld is tijdens opstarten, en aanbieden om het in te schakelen</string>
+    <string name="prefs_compass_heading">Kompasrichting exporteren</string>
+    <string name="prefs_compass_heading_summary">Definieert of en hoe de kompas-data geëxporteerd moet worden naar het GPX-bestand</string>
+    <string name="prefs_display_always_on">Scherm altijd aan</string>
+    <string name="prefs_display_always_on_summary">Scherm zal aan blijven tijdens opnemen. Uitschakelen om batterij te besparen</string>
+    <string name="prefs_displaytrack_osm">Achtergrondkaart</string>
+    <string name="prefs_displaytrack_osm_summary">OpenStreetMap-kaart weergeven onder traject. Heeft een dataverbinding nodig</string>
+    <string name="prefs_displaytrack_osm_summary_ask">Altijd OpenStreetMap-achtergrond weergeven? Vereist een dataverbinding.</string>
+    <string name="prefs_gps">Gps</string>
+    <string name="prefs_gps_ignore_clock">Gps-klok negeren</string>
+    <string name="prefs_gps_ignore_clock_summary">Gps-klok negeren en de Android-klok gebruiken voor tijdstempels</string>
+    <string name="prefs_gps_logging_interval">Gps-loginterval</string>
+    <string name="prefs_gps_logging_interval_seconds">seconden</string>
+    <string name="prefs_gps_logging_interval_summary">Gebruik 0 voor de kortst mogelijke (beïnvloedt levensduur van de batterij)</string>
+    <string name="prefs_gps_os_settings">Gps-instellingen</string>
+    <string name="prefs_gps_os_settings_summary">Gps-instellingscherm van systeem weergeven</string>
+    <string name="prefs_map_tile">Kaartvak-provider</string>
+    <string name="prefs_map_tile_summary"/>
+    <string name="prefs_osm_clear_oauth_data">OSM-authenticatie herstellen</string>
+    <string name="prefs_osm_clear_oauth_data_dialog">U zal OSMTracker terug moeten autoriseren om trajecten te uploaden. Bent u zeker?</string>
+    <string name="prefs_osm_clear_oauth_data_summary">OSM-inloggegevens en toestemming vergeten en OSMTracker forceren om ze nogmaals op te vragen.</string>
+    <string name="prefs_output">GPX-instellingen</string>
+    <string name="prefs_output_accuracy">Nauwkeurigheid in GPX-bestand</string>
+    <string name="prefs_output_accuracy_summary">Nauwkeurigheid toevoegen in GPX-bestand, met naam van routepunt of in routepunt-opmerking</string>
+    <string name="prefs_output_filename">Bestandsnaam voor trajecten</string>
+    <string name="prefs_output_filename_summary">Patroon voor bestandsnaam als het traject een naam heeft</string>
+    <string name="prefs_output_gpx_hdop_approximation">HDOP-benadering gebruiken</string>
+    <string name="prefs_output_gpx_hdop_approximation_summary">HDOP in GPX vullen met een benaderingswaarde van nauwkeurigheid</string>
+    <string name="prefs_output_one_dir_per_track">Een map per traject</string>
+    <string name="prefs_output_one_dir_per_track_summary">Elk traject en bijbehorende bestanden in eigen map opslaan</string>
+    <string name="prefs_sound_enabled">Geluid inschakelen</string>
+    <string name="prefs_sound_enabled_summary">Geluiden afspelen wanneer opnemen begint en eindigt</string>
+    <string name="prefs_storage_dir">Map externe opslag (SD)</string>
+    <string name="prefs_storage_dir_hint">Effectief voor het volgende traject (niet het huidige)</string>
+    <string name="prefs_theme">Thema hoofdscherm</string>
+    <string name="prefs_theme_summary">Herstarten van de toepassing vereist om wijziging toe te passen</string>
+    <string name="prefs_ui">Gebruikersinterface</string>
+    <string name="prefs_ui_buttons_layout">Knop-voorinstellingen</string>
+    <string name="prefs_ui_buttons_layout_defaut">Standaard</string>
+    <string name="prefs_ui_buttons_layout_summary">Een aangepaste set knoppen kiezen (zie documenten)</string>
+    <string name="prefs_ui_orientation">Oriëntatie</string>
+    <string name="prefs_ui_orientation_summary">Voorkeursoriëntatie van het knoppenscherm</string>
+    <string name="prefs_ui_picture_source">Standaard fotobron</string>
+    <string name="prefs_ui_picture_source_summary">Foto\'s nemen van camera of galerij?</string>
+    <string name="prefs_voicerec_duration">Duur stemopname</string>
+    <string name="prefs_voicerec_duration_seconds">seconden</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nl/strings-tags.xml -->
+    <eat-comment/>
+    <string name="tag.amenity">Voorziening</string>
+    <string name="tag.amenity_bench">Bank</string>
+    <string name="tag.amenity_doctors">Ziekenhuis, Dokters</string>
+    <string name="tag.amenity_library">Bibliotheek</string>
+    <string name="tag.amenity_marina">Jachthaven</string>
+    <string name="tag.amenity_more">Voorziening (+)</string>
+    <string name="tag.amenity_pharmacy">Apotheek</string>
+    <string name="tag.amenity_place_of_worship">Plaats van aanbidding</string>
+    <string name="tag.amenity_post_office">Postkantoor</string>
+    <string name="tag.amenity_recycling">Recycling</string>
+    <string name="tag.amenity_shop">Winkel</string>
+    <string name="tag.amenity_sport">Sport</string>
+    <string name="tag.amenity_taxi">Taxi</string>
+    <string name="tag.amenity_water">Water</string>
+    <string name="tag.amenitymore_bank">Bank</string>
+    <string name="tag.amenitymore_camp_site">Camping</string>
+    <string name="tag.amenitymore_fastfood">Fastfood</string>
+    <string name="tag.amenitymore_fire_station">Brandweer</string>
+    <string name="tag.amenitymore_hostel">Herberg</string>
+    <string name="tag.amenitymore_hotel">Hotel</string>
+    <string name="tag.amenitymore_motel">Motel</string>
+    <string name="tag.amenitymore_playground">Speelterrein</string>
+    <string name="tag.amenitymore_police">Politie</string>
+    <string name="tag.amenitymore_pub">Bar</string>
+    <string name="tag.amenitymore_restaurant">Restaurant</string>
+    <string name="tag.amenitymore_school">School</string>
+    <string name="tag.car">Auto</string>
+    <string name="tag.car_emergency_phone">Noodtelefoon</string>
+    <string name="tag.car_fuel_station">Tankstation</string>
+    <string name="tag.car_parking">Parkeerplaats</string>
+    <string name="tag.car_speed_camera">Flitspaal</string>
+    <string name="tag.car_turning_circle">Draaicirkel</string>
+    <string name="tag.landuse">Landgebruik</string>
+    <string name="tag.landuse_allotments">Percelen</string>
+    <string name="tag.landuse_basin">Bekken</string>
+    <string name="tag.landuse_cemetery">Begraafplaats</string>
+    <string name="tag.landuse_farm">Boerderij</string>
+    <string name="tag.landuse_forest">Bos</string>
+    <string name="tag.landuse_landfill">Stortplaats</string>
+    <string name="tag.landuse_recreation_ground">Recreatiegebied</string>
+    <string name="tag.landuse_reservoir">Reservoir</string>
+    <string name="tag.misc">Div</string>
+    <string name="tag.misc_atm">Geldautomaat</string>
+    <string name="tag.misc_bollard">Inzinkbare paal</string>
+    <string name="tag.misc_bus_stop">Bushalte</string>
+    <string name="tag.misc_post_box">Postbus</string>
+    <string name="tag.misc_railway">Spoorweg</string>
+    <string name="tag.misc_shelter">Onderdak</string>
+    <string name="tag.misc_surveillance">Bewaking</string>
+    <string name="tag.misc_telephone">Telefoon</string>
+    <string name="tag.misc_toilets">Toiletten</string>
+    <string name="tag.restriction">Beperking</string>
+    <string name="tag.restriction_100">Max 100</string>
+    <string name="tag.restriction_110">Max 110</string>
+    <string name="tag.restriction_120">Max 120</string>
+    <string name="tag.restriction_130">Max 130</string>
+    <string name="tag.restriction_20">Max 20</string>
+    <string name="tag.restriction_30">Max 30</string>
+    <string name="tag.restriction_40">Max 40</string>
+    <string name="tag.restriction_50">Max 50</string>
+    <string name="tag.restriction_60">Max 60</string>
+    <string name="tag.restriction_70">Max 70</string>
+    <string name="tag.restriction_80">Max 80</string>
+    <string name="tag.restriction_90">Max 90</string>
+    <string name="tag.restriction_no_exit">Doodlopend</string>
+    <string name="tag.restriction_one_way">Eénrichtingsverkeer</string>
+    <string name="tag.restriction_traffic_light">Verkeerslicht</string>
+    <string name="tag.tourism">Toerisme</string>
+    <string name="tag.tourism_attraction">Attractie</string>
+    <string name="tag.tourism_castle">Kasteel</string>
+    <string name="tag.tourism_cinema">Bioscoop</string>
+    <string name="tag.tourism_information">Informatie</string>
+    <string name="tag.tourism_monument">Monument</string>
+    <string name="tag.tourism_museum">Museum</string>
+    <string name="tag.tourism_picnic">Picknickplaats</string>
+    <string name="tag.tourism_theme_park">Pretpark</string>
+    <string name="tag.tourism_view_point">Uitkijkupunt</string>
+    <string name="tag.track">Traject</string>
+    <string name="tag.track_bridleway">Ruiterpad</string>
+    <string name="tag.track_cycleway">Fietspad</string>
+    <string name="tag.track_footway">Voetpad</string>
+    <string name="tag.track_grade1">Klasse 1</string>
+    <string name="tag.track_grade2">Klasse 2</string>
+    <string name="tag.track_grade3">Klasse 3</string>
+    <string name="tag.track_grade4">Klasse 4</string>
+    <string name="tag.track_grade5">Klasse 5</string>
+    <string name="tag.track_living_street">Woonstraat</string>
+    <string name="tag.track_pedestrian">Voetganger</string>
+    <string name="tag.track_steps">Trappen</string>
+    <string name="tag.track_track">Spoor</string>
+    <string name="tag.way">Weg</string>
+    <string name="tag.way_bridge">Brug</string>
+    <string name="tag.way_motorway">Snelweg</string>
+    <string name="tag.way_primary">Primair</string>
+    <string name="tag.way_residential">Residentieel</string>
+    <string name="tag.way_secondary">Secundair</string>
+    <string name="tag.way_service">Dienst</string>
+    <string name="tag.way_tertiary">Tertiair</string>
+    <string name="tag.way_trunk">Rijksweg</string>
+    <string name="tag.way_zebra_crossing">Zebrapad</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="trackdetail">Traject-details</string>
+    <string name="trackdetail_btn_export">Exporteren als GPX</string>
+    <string name="trackdetail_description">Beschrijving</string>
+    <string name="trackdetail_description_mandatory">Een beschrijving is vereist</string>
+    <string name="trackdetail_enddate">Eindtijd:</string>
+    <string name="trackdetail_endloc">Eindigt op:</string>
+    <string name="trackdetail_export_display">Weergeven</string>
+    <string name="trackdetail_export_notyet">(Nog niet geëxporteerd)</string>
+    <string name="trackdetail_exportdate">Geëxporteerd:</string>
+    <string name="trackdetail_osm_upload_date">Naar OpenStreetMap geüpload:</string>
+    <string name="trackdetail_osm_upload_notyet">(Nog niet geüpload)</string>
+    <string name="trackdetail_save">Opslaan</string>
+    <string name="trackdetail_startdate">Begintijd:</string>
+    <string name="trackdetail_startloc">Begint op:</string>
+    <string name="trackdetail_tags">Tags (kommagescheiden)</string>
+    <string name="tracklogger">Traject-logger</string>
+    <string name="tracklogger_btnBack">Terug</string>
+    <string name="tracklogger_camera">Foto nemen met camera</string>
+    <string name="tracklogger_choose_gallery_camera">Galerij of camera?</string>
+    <string name="tracklogger_gallery">Foto selecteren uit galerij</string>
+    <string name="tracklogger_gps_disabled">Gps uitgeschakeld</string>
+    <string name="tracklogger_gps_disabled_hint">Gps is uitgeschakeld. Wilt u het inschakelen?</string>
+    <string name="tracklogger_tracked">Opgenomen:</string>
+    <string name="tracklogger_voicerec_stop">Stoppen</string>
+    <string name="tracklogger_voicerec_text">{0}s audioclip opnemen</string>
+    <string name="tracklogger_voicerec_title">Stemopname</string>
+    <string name="tracklogger_waiting_gps">Wachten op gps-fix om knoppen in te schakelen...</string>
+    <string name="trackmgr">Trajectbeheerder</string>
+    <string name="trackmgr_contextmenu_delete">Verwijderen</string>
+    <string name="trackmgr_contextmenu_details">Details</string>
+    <string name="trackmgr_contextmenu_display">Weergeven</string>
+    <string name="trackmgr_contextmenu_export">Exporteren als GPX</string>
+    <string name="trackmgr_contextmenu_osm_upload">Uploaden naar OpenStreetMap</string>
+    <string name="trackmgr_contextmenu_resume">Opnemen hervatten</string>
+    <string name="trackmgr_contextmenu_stop">Opnemen stoppen</string>
+    <string name="trackmgr_contextmenu_title">Traject #{0}</string>
+    <string name="trackmgr_continuetrack_hint">U bent op dit moment <b>traject #{0}</b> aan het opnemen.
+Selecteer dit traject in de lijst om door te gaan.</string>
+    <string name="trackmgr_delete_confirm">Traject #{0} zal verwijderd worden</string>
+    <string name="trackmgr_deleteall_confirm">Alle trajecten zullen verwijderd worden. Bent u zeker?</string>
+    <string name="trackmgr_empty">U hebt geen trajecten.</string>
+    <string name="trackmgr_export_error">Kan traject niet exporteren: {0}</string>
+    <string name="trackmgr_exportall_confirm">Alle trajecten zullen geëxporteerd worden, wat lang kan duren. Bent u zeker?</string>
+    <string name="trackmgr_exporting">Traject #{0} exporteren…</string>
+    <string name="trackmgr_newtrack_error">Kan geen nieuw traject aanmaken: {0}</string>
+    <string name="trackmgr_newtrack_hint">Om een nieuw traject op te nemen, druk op <b>Menu</b> en <b>Nieuw traject</b></string>
+    <string name="trackmgr_tracklist">Traject-lijst:</string>
+    <string name="trackmgr_trackpoints_count">Trajectpunten:</string>
+    <string name="trackmgr_waypoints_count">Routepunten:</string>
+    <string name="various_accuracy">Nauwkeurigheid</string>
+    <string name="various_accuracy_with_sats">Nauwkeurigheid {0}{1} ({2}/{3})</string>
+    <string name="various_heading">Wachten voor richting...</string>
+    <string name="various_heading_display">{0}°</string>
+    <string name="various_heading_unknown">De richting kan niet bepaald worden</string>
+    <string name="various_unit_meters">m</string>
+    <string name="various_waiting_gps_fix">Wachten op gps-fix… ({0}/{1})</string>
+    <string name="wplist">Lijst van routepunten</string>
+    <string name="wplist_accuracy">Nauwkeurigheid:</string>
+    <string name="wplist_compass">Kompasrichting:</string>
+    <string name="wplist_compass_accuracy">Kompasnauwkeurigheid:</string>
+    <string name="wplist_elevation">Hoogte:</string>
+    <string name="wplist_latitude">Breedte:</string>
+    <string name="wplist_longitude">Lengte:</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nl/waypoints.xml -->
+    <eat-comment/>
+    <string name="wpt_stillimage">Foto</string>
+    <string name="wpt_voicerec">Stemopname</string>
+</resources>

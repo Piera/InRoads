@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-id/strings-preferences.xml -->
+    <eat-comment/>
+    <string-array name="prefs_compass_heading_keys">
+    <item>Nihil</item>
+    <item>dlm komentar</item>
+    <item>dlm ekstensi</item>
+  </string-array>
+    <string-array name="prefs_map_tile_keys">
+    <item>Mapnik</item>
+    <item>Cycle Map</item>
+    <item>MapQuest Open</item>
+  </string-array>
+    <string-array name="prefs_output_accuracy_keys">
+    <item>Nihil</item>
+    <item>Dengan nama posisi</item>
+    <item>Dlm komentar posisi</item>
+  </string-array>
+    <string-array name="prefs_output_filename_keys">
+    <item>Nama trek</item>
+    <item>Nama, tanggal dan waktu mulai</item>
+    <item>Tanggal dan waktu mulai</item>
+  </string-array>
+    <string-array name="prefs_theme_keys">
+    <item>OS baku</item>
+    <item>OS baku (gelap)</item>
+    <item>OS baku (terang)</item>
+    <item>Sangat kontras</item>
+  </string-array>
+    <string-array name="prefs_ui_orientation_options_keys">
+    <item>Otomatis</item>
+    <item>Potret</item>
+    <item>Bentang</item>
+  </string-array>
+    <string-array name="prefs_ui_picture_source_keys">
+    <item>Kamera</item>
+    <item>Galeri</item>
+    <item>Selalu tanya</item>
+  </string-array>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-id/strings.xml -->
+    <eat-comment/>
+    <string name="about">Tentang</string>
+    <string name="about_debug_info">Debug info</string>
+    <string name="about_text">Untuk informasi lebih lanjut, dokumen, dan laporan masalah, silakan kunjungi halaman situs proyek:</string>
+    <string name="about_translate_text">Bantu menerjemahkan OSMTracker:</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-id/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.osmtracker_logo">Logo OSMTracker</string>
+    <string name="acc.record_indicator">Indikator rekaman tengah berlangsung</string>
+    <string name="acc.sat_indicator">Indikator kekuatan sinyal satelit</string>
+    <string name="acc.track_status">Indikator status trek</string>
+    <string name="acc.upload_status">Indikator status unggah OpenStreetMap</string>
+    <string name="acc.zoom_in">Perbesar</string>
+    <string name="acc.zoom_out">Perkecil</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-id/strings.xml -->
+    <eat-comment/>
+    <string name="app_description">Terinspirasi dari OSMTracker pada Windows Mobile, yang memungkinkan Anda untuk melacak perjalanan, menandai titik secara signifikan (rekaman suara, foto), lalu diekspor ke dalam format GPX untuk digunakan pada Open Street Map tool seperti JOSM.</string>
+    <string name="app_name">OSMTracker for Android™</string>
+    <string name="app_short_name">OSMTracker</string>
+    <string name="displaytrack">Tampilkan trek</string>
+    <string name="displaytrack_map">Tampilkan peta latar</string>
+    <string name="displaytrack_north">U</string>
+    <string name="displaytrackmap">Tampilan trek OpenStreetMap</string>
+    <string name="error_create_track_dir">Tidak dapat membuat folder trek %s</string>
+    <string name="error_externalstorage_not_writable">Tidak dapat menyimpan ke memori ekternal</string>
+    <string name="error_externalstorage_not_writable_hint">Silakan periksa apakah kartu memori telah pada tempatnya.</string>
+    <string name="error_userlayout_parsing">Kesalahan saat parsing berkas layout XML. Mohon kembalikan ke layout baku.</string>
+    <string name="error_voicerec_failed">Perekaman suara gagal</string>
+    <string name="gpsstatus_record_stillimage">Ambil foto</string>
+    <string name="gpsstatus_record_textnote">Catatan</string>
+    <string name="gpsstatus_record_voicerec">Rekam suara</string>
+    <string name="gpx_hdop_approximation_cmt">Peringatan: Nilai HDOP bukan HDOP dari perangkat GPS. Namun pendekatan dari akurasi lokasi dalam ukuran meter.</string>
+    <string name="gpx_track_name">Dilacak dengan OSMTracker for Android™</string>
+    <string name="menu_about">Tentang</string>
+    <string name="menu_cancel">Batal</string>
+    <string name="menu_center_to_gps">Ketengahkan GPS</string>
+    <string name="menu_continue">Lanjutkan trek</string>
+    <string name="menu_deletetracks">Hapus semua trek</string>
+    <string name="menu_displaytrack">Tampilkan trek</string>
+    <string name="menu_export">Ekspor sebagai GPX</string>
+    <string name="menu_exportall">Ekspor semua sebagai GPX</string>
+    <string name="menu_newtrack">Trek baru</string>
+    <string name="menu_osm_upload">Unggahan OpenStreetMap</string>
+    <string name="menu_save">Simpan</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_stopcurrenttrack">Stop trek ini</string>
+    <string name="menu_stoptracking">Stop &amp; simpan</string>
+    <string name="menu_waypointlist">Posisi</string>
+    <string name="notification_text">Tap disini untuk menampilkan layar utama</string>
+    <string name="notification_ticker_text">OSMTracker melacak</string>
+    <string name="notification_title">OSMTracker melacak (#{0})</string>
+    <string name="osm_upload">Unggahan OpenSreetMap</string>
+    <string name="osm_upload_bad_response">Terjadi kesalahan pada server OSM: ({0}) pesan {1}</string>
+    <string name="osm_upload_error">Kesalahan saat mengunggah trek</string>
+    <string name="osm_upload_oauth_failed">Tidak dapat mengotentifikasi ke OSM</string>
+    <string name="osm_upload_ok">Simpan dan unggah</string>
+    <string name="osm_upload_sending">Mengirim trek #{0}…</string>
+    <string name="osm_upload_sucess">Unggahan OpenStreetMap sukses</string>
+    <string name="osm_upload_tmpfile_failed">Tidak dapat mengekspor trek ke berkas sementara</string>
+    <string name="osm_upload_unauthorized">Kesalahan Otorisasi. </string>
+    <string name="osm_upload_waiting_response">Menunggu respon dari server OpenSreetMap...</string>
+    <string name="osm_visibility_identifiable">Teridentifikasi</string>
+    <string name="osm_visibility_private">Pribadi</string>
+    <string name="osm_visibility_public">Publik</string>
+    <string name="osm_visibility_trackable">Terlacak</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-id/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs">Pengaturan</string>
+    <string name="prefs_check_gps_startup">Cek GPS saat mulai</string>
+    <string name="prefs_check_gps_startup_summary">Cek jika GPS mati saat memulai, dan tawarkan untuk menghidupkan</string>
+    <string name="prefs_compass_heading">Ekspor Arah Kompas</string>
+    <string name="prefs_compass_heading_summary">Definisikan apa dan bagaimana data kompas diekspor ke berkas GPX</string>
+    <string name="prefs_display_always_on">Layar selalu hidup</string>
+    <string name="prefs_display_always_on_summary">Layar akan selalu hidup saat melacak, Matikan untuk menghemat batrai</string>
+    <string name="prefs_displaytrack_osm">Peta latar belakang</string>
+    <string name="prefs_displaytrack_osm_summary">Tampilkan peta OpenSreetMap pada trek. Butuh koneksi internet</string>
+    <string name="prefs_displaytrack_osm_summary_ask">Selalu tampilkan latar OpenSreetMap? Membutuhkan koneksi internet</string>
+    <string name="prefs_gps">GPS</string>
+    <string name="prefs_gps_ignore_clock">Abaikan jam GPS</string>
+    <string name="prefs_gps_ignore_clock_summary">Jangan gunakan jam GPS, gunakan jam sistem Android</string>
+    <string name="prefs_gps_logging_interval">Interfal masuk GPS</string>
+    <string name="prefs_gps_logging_interval_seconds">detik</string>
+    <string name="prefs_gps_logging_interval_summary">Gunakan 0 untuk kemungkinan terpendek (batrai boros)</string>
+    <string name="prefs_gps_os_settings">Pengaturan GPS</string>
+    <string name="prefs_gps_os_settings_summary">Tampilkan pengaturan layar sistem GPS</string>
+    <string name="prefs_map_tile">Provider peta latar</string>
+    <string name="prefs_map_tile_summary"/>
+    <string name="prefs_osm_clear_oauth_data">Kembalikan otentifikasi OSM</string>
+    <string name="prefs_osm_clear_oauth_data_dialog">Anda harus mengotorisasi OSMTracker kembali untuk mengunggah trek. Anda yakin?</string>
+    <string name="prefs_osm_clear_oauth_data_summary">Lupakan izin identitas OSM dan paksa OSMTracker memintanya kembali</string>
+    <string name="prefs_output">Pengaturan GPX</string>
+    <string name="prefs_output_accuracy">Akurasi dalam berkas GPX</string>
+    <string name="prefs_output_accuracy_summary">Tambahkan info akurasi dalam berkas GPX, dengan nama posisi atau pada komentar posisi</string>
+    <string name="prefs_output_filename">Judul berkas untuk nama trek</string>
+    <string name="prefs_output_filename_summary">Pola untuk nama file jika trek memiliki nama</string>
+    <string name="prefs_output_gpx_hdop_approximation">Gunakan perkiraan HDOP</string>
+    <string name="prefs_output_gpx_hdop_approximation_summary">Isikan HDOP pada GPX dengan nilai perkiraan dari akurasi</string>
+    <string name="prefs_output_one_dir_per_track">Satu folder per trek</string>
+    <string name="prefs_output_one_dir_per_track_summary">Simpan setiap trek berikut berkas yg terkait dalam folder tersendiri</string>
+    <string name="prefs_sound_enabled">Hidupkan suara</string>
+    <string name="prefs_sound_enabled_summary">Mainkan suara saat mulai merekam dan berakhir</string>
+    <string name="prefs_storage_dir">Folder penyimpanan luar (kartu memori)</string>
+    <string name="prefs_storage_dir_hint">Efektif untuk trek selanjutnya (bukan trek yg ini)</string>
+    <string name="prefs_theme">Gambar tema layar utama</string>
+    <string name="prefs_theme_summary">Muat ulang aplikasi untuk melihat perubahan</string>
+    <string name="prefs_ui">Tampilan pengguna</string>
+    <string name="prefs_ui_buttons_layout">Atur tombol</string>
+    <string name="prefs_ui_buttons_layout_defaut">Baku</string>
+    <string name="prefs_ui_buttons_layout_summary">Pilih tombol buatan (lihat dokumentasi)</string>
+    <string name="prefs_ui_orientation">Orientasi</string>
+    <string name="prefs_ui_orientation_summary">Pilih orientasi untuk layar tombol</string>
+    <string name="prefs_ui_picture_source">Sumber baku foto</string>
+    <string name="prefs_ui_picture_source_summary">Ambil foto dari kamera atau galeri?</string>
+    <string name="prefs_voicerec_duration">Durasi rekaman suara</string>
+    <string name="prefs_voicerec_duration_seconds">detik</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-id/strings-tags.xml -->
+    <eat-comment/>
+    <string name="tag.amenity">Fasilitas</string>
+    <string name="tag.amenity_bench">Bangku
+taman</string>
+    <string name="tag.amenity_doctors">Rumkit
+Dokter</string>
+    <string name="tag.amenity_library">Pustaka</string>
+    <string name="tag.amenity_marina">Pelabuhan</string>
+    <string name="tag.amenity_more">Fasilitas (+)</string>
+    <string name="tag.amenity_pharmacy">Apotik</string>
+    <string name="tag.amenity_place_of_worship">Tempat
+Ibadah</string>
+    <string name="tag.amenity_post_office">Kantor pos</string>
+    <string name="tag.amenity_recycling">Bak
+sampah</string>
+    <string name="tag.amenity_shop">Toko</string>
+    <string name="tag.amenity_sport">Olahraga</string>
+    <string name="tag.amenity_taxi">Taksi</string>
+    <string name="tag.amenity_water">Perairan</string>
+    <string name="tag.amenitymore_bank">Bank</string>
+    <string name="tag.amenitymore_camp_site">Perkemahan</string>
+    <string name="tag.amenitymore_fastfood">Berger
+Kentaki</string>
+    <string name="tag.amenitymore_fire_station">Pemadam
+kebakaran</string>
+    <string name="tag.amenitymore_hostel">Losmen</string>
+    <string name="tag.amenitymore_hotel">Hotel</string>
+    <string name="tag.amenitymore_motel">Penginapan</string>
+    <string name="tag.amenitymore_playground">Arena
+bermain</string>
+    <string name="tag.amenitymore_police">Polisi</string>
+    <string name="tag.amenitymore_pub">Kafe</string>
+    <string name="tag.amenitymore_restaurant">Restoran</string>
+    <string name="tag.amenitymore_school">Sekolah</string>
+    <string name="tag.car">Mobil</string>
+    <string name="tag.car_emergency_phone">Telpon umum</string>
+    <string name="tag.car_fuel_station">Pom bensin</string>
+    <string name="tag.car_parking">Parkiran</string>
+    <string name="tag.car_speed_camera">Kamera pengawas
+kecepatan</string>
+    <string name="tag.car_turning_circle">Bundaran putar</string>
+    <string name="tag.landuse">Kegunaan</string>
+    <string name="tag.landuse_allotments">Perkebunan</string>
+    <string name="tag.landuse_basin">Kolam
+penampungan</string>
+    <string name="tag.landuse_cemetery">Kuburan</string>
+    <string name="tag.landuse_farm">Pertanian</string>
+    <string name="tag.landuse_forest">Hutan</string>
+    <string name="tag.landuse_landfill">TPA sampah</string>
+    <string name="tag.landuse_recreation_ground">Kawasan
+rekreasi</string>
+    <string name="tag.landuse_reservoir">Waduk</string>
+    <string name="tag.misc">Lain-lain</string>
+    <string name="tag.misc_atm">ATM</string>
+    <string name="tag.misc_bollard">Tambatan kapal</string>
+    <string name="tag.misc_bus_stop">Halte</string>
+    <string name="tag.misc_post_box">Kotak pos</string>
+    <string name="tag.misc_railway">Rel kereta</string>
+    <string name="tag.misc_shelter">Pondok</string>
+    <string name="tag.misc_surveillance">CCTV</string>
+    <string name="tag.misc_telephone">Telepon</string>
+    <string name="tag.misc_toilets">WC Umum</string>
+    <string name="tag.restriction">Terbatas</string>
+    <string name="tag.restriction_100">Max 100</string>
+    <string name="tag.restriction_110">Max 110</string>
+    <string name="tag.restriction_120">Max 120</string>
+    <string name="tag.restriction_130">Max 130</string>
+    <string name="tag.restriction_20">Max 20</string>
+    <string name="tag.restriction_30">Max 30</string>
+    <string name="tag.restriction_40">Max 40</string>
+    <string name="tag.restriction_50">Max 50</string>
+    <string name="tag.restriction_60">Max 60</string>
+    <string name="tag.restriction_70">Max 70</string>
+    <string name="tag.restriction_80">Max 80</string>
+    <string name="tag.restriction_90">Max 90</string>
+    <string name="tag.restriction_no_exit">Buntu</string>
+    <string name="tag.restriction_one_way">Satu arah</string>
+    <string name="tag.restriction_traffic_light">Lampu merah</string>
+    <string name="tag.tourism">Pariwisata</string>
+    <string name="tag.tourism_attraction">Atraksi</string>
+    <string name="tag.tourism_castle">Istana/
+Kastil</string>
+    <string name="tag.tourism_cinema">Bioskop</string>
+    <string name="tag.tourism_information">Informasi</string>
+    <string name="tag.tourism_monument">Monumen</string>
+    <string name="tag.tourism_museum">Museum</string>
+    <string name="tag.tourism_picnic">Tempat
+piknik</string>
+    <string name="tag.tourism_theme_park">Taman</string>
+    <string name="tag.tourism_view_point">Panorama</string>
+    <string name="tag.track">Trek</string>
+    <string name="tag.track_bridleway">Jalan
+tanah</string>
+    <string name="tag.track_cycleway">Jalur
+sepeda</string>
+    <string name="tag.track_footway">Trotoar</string>
+    <string name="tag.track_grade1">Kelas 1</string>
+    <string name="tag.track_grade2">Kelas 2</string>
+    <string name="tag.track_grade3">Kelas 3</string>
+    <string name="tag.track_grade4">Kelas 4</string>
+    <string name="tag.track_grade5">Kelas 5</string>
+    <string name="tag.track_living_street">Jalanan
+ramai</string>
+    <string name="tag.track_pedestrian">Kaki lima</string>
+    <string name="tag.track_steps">Tangga</string>
+    <string name="tag.track_track">Trek</string>
+    <string name="tag.way">Jalur</string>
+    <string name="tag.way_bridge">Jembatan</string>
+    <string name="tag.way_motorway">Jalur
+motor</string>
+    <string name="tag.way_primary">Jalan
+utama</string>
+    <string name="tag.way_residential">Jalan
+perumahan</string>
+    <string name="tag.way_secondary">Jalan
+umum</string>
+    <string name="tag.way_service">Gang</string>
+    <string name="tag.way_tertiary">Jalan
+kecil</string>
+    <string name="tag.way_trunk">Jalan
+tol</string>
+    <string name="tag.way_zebra_crossing">Zebra cross</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-id/strings.xml -->
+    <eat-comment/>
+    <string name="trackdetail">Rincian Trek</string>
+    <string name="trackdetail_btn_export">Ekspor sebagai GPX</string>
+    <string name="trackdetail_description">Keterangan</string>
+    <string name="trackdetail_description_mandatory">Anda harus berikan keterangan</string>
+    <string name="trackdetail_enddate">Waktu selesai:</string>
+    <string name="trackdetail_endloc">Selesai pada:</string>
+    <string name="trackdetail_export_display">Tampilkan</string>
+    <string name="trackdetail_export_notyet">(Belum diekspor)</string>
+    <string name="trackdetail_exportdate">Diekspor pada:</string>
+    <string name="trackdetail_osm_upload_date">Diunggah ke OSM pada:</string>
+    <string name="trackdetail_osm_upload_notyet">(Belum diunggah)</string>
+    <string name="trackdetail_save">Simpan</string>
+    <string name="trackdetail_startdate">Waktu mulai:</string>
+    <string name="trackdetail_startloc">Mulai pada:</string>
+    <string name="trackdetail_tags">Tag (pisahkan dgn koma)</string>
+    <string name="tracklogger">Catatan trek</string>
+    <string name="tracklogger_btnBack">Kembali</string>
+    <string name="tracklogger_camera">Ambil foto dengan kamera</string>
+    <string name="tracklogger_choose_gallery_camera">Galeri atau kamera?</string>
+    <string name="tracklogger_gallery">Pilih foto dari galeri</string>
+    <string name="tracklogger_gps_disabled">GPS mati</string>
+    <string name="tracklogger_gps_disabled_hint">GPS mati. Anda ingin hidupkan?</string>
+    <string name="tracklogger_tracked">Terlacak</string>
+    <string name="tracklogger_voicerec_stop">Stop</string>
+    <string name="tracklogger_voicerec_text">Merekam {0} klip audio.</string>
+    <string name="tracklogger_voicerec_title">Perekaman suara</string>
+    <string name="tracklogger_waiting_gps">Menunggu GPS terkunci untuk menampilkan tombol...</string>
+    <string name="trackmgr">Pengaturan trek</string>
+    <string name="trackmgr_contextmenu_delete">Hapus</string>
+    <string name="trackmgr_contextmenu_details">Rincian</string>
+    <string name="trackmgr_contextmenu_display">Tampilkan</string>
+    <string name="trackmgr_contextmenu_export">Ekspor sebagai GPX</string>
+    <string name="trackmgr_contextmenu_osm_upload">Unggah ke OpenStreetMap</string>
+    <string name="trackmgr_contextmenu_resume">Lanjutkan pelacakan</string>
+    <string name="trackmgr_contextmenu_stop">Stop pelacakan</string>
+    <string name="trackmgr_contextmenu_title">Trek #{0}</string>
+    <string name="trackmgr_continuetrack_hint">Anda sedang merekam <b>trek #{0}</b>
+Pilih pada daftar untuk melanjutkan</string>
+    <string name="trackmgr_delete_confirm">Trek #{0} akan dihapus</string>
+    <string name="trackmgr_deleteall_confirm">Semua trek akan dihapus. Anda yakin?</string>
+    <string name="trackmgr_empty">Anda tidak memiliki trek apapun.</string>
+    <string name="trackmgr_export_error">Tidak dapat mengekspor trek: {0}</string>
+    <string name="trackmgr_exportall_confirm">Semua trek akan diekspor, yang akan memakan waktu. Anda yakin?</string>
+    <string name="trackmgr_exporting">Mengekspor trek #{0}…</string>
+    <string name="trackmgr_newtrack_error">Tidak dapat membuat trek baru: {0}</string>
+    <string name="trackmgr_newtrack_hint">Untuk merekam trek,
+tekan <b>Menu</b> lalu <b>Trek baru</b></string>
+    <string name="trackmgr_tracklist">Daftar trek:</string>
+    <string name="trackmgr_trackpoints_count">Trekpoin: </string>
+    <string name="trackmgr_waypoints_count">Posisi:</string>
+    <string name="various_accuracy">Akurasi</string>
+    <string name="various_accuracy_with_sats">Akurasi {0}{1} ({2}/{3})</string>
+    <string name="various_heading">Menunggu arah...</string>
+    <string name="various_heading_display">{0}°</string>
+    <string name="various_heading_unknown">Arah tidak dapat ditentukan</string>
+    <string name="various_unit_meters">m</string>
+    <string name="various_waiting_gps_fix">Menunggu GPS mengunci… ({0}/{1})</string>
+    <string name="wplist">Daftar posisi</string>
+    <string name="wplist_accuracy">Akurasi: </string>
+    <string name="wplist_compass">Arah kompas:</string>
+    <string name="wplist_compass_accuracy">Akurasi kompas:</string>
+    <string name="wplist_elevation">Ele: </string>
+    <string name="wplist_latitude">Lat: </string>
+    <string name="wplist_longitude">Long: </string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-id/waypoints.xml -->
+    <eat-comment/>
+    <string name="wpt_stillimage">Foto</string>
+    <string name="wpt_voicerec">Rekaman suara</string>
+</resources>

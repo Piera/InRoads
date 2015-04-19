@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ja/strings-preferences.xml -->
+    <eat-comment/>
+    <string-array name="prefs_compass_heading_keys">
+    <item>なし</item>
+    <item>コメント内</item>
+    <item>拡張データ内</item>
+  </string-array>
+    <string-array name="prefs_map_tile_keys">
+    <item>Mapnik</item>
+    <item>Cycle Map</item>
+    <item>MapQuest Open</item>
+  </string-array>
+    <string-array name="prefs_output_accuracy_keys">
+    <item>なし</item>
+    <item>ウェイポイント名称</item>
+    <item>ウェイポイントコメント</item>
+  </string-array>
+    <string-array name="prefs_output_filename_keys">
+    <item>トラック名</item>
+    <item>トラック名_開始日時</item>
+    <item>開始日時</item>
+  </string-array>
+    <string-array name="prefs_theme_keys">
+    <item>OSデフォルト</item>
+    <item>OSデフォルト (ダーク)</item>
+    <item>OSデフォルト (ライト)</item>
+    <item>ハイコントラスト</item>
+  </string-array>
+    <string-array name="prefs_ui_orientation_options_keys">
+    <item>自動</item>
+    <item>縦長</item>
+    <item>横長</item>
+  </string-array>
+    <string-array name="prefs_ui_picture_source_keys">
+    <item>カメラ</item>
+    <item>ギャラリー</item>
+    <item>毎回確認</item>
+  </string-array>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="about">バージョン情報</string>
+    <string name="about_debug_info">デバッグ情報</string>
+    <string name="about_text">詳細情報,ドキュメント,議論については、ホームページを参照してください:</string>
+    <string name="about_translate_text">OSMTrackerの翻訳を支援してください。</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ja/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.osmtracker_logo">OSMTrackerロゴ</string>
+    <string name="acc.record_indicator">記録の進捗状況表示</string>
+    <string name="acc.sat_indicator">衛星信号の強弱表示</string>
+    <string name="acc.track_status">トラックの状況表示</string>
+    <string name="acc.upload_status">OpenStreetMapへのアップロード進捗状況表示</string>
+    <string name="acc.zoom_in">拡大</string>
+    <string name="acc.zoom_out">縮小</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="app_description">Windows Mobile版 OSMTracker の後継で、あなたの旅の軌跡を記録し、ウェイポイントに印（音声録音や写真）をつけたり、GPX形式でエクスポートして、後でJOSMなどのOpen Street Map用ツールで編集したりできます。</string>
+    <string name="app_name">OSMTracker for Android™</string>
+    <string name="app_short_name">OSMTracker</string>
+    <string name="displaytrack">トラックを表示</string>
+    <string name="displaytrack_map">背景に地図を表示</string>
+    <string name="displaytrack_north">N</string>
+    <string name="displaytrackmap">OpenStreetMap トラック表示</string>
+    <string name="error_create_track_dir">‘%s’フォルダを作成できません。</string>
+    <string name="error_externalstorage_not_writable">外部ストレージに書き込み出来ません。</string>
+    <string name="error_externalstorage_not_writable_hint">外部ストレージが挿入され、正しくマウントされていることを確認してください。</string>
+    <string name="error_userlayout_parsing">XMLレイアウトファイルが認識できません。デフォルトレイアウトに戻してください。</string>
+    <string name="error_voicerec_failed">音声録音に失敗しました</string>
+    <string name="gpsstatus_record_stillimage">写真撮影</string>
+    <string name="gpsstatus_record_textnote">テキスト</string>
+    <string name="gpsstatus_record_voicerec">音声録音</string>
+    <string name="gpx_hdop_approximation_cmt">警告: HDOP値がGPS機器から返されたHDOP値と異なります。これは正しい位置からのメートル単位の距離です。</string>
+    <string name="gpx_track_name">Tracked with OSMTracker for Android™</string>
+    <string name="menu_about">概要</string>
+    <string name="menu_cancel">取消</string>
+    <string name="menu_center_to_gps">GPS位置を中央にする</string>
+    <string name="menu_continue">トラックを続行</string>
+    <string name="menu_deletetracks">全てのトラックを削除</string>
+    <string name="menu_displaytrack">トラック表示</string>
+    <string name="menu_export">GPXでエクスポート</string>
+    <string name="menu_exportall">全てをGPXでエクスポート</string>
+    <string name="menu_newtrack">新規トラック</string>
+    <string name="menu_osm_upload">OpenStreetMapへのアップロード</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_stopcurrenttrack">現在のトラックを停止</string>
+    <string name="menu_stoptracking">停止 &amp; 保存</string>
+    <string name="menu_waypointlist">ウェイポイント</string>
+    <string name="notification_text">表示するにはスクリーンをタップしてください</string>
+    <string name="notification_ticker_text">OSMTracker トラッキング中</string>
+    <string name="notification_title">OSMTracker トラッキング中 (#{0})</string>
+    <string name="osm_upload">OpenStreetMapへのアップロード</string>
+    <string name="osm_upload_bad_response">OSMサーバーがエラーを返しました: ({0}) メッセージ {1}</string>
+    <string name="osm_upload_error">トラックのアップロード中にエラーが発生しました</string>
+    <string name="osm_upload_oauth_failed">OSMの認証に失敗しました</string>
+    <string name="osm_upload_ok">保存してアップロード</string>
+    <string name="osm_upload_sending">トラック {0} を送信しています...</string>
+    <string name="osm_upload_sucess">OpenStreetMapへのアップロードに成功しました</string>
+    <string name="osm_upload_tmpfile_failed">トラックの一時ファイルへのエクスポートに失敗しました</string>
+    <string name="osm_upload_unauthorized">認証エラーです。保存されているOpenStreetMapの認証データをクリアしますか？</string>
+    <string name="osm_upload_waiting_response">OpenStreetMapサーバーの応答を待っています...</string>
+    <string name="osm_visibility_identifiable">識別可能</string>
+    <string name="osm_visibility_private">非公開</string>
+    <string name="osm_visibility_public">公開</string>
+    <string name="osm_visibility_trackable">追跡可能</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ja/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs">設定</string>
+    <string name="prefs_check_gps_startup">起動時にGPSをチェック</string>
+    <string name="prefs_check_gps_startup_summary">起動時にGPSが無効ならば有効にするよう提案</string>
+    <string name="prefs_compass_heading">コンパスの向きをエクスポート</string>
+    <string name="prefs_compass_heading_summary">コンパスのデータをGPXファイルに出力するか、または出力方法を指定します</string>
+    <string name="prefs_display_always_on">スクリーンを常時オン</string>
+    <string name="prefs_display_always_on_summary">トラッキング中はスクリーンを常時オン、省電力機能を無効にする</string>
+    <string name="prefs_displaytrack_osm">背景の地図</string>
+    <string name="prefs_displaytrack_osm_summary">トラックの背景にOpenStreetMapの地図を表示する。データ通信接続が必要</string>
+    <string name="prefs_displaytrack_osm_summary_ask">常に背景にOpenStreetMapを表示しますか？データ通信接続が必要です。</string>
+    <string name="prefs_gps">GPS</string>
+    <string name="prefs_gps_ignore_clock">GPS時刻を無視</string>
+    <string name="prefs_gps_ignore_clock_summary">タイムスタンプに、GPSの時計を参照せずにAndroidの時計を使用</string>
+    <string name="prefs_gps_logging_interval">GPS記録間隔</string>
+    <string name="prefs_gps_logging_interval_seconds">秒</string>
+    <string name="prefs_gps_logging_interval_summary">0を指定すると可能な限り短い間隔 (バッテリー消費量大)</string>
+    <string name="prefs_gps_os_settings">GPSの設定</string>
+    <string name="prefs_gps_os_settings_summary">システムのGPS設定画面を表示</string>
+    <string name="prefs_map_tile">地図タイルプロバイダー</string>
+    <string name="prefs_map_tile_summary"/>
+    <string name="prefs_osm_clear_oauth_data">OSMの認証情報をリセット</string>
+    <string name="prefs_osm_clear_oauth_data_dialog">再びトラックをアップロードするには、OSMTrackerの認証が必要です。続けますか？</string>
+    <string name="prefs_osm_clear_oauth_data_summary">OSMの認証と許可を消去し、強制的にOSMTrackerが再び確認するようにする</string>
+    <string name="prefs_output">GPX設定</string>
+    <string name="prefs_output_accuracy">GPXファイルの補完</string>
+    <string name="prefs_output_accuracy_summary">GPXファイル内のウェイポイントやコメントを補完する</string>
+    <string name="prefs_output_filename">トラック名をファイル名にする</string>
+    <string name="prefs_output_filename_summary">ファイル名のパターン</string>
+    <string name="prefs_output_gpx_hdop_approximation">HDOP近似値を使用する</string>
+    <string name="prefs_output_gpx_hdop_approximation_summary">GPXファイルのHDOP値に実際の位置からの誤差を出力する</string>
+    <string name="prefs_output_one_dir_per_track">トラック別のディレクトリ</string>
+    <string name="prefs_output_one_dir_per_track_summary">各トラックと関連ファイルを個別のディレクトリに保存</string>
+    <string name="prefs_sound_enabled">サウンド有効</string>
+    <string name="prefs_sound_enabled_summary">録音の開始と終了時に音を鳴らす</string>
+    <string name="prefs_storage_dir">外部ストレージ(SD)ディレクトリ</string>
+    <string name="prefs_storage_dir_hint">次回から反映 (現在の分は適用外)</string>
+    <string name="prefs_theme">スクリーン表示テーマ</string>
+    <string name="prefs_theme_summary">変更を反映するにはアプリの再起動が必要です</string>
+    <string name="prefs_ui">ユーザーインターフェース</string>
+    <string name="prefs_ui_buttons_layout">ボタンレイアウト</string>
+    <string name="prefs_ui_buttons_layout_defaut">デフォルト</string>
+    <string name="prefs_ui_buttons_layout_summary">カスタムボタンレイアウトを選択してください（ドキュメント参照）</string>
+    <string name="prefs_ui_orientation">画面の方向</string>
+    <string name="prefs_ui_orientation_summary">ボタン画面の推奨方向</string>
+    <string name="prefs_ui_picture_source">デフォルトの画像ソース</string>
+    <string name="prefs_ui_picture_source_summary">カメラで撮影しますか？またはギャラリーから選択しますか？</string>
+    <string name="prefs_voicerec_duration">録音時間</string>
+    <string name="prefs_voicerec_duration_seconds">秒</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ja/strings-tags.xml -->
+    <eat-comment/>
+    <string name="tag.amenity">施設</string>
+    <string name="tag.amenity_bench">ベンチ</string>
+    <string name="tag.amenity_doctors">病院
+診療所</string>
+    <string name="tag.amenity_library">図書館</string>
+    <string name="tag.amenity_marina">港</string>
+    <string name="tag.amenity_more">施設 (+)</string>
+    <string name="tag.amenity_pharmacy">薬局</string>
+    <string name="tag.amenity_place_of_worship">宗教施設</string>
+    <string name="tag.amenity_post_office">郵便局</string>
+    <string name="tag.amenity_recycling">ゴミ集積所</string>
+    <string name="tag.amenity_shop">店</string>
+    <string name="tag.amenity_sport">スポーツ</string>
+    <string name="tag.amenity_taxi">タクシー</string>
+    <string name="tag.amenity_water">水場</string>
+    <string name="tag.amenitymore_bank">銀行</string>
+    <string name="tag.amenitymore_camp_site">キャンプ場</string>
+    <string name="tag.amenitymore_fastfood">ファースト
+フード</string>
+    <string name="tag.amenitymore_fire_station">消防</string>
+    <string name="tag.amenitymore_hostel">民宿</string>
+    <string name="tag.amenitymore_hotel">ホテル</string>
+    <string name="tag.amenitymore_motel">モーテル</string>
+    <string name="tag.amenitymore_playground">遊び場</string>
+    <string name="tag.amenitymore_police">警察</string>
+    <string name="tag.amenitymore_pub">飲み屋</string>
+    <string name="tag.amenitymore_restaurant">レストラン</string>
+    <string name="tag.amenitymore_school">学校</string>
+    <string name="tag.car">自動車</string>
+    <string name="tag.car_emergency_phone">非常電話</string>
+    <string name="tag.car_fuel_station">GS</string>
+    <string name="tag.car_parking">駐車場</string>
+    <string name="tag.car_speed_camera">オービス</string>
+    <string name="tag.car_turning_circle">ロータリー</string>
+    <string name="tag.landuse">土地利用</string>
+    <string name="tag.landuse_allotments">市民菜園</string>
+    <string name="tag.landuse_basin">調整池</string>
+    <string name="tag.landuse_cemetery">霊園</string>
+    <string name="tag.landuse_farm">農地</string>
+    <string name="tag.landuse_forest">森林</string>
+    <string name="tag.landuse_landfill">埋立地</string>
+    <string name="tag.landuse_recreation_ground">広場</string>
+    <string name="tag.landuse_reservoir">貯水池</string>
+    <string name="tag.misc">その他</string>
+    <string name="tag.misc_atm">ATM</string>
+    <string name="tag.misc_bollard">車両止</string>
+    <string name="tag.misc_bus_stop">バス停</string>
+    <string name="tag.misc_post_box">郵便ポスト</string>
+    <string name="tag.misc_railway">鉄道</string>
+    <string name="tag.misc_shelter">吾妻屋</string>
+    <string name="tag.misc_surveillance">監視カメラ</string>
+    <string name="tag.misc_telephone">電話</string>
+    <string name="tag.misc_toilets">トイレ</string>
+    <string name="tag.restriction">制限</string>
+    <string name="tag.restriction_100">100キロ制限</string>
+    <string name="tag.restriction_110">110キロ制限</string>
+    <string name="tag.restriction_120">120キロ制限</string>
+    <string name="tag.restriction_130">130キロ制限</string>
+    <string name="tag.restriction_20">20キロ制限</string>
+    <string name="tag.restriction_30">30キロ制限</string>
+    <string name="tag.restriction_40">40キロ制限</string>
+    <string name="tag.restriction_50">50キロ制限</string>
+    <string name="tag.restriction_60">60キロ制限</string>
+    <string name="tag.restriction_70">70キロ制限</string>
+    <string name="tag.restriction_80">80キロ制限</string>
+    <string name="tag.restriction_90">90キロ制限</string>
+    <string name="tag.restriction_no_exit">行止まり</string>
+    <string name="tag.restriction_one_way">一方通行</string>
+    <string name="tag.restriction_traffic_light">信号</string>
+    <string name="tag.tourism">観光</string>
+    <string name="tag.tourism_attraction">アトラクション</string>
+    <string name="tag.tourism_castle">城</string>
+    <string name="tag.tourism_cinema">映画館</string>
+    <string name="tag.tourism_information">案内書</string>
+    <string name="tag.tourism_monument">碑</string>
+    <string name="tag.tourism_museum">博物館</string>
+    <string name="tag.tourism_picnic">休憩所</string>
+    <string name="tag.tourism_theme_park">テーマパーク</string>
+    <string name="tag.tourism_view_point">ビューポイント</string>
+    <string name="tag.track">道</string>
+    <string name="tag.track_bridleway">乗馬道</string>
+    <string name="tag.track_cycleway">自転車道</string>
+    <string name="tag.track_footway">歩道</string>
+    <string name="tag.track_grade1">簡易舗装</string>
+    <string name="tag.track_grade2">砂利道</string>
+    <string name="tag.track_grade3">ダート</string>
+    <string name="tag.track_grade4">悪路</string>
+    <string name="tag.track_grade5">轍</string>
+    <string name="tag.track_living_street">生活道路</string>
+    <string name="tag.track_pedestrian">歩道</string>
+    <string name="tag.track_steps">階段</string>
+    <string name="tag.track_track">山道</string>
+    <string name="tag.way">道路</string>
+    <string name="tag.way_bridge">橋</string>
+    <string name="tag.way_motorway">自動車専用道</string>
+    <string name="tag.way_primary">主要地方道</string>
+    <string name="tag.way_residential">居住区域内道</string>
+    <string name="tag.way_secondary">一般県道</string>
+    <string name="tag.way_service">敷地内道</string>
+    <string name="tag.way_tertiary">市町村道</string>
+    <string name="tag.way_trunk">国道</string>
+    <string name="tag.way_zebra_crossing">横断歩道</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="trackdetail">トラックの詳細</string>
+    <string name="trackdetail_btn_export">GPXでエクスポート</string>
+    <string name="trackdetail_description">説明</string>
+    <string name="trackdetail_description_mandatory">説明は必須項目です</string>
+    <string name="trackdetail_enddate">終了時刻:</string>
+    <string name="trackdetail_endloc">終了位置:</string>
+    <string name="trackdetail_export_display">表示</string>
+    <string name="trackdetail_export_notyet">（まだエクスポートしていません）</string>
+    <string name="trackdetail_exportdate">エクスポート時刻:</string>
+    <string name="trackdetail_osm_upload_date">OpenStreetMapアップロード時刻:</string>
+    <string name="trackdetail_osm_upload_notyet">（まだアップロードしていません）</string>
+    <string name="trackdetail_save">保存</string>
+    <string name="trackdetail_startdate">開始時刻:</string>
+    <string name="trackdetail_startloc">開始位置:</string>
+    <string name="trackdetail_tags">タグ（カンマ区切り）</string>
+    <string name="tracklogger">トラックログ</string>
+    <string name="tracklogger_btnBack">戻る</string>
+    <string name="tracklogger_camera">カメラで写真を撮る</string>
+    <string name="tracklogger_choose_gallery_camera">ギャラリーとカメラのどちらですか？</string>
+    <string name="tracklogger_gallery">ギャラリーから写真を選択する</string>
+    <string name="tracklogger_gps_disabled">GPS無効</string>
+    <string name="tracklogger_gps_disabled_hint">GPSは無効です。有効にしますか？</string>
+    <string name="tracklogger_tracked">トラック: </string>
+    <string name="tracklogger_voicerec_stop">停止</string>
+    <string name="tracklogger_voicerec_text">録音 {0}秒</string>
+    <string name="tracklogger_voicerec_title">録音</string>
+    <string name="tracklogger_waiting_gps">GPS位置が特定できるまでボタンは無効です...</string>
+    <string name="trackmgr">トラック管理</string>
+    <string name="trackmgr_contextmenu_delete">削除</string>
+    <string name="trackmgr_contextmenu_details">詳細</string>
+    <string name="trackmgr_contextmenu_display">表示</string>
+    <string name="trackmgr_contextmenu_export">GPXにエクスポート</string>
+    <string name="trackmgr_contextmenu_osm_upload">OpenStreetMapへアップロード</string>
+    <string name="trackmgr_contextmenu_resume">トラッキングの再開</string>
+    <string name="trackmgr_contextmenu_stop">トラッキングの停止</string>
+    <string name="trackmgr_contextmenu_title">トラック #{0}</string>
+    <string name="trackmgr_continuetrack_hint">現在<b>トラック #{0}</b>を記録中
+続行するにはリストから選択して下さい。</string>
+    <string name="trackmgr_delete_confirm">トラック #{0} を削除します</string>
+    <string name="trackmgr_deleteall_confirm">全てのトラックを削除します。よろしいですか？</string>
+    <string name="trackmgr_empty">トラックデータがありません。</string>
+    <string name="trackmgr_export_error">トラック {0} をエクスポートできません</string>
+    <string name="trackmgr_exportall_confirm">全てのトラックをエクスポートします。時間がかかる可能性があります。よろしいですか？</string>
+    <string name="trackmgr_exporting">トラック #{0} をエクスポート中…</string>
+    <string name="trackmgr_newtrack_error">新しいトラックが作成できません: {0}</string>
+    <string name="trackmgr_newtrack_hint">トラックを記録するには,
+<b>メニュー</b>の<b>新規トラック</b>を押してください。</string>
+    <string name="trackmgr_tracklist">トラックリスト:</string>
+    <string name="trackmgr_trackpoints_count">トラックポイント: </string>
+    <string name="trackmgr_waypoints_count">ウェイポイント: </string>
+    <string name="various_accuracy">精度</string>
+    <string name="various_accuracy_with_sats">精度 {0}{1} ({2}/{3})</string>
+    <string name="various_heading">方位測定待ち...</string>
+    <string name="various_heading_display">{0}°</string>
+    <string name="various_heading_unknown">方位が特定できませんでした</string>
+    <string name="various_unit_meters">m</string>
+    <string name="various_waiting_gps_fix">GPS測定待ち... ({0}/{1})</string>
+    <string name="wplist">ウェイポイントリスト</string>
+    <string name="wplist_accuracy">精度: </string>
+    <string name="wplist_compass">コンパスの向き:</string>
+    <string name="wplist_compass_accuracy">コンパスの精度:</string>
+    <string name="wplist_elevation">標高: </string>
+    <string name="wplist_latitude">緯度: </string>
+    <string name="wplist_longitude">経度: </string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ja/waypoints.xml -->
+    <eat-comment/>
+    <string name="wpt_stillimage">写真</string>
+    <string name="wpt_voicerec">録音</string>
+</resources>

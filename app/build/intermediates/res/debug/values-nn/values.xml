@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nn/strings-preferences.xml -->
+    <eat-comment/>
+    <string-array name="prefs_output_accuracy_keys">
+    <item>Inkje</item>
+    <item>Saman med sporpunktnamn</item>
+    <item>I sporpunktkommentar</item>
+  </string-array>
+    <string-array name="prefs_output_filename_keys">
+    <item>Spornamn</item>
+    <item>Spornamn, startdato og -tid</item>
+    <item>Startdato og -tid</item>
+  </string-array>
+    <string-array name="prefs_theme_keys">
+    <item>OS-standard</item>
+    <item>OS-standard (mørk)</item>
+    <item>OS-standard (lys)</item>
+    <item>Høg kontrast</item>
+  </string-array>
+    <string-array name="prefs_ui_orientation_options_keys">
+    <item>Automatisk</item>
+    <item>Portrett</item>
+    <item>Landskap</item>
+  </string-array>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nn/strings.xml -->
+    <eat-comment/>
+    <string name="about">Om</string>
+    <string name="about_debug_info">Debug info</string>
+    <string name="about_text">Besøk prosjektheimesida for meir informasjon, dokumentasjon og feilmelding:</string>
+    <string name="about_translate_text">Hjelp med omsetjing av OSMTracker:</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nn/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.osmtracker_logo">OSMTracker-logo</string>
+    <string name="acc.record_indicator">Indikator for at sporing pågår</string>
+    <string name="acc.sat_indicator">Satellittsignalstyrke</string>
+    <string name="acc.track_status">Indikator for sporingsstatus</string>
+    <string name="acc.upload_status">Indikator for opplasting til OpenStreetMap</string>
+    <string name="acc.zoom_in">Zoom inn</string>
+    <string name="acc.zoom_out">Zoom ut</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nn/strings.xml -->
+    <eat-comment/>
+    <string name="displaytrack">Vis spor</string>
+    <string name="displaytrack_north">N</string>
+    <string name="displaytrackmap">OpenStreetMap sporvising</string>
+    <string name="error_create_track_dir">Kunne ikkje lage spormappa %s</string>
+    <string name="error_externalstorage_not_writable">Kan ikkje skrive til ekstern lagringseining.</string>
+    <string name="error_externalstorage_not_writable_hint">Sjekk om ekstern lagringseining er skikkeleg sett i mobilen og aktivert.</string>
+    <string name="error_userlayout_parsing">Feil ved tolking av XML-layoutfil. Bruk heller standard layout.</string>
+    <string name="error_voicerec_failed">Stemmeopptak fungerte ikkje</string>
+    <string name="gpsstatus_record_textnote">Tekstnotat</string>
+    <string name="gpsstatus_record_voicerec">Stemmeopptak</string>
+    <string name="gpx_hdop_approximation_cmt">Åtvaring: HDOP-verdiar er ikkje HDOP-verdiane frå sjølve GPS-eininga. Dei er estimerte frå posisjonspresisjon.</string>
+    <string name="gpx_track_name">Spora med OSMTracker for Android™</string>
+    <string name="menu_about">Om</string>
+    <string name="menu_cancel">Avbryt</string>
+    <string name="menu_center_to_gps">Sentrer på GPS</string>
+    <string name="menu_continue">Fortset spor</string>
+    <string name="menu_deletetracks">Slett alle spor</string>
+    <string name="menu_displaytrack">Vis spor</string>
+    <string name="menu_export">Eksporter som GPX</string>
+    <string name="menu_exportall">Eksporter alle som GPX</string>
+    <string name="menu_newtrack">Nytt spor</string>
+    <string name="menu_osm_upload">OpenStreetMap opplasting</string>
+    <string name="menu_save">Lagra</string>
+    <string name="menu_settings">Innstillingar</string>
+    <string name="menu_stopcurrenttrack">Stopp gjeldande spor</string>
+    <string name="menu_stoptracking">Stopp &amp; lagra</string>
+    <string name="menu_waypointlist">Rutepunkt</string>
+    <string name="notification_text">Trykk her for hovudskjermbilete</string>
+    <string name="notification_ticker_text">OSMTracker sporar</string>
+    <string name="notification_title">OSMTracker sporar (nr. {0})</string>
+    <string name="osm_upload">OpenStreetMap opplasting</string>
+    <string name="osm_upload_bad_response">OSM-tenaren svarte med feil ({0}) med innhaldet «{1}»</string>
+    <string name="osm_upload_error">Feil ved opplasting av spor</string>
+    <string name="osm_upload_oauth_failed">Kunne ikkje få tilgang til OSM</string>
+    <string name="osm_upload_ok">Lagre og last opp</string>
+    <string name="osm_upload_sending">Sender spor #{0}…</string>
+    <string name="osm_upload_sucess">Opplasting til OpenStreetMap var vellukka</string>
+    <string name="osm_upload_tmpfile_failed">Kunne ikkje eksportera sporet til ei mellombels fil</string>
+    <string name="osm_upload_unauthorized">Tilgangsfeil. Vil du fjerna lagra OpenStreetMap-nøkkel?</string>
+    <string name="osm_upload_waiting_response">Ventar på svar frå OpenStreetMap</string>
+    <string name="osm_visibility_identifiable">Identifiserbar</string>
+    <string name="osm_visibility_private">Privat</string>
+    <string name="osm_visibility_public">Offentleg</string>
+    <string name="osm_visibility_trackable">Sporbar</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nn/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs">Innstillingar</string>
+    <string name="prefs_check_gps_startup">Sjekk GPS ved oppstart</string>
+    <string name="prefs_check_gps_startup_summary">Sjekk om GPS er slått av ved programstart, og gje ev. høve til å slå han på</string>
+    <string name="prefs_display_always_on">Skjerm alltid på</string>
+    <string name="prefs_display_always_on_summary">Skjermen blir ståande på under sporing. Slå av for å spare batteri</string>
+    <string name="prefs_displaytrack_osm">Bakgrunnskart</string>
+    <string name="prefs_displaytrack_osm_summary">Vis OpenStreetMap-kartet under sporet. Brukar datatilkobling</string>
+    <string name="prefs_gps">GPS</string>
+    <string name="prefs_gps_ignore_clock">Ignorer GPS-tid</string>
+    <string name="prefs_gps_ignore_clock_summary">Ignorer GPS-tid og bruk Android-klokka for tidsstempel</string>
+    <string name="prefs_gps_logging_interval">Loggingsintervall</string>
+    <string name="prefs_gps_logging_interval_seconds">sekund</string>
+    <string name="prefs_gps_logging_interval_summary">Bruk 0 for kortast mogleg mellomrom mellom sporpunkt (og kortast batteritid)</string>
+    <string name="prefs_gps_os_settings">GPS-innstillingar</string>
+    <string name="prefs_gps_os_settings_summary">Gå til systeminnstillingar for GPS</string>
+    <string name="prefs_map_tile_summary"/>
+    <string name="prefs_osm_clear_oauth_data">Fjern OSM-nøkkel</string>
+    <string name="prefs_osm_clear_oauth_data_dialog">Du kjem til å måtte gje OSMTracker løyve til å lasta opp spor til OSM att. Er du sikker?</string>
+    <string name="prefs_osm_clear_oauth_data_summary">Fjern brukarinformasjon og tilgangsinformasjon for OSM og få OSMTracker til å spørje om tilgang på nytt</string>
+    <string name="prefs_output">GPX-innstillingar</string>
+    <string name="prefs_output_accuracy">Presisjon i GPX-fil</string>
+    <string name="prefs_output_accuracy_summary">Legg til presisjonsinformasjon i GPX-fila, saman med sporpunktnamn eller i sporpunktkommentar</string>
+    <string name="prefs_output_filename">Filnamn på namngjevne spor</string>
+    <string name="prefs_output_filename_summary">Mønster for filnamnet dersom sporet har fått namn</string>
+    <string name="prefs_output_gpx_hdop_approximation">Bruk HDOP-estimat</string>
+    <string name="prefs_output_gpx_hdop_approximation_summary">Estimer HDOP frå presisjonsverdi</string>
+    <string name="prefs_output_one_dir_per_track">Ei mappe per spor</string>
+    <string name="prefs_output_one_dir_per_track_summary">Lagra kvart spor og tilhøyrande filer i deira eigne mapper</string>
+    <string name="prefs_sound_enabled">Aktiver lyd</string>
+    <string name="prefs_sound_enabled_summary">Spel av ein lyd når lydopptak byrjar og sluttar</string>
+    <string name="prefs_storage_dir">Mappe på ekstern lagringseining (SD)</string>
+    <string name="prefs_storage_dir_hint">Blir aktivert for neste spor</string>
+    <string name="prefs_theme">Drakt for knappeskjermen</string>
+    <string name="prefs_theme_summary">Programmet må startast om att for å aktivere endring</string>
+    <string name="prefs_ui">Brukargrensesnitt</string>
+    <string name="prefs_ui_buttons_layout">Knappesett</string>
+    <string name="prefs_ui_buttons_layout_defaut">Standard</string>
+    <string name="prefs_ui_buttons_layout_summary">Velj eit anna knappesett (sjå dokumentasjon)</string>
+    <string name="prefs_ui_orientation">Retning</string>
+    <string name="prefs_ui_orientation_summary">Føretrekt retning for knappeskjermen</string>
+    <string name="prefs_voicerec_duration">Lengd på lydopptak</string>
+    <string name="prefs_voicerec_duration_seconds">sekund</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nn/strings-tags.xml -->
+    <eat-comment/>
+    <string name="tag.amenity">Fasilitetar 1</string>
+    <string name="tag.amenity_bench">Benk</string>
+    <string name="tag.amenity_doctors">Sjukehus,
+Lege</string>
+    <string name="tag.amenity_library">Bibliotek</string>
+    <string name="tag.amenity_marina">Båthamn</string>
+    <string name="tag.amenity_more">Fasilitetar 2</string>
+    <string name="tag.amenity_pharmacy">Apotek</string>
+    <string name="tag.amenity_place_of_worship">Gudshus</string>
+    <string name="tag.amenity_post_office">Postkontor</string>
+    <string name="tag.amenity_recycling">Resirkulering</string>
+    <string name="tag.amenity_shop">Butikk</string>
+    <string name="tag.amenity_sport">Sport</string>
+    <string name="tag.amenity_taxi">Drosje</string>
+    <string name="tag.amenity_water">Vatn</string>
+    <string name="tag.amenitymore_bank">Bank</string>
+    <string name="tag.amenitymore_camp_site">Camping</string>
+    <string name="tag.amenitymore_fastfood">Snøggmat</string>
+    <string name="tag.amenitymore_fire_station">Brannstasjon</string>
+    <string name="tag.amenitymore_hostel">Vandrarheim</string>
+    <string name="tag.amenitymore_hotel">Hotell</string>
+    <string name="tag.amenitymore_motel">Pensjonat</string>
+    <string name="tag.amenitymore_playground">Leikeplass</string>
+    <string name="tag.amenitymore_police">Politi</string>
+    <string name="tag.amenitymore_school">Skule</string>
+    <string name="tag.car">Bil</string>
+    <string name="tag.car_emergency_phone">Naudtelefon</string>
+    <string name="tag.car_fuel_station">Bensinstasjon</string>
+    <string name="tag.car_parking">Parkering</string>
+    <string name="tag.car_speed_camera">Fotoboks</string>
+    <string name="tag.car_turning_circle">Snuplass</string>
+    <string name="tag.landuse">Bruk av land</string>
+    <string name="tag.landuse_allotments">Parsell</string>
+    <string name="tag.landuse_basin">Basseng</string>
+    <string name="tag.landuse_cemetery">Gravplass</string>
+    <string name="tag.landuse_farm">Gard</string>
+    <string name="tag.landuse_forest">Skog</string>
+    <string name="tag.landuse_landfill">Bosfylling</string>
+    <string name="tag.landuse_recreation_ground">Rekreasjons-
+plass</string>
+    <string name="tag.landuse_reservoir">Vassmagasin</string>
+    <string name="tag.misc">Diverse</string>
+    <string name="tag.misc_atm">Minibank</string>
+    <string name="tag.misc_bollard">Sperrestolpe</string>
+    <string name="tag.misc_bus_stop">Busstopp</string>
+    <string name="tag.misc_post_box">Postboks</string>
+    <string name="tag.misc_railway">Jernbane</string>
+    <string name="tag.misc_shelter">Leskur</string>
+    <string name="tag.misc_surveillance">Overvaking</string>
+    <string name="tag.misc_telephone">Telefon</string>
+    <string name="tag.misc_toilets">Toalett</string>
+    <string name="tag.restriction">Restriksjon</string>
+    <string name="tag.restriction_100">Maks 100</string>
+    <string name="tag.restriction_110">Maks 110</string>
+    <string name="tag.restriction_120">Maks 120</string>
+    <string name="tag.restriction_130">Maks 130</string>
+    <string name="tag.restriction_20">Maks 20</string>
+    <string name="tag.restriction_30">Maks 30</string>
+    <string name="tag.restriction_40">Maks 40</string>
+    <string name="tag.restriction_50">Maks 50</string>
+    <string name="tag.restriction_60">Maks 60</string>
+    <string name="tag.restriction_70">Maks 70</string>
+    <string name="tag.restriction_80">Maks 80</string>
+    <string name="tag.restriction_90">Maks 90</string>
+    <string name="tag.restriction_no_exit">Ingen utgang</string>
+    <string name="tag.restriction_one_way">Einvegs</string>
+    <string name="tag.tourism">Turisme</string>
+    <string name="tag.tourism_attraction">Attraksjon</string>
+    <string name="tag.tourism_castle">Slott</string>
+    <string name="tag.tourism_cinema">Kino</string>
+    <string name="tag.tourism_information">Informasjon</string>
+    <string name="tag.tourism_picnic">Rasteplass</string>
+    <string name="tag.tourism_theme_park">Opplevingspark</string>
+    <string name="tag.tourism_view_point">Utsiktspunkt</string>
+    <string name="tag.track">Grus-/
+skogsveg</string>
+    <string name="tag.track_bridleway">Rideveg</string>
+    <string name="tag.track_cycleway">Sykkelveg</string>
+    <string name="tag.track_footway">Gangveg</string>
+    <string name="tag.track_grade1">grade1</string>
+    <string name="tag.track_grade2">grade2</string>
+    <string name="tag.track_grade3">grade3</string>
+    <string name="tag.track_grade4">grade4</string>
+    <string name="tag.track_grade5">grade5</string>
+    <string name="tag.track_living_street">Gågate</string>
+    <string name="tag.track_pedestrian">Fotgjengar</string>
+    <string name="tag.track_steps">Steg</string>
+    <string name="tag.track_track">Grusveg</string>
+    <string name="tag.way">Veg</string>
+    <string name="tag.way_bridge">Bru</string>
+    <string name="tag.way_motorway">Motorveg</string>
+    <string name="tag.way_primary">Skilta
+fylkesveg</string>
+    <string name="tag.way_residential">Bustadområde-
+veg</string>
+    <string name="tag.way_secondary">Uskilta
+fylkesveg</string>
+    <string name="tag.way_service">Tilkomstveg</string>
+    <string name="tag.way_tertiary">Lokal
+veg</string>
+    <string name="tag.way_trunk">Riksveg</string>
+    <string name="tag.way_zebra_crossing">Fotgjengarovergang</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nn/strings.xml -->
+    <eat-comment/>
+    <string name="trackdetail">Spordetaljar</string>
+    <string name="trackdetail_btn_export">Eksportert som GPX</string>
+    <string name="trackdetail_description">Skildring</string>
+    <string name="trackdetail_description_mandatory">Du må skriva inn ei skildring</string>
+    <string name="trackdetail_enddate">Sluttid:</string>
+    <string name="trackdetail_endloc">Slutt:</string>
+    <string name="trackdetail_export_display">Vis</string>
+    <string name="trackdetail_export_notyet">(Ikkje eksportert enno)</string>
+    <string name="trackdetail_exportdate">Eksportert:</string>
+    <string name="trackdetail_osm_upload_date">Lasta opp til OpenStreetMap:</string>
+    <string name="trackdetail_osm_upload_notyet">(Ikkje lasta opp enno)</string>
+    <string name="trackdetail_save">Lagra</string>
+    <string name="trackdetail_startdate">Starttid:</string>
+    <string name="trackdetail_startloc">Byrjing:</string>
+    <string name="trackdetail_tags">Taggar (kommaseparerte)</string>
+    <string name="tracklogger">Sporloggar</string>
+    <string name="tracklogger_btnBack">Tilbake</string>
+    <string name="tracklogger_gps_disabled">GPS er avslegen</string>
+    <string name="tracklogger_gps_disabled_hint">GPS er avslegen. Vil du slå han på?</string>
+    <string name="tracklogger_tracked">Spora: </string>
+    <string name="tracklogger_voicerec_stop">Stopp</string>
+    <string name="tracklogger_voicerec_text">Ta opp eit {0} sekunds lydklipp.</string>
+    <string name="tracklogger_voicerec_title">Lydopptak</string>
+    <string name="tracklogger_waiting_gps">Ventar på posisjon frå GPS for å aktivere knappane…</string>
+    <string name="trackmgr">Sporhandsamar</string>
+    <string name="trackmgr_contextmenu_delete">Slett</string>
+    <string name="trackmgr_contextmenu_details">Detaljar</string>
+    <string name="trackmgr_contextmenu_display">Vis</string>
+    <string name="trackmgr_contextmenu_export">Eksporter som GPX</string>
+    <string name="trackmgr_contextmenu_osm_upload">Last opp til OpenStreetMap</string>
+    <string name="trackmgr_contextmenu_resume">Fortsett sporing</string>
+    <string name="trackmgr_contextmenu_stop">Stopp sporing</string>
+    <string name="trackmgr_contextmenu_title">Spor nr. {0}</string>
+    <string name="trackmgr_continuetrack_hint">Du tek no opp <b>spor nr. {0}</b>
+Velj det i lista for å halde fram med sporinga</string>
+    <string name="trackmgr_delete_confirm">Spor nr. {0} vil bli sletta</string>
+    <string name="trackmgr_deleteall_confirm">Alle spor vil bli sletta. Er du sikker?</string>
+    <string name="trackmgr_empty">Du har ingen spor.</string>
+    <string name="trackmgr_export_error">Kan ikkje eksportere spor nr: {0}</string>
+    <string name="trackmgr_exportall_confirm">Alle spor vil bli eksportert, noko som kan ta lang tid. Er du sikker?</string>
+    <string name="trackmgr_exporting">Eksporterar spor nr. {0}…</string>
+    <string name="trackmgr_newtrack_error">Kan ikkje lage spor: {0}</string>
+    <string name="trackmgr_newtrack_hint">Trykk på <b>Meny</b> og så <b>Nytt spor</b> for å spore.</string>
+    <string name="trackmgr_tracklist">Sporliste:</string>
+    <string name="trackmgr_trackpoints_count">Sporpunkt: </string>
+    <string name="trackmgr_waypoints_count">Rutepunkt: </string>
+    <string name="various_accuracy">Presisjon</string>
+    <string name="various_unit_meters">m</string>
+    <string name="wplist">Rutepunktliste</string>
+    <string name="wplist_accuracy">Presisjon: </string>
+    <string name="wplist_elevation">M.o.h.: </string>
+    <string name="wplist_latitude">Breiddegrad: </string>
+    <string name="wplist_longitude">Lengdegrad: </string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-nn/waypoints.xml -->
+    <eat-comment/>
+    <string name="wpt_voicerec">Lydopptak</string>
+</resources>

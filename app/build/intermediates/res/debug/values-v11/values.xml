@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-v11/strings.xml -->
+    <eat-comment/>
+    <string name="trackmgr_newtrack_hint">To record a track,\npress <b>New track</b></string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-v11/themes.xml -->
+    <eat-comment/>
+    <style name="DarkTheme" parent="@android:style/Theme.Holo"/>
+    <style name="DefaultTheme" parent="@android:style/Theme.Holo"/>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-v11/theme_highcontrast.xml -->
+    <eat-comment/>
+    <style name="HighContrast" parent="@android:style/Theme.Holo">
+		<!-- item name="android:background">#ffffff</item -->
+		<item name="android:buttonStyle">@style/Widget.Button</item>
+		<item name="android:buttonStyleToggle">@style/Widget.Button.Toggle</item>
+	</style>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-v11/themes.xml -->
+    <eat-comment/>
+    <style name="LightTheme" parent="@android:style/Theme.Holo.Light"/>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-v11/theme_highcontrast.xml -->
+    <eat-comment/>
+    <style name="Widget.Button" parent="@android:style/Widget.Holo.Button">
+		<item name="android:background">@drawable/theme_highcontrast_btn</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+    <style name="Widget.Button.Toggle" parent="@android:style/Widget.Holo.Button.Toggle">
+			<item name="android:textColor">#ffffff</item>
+	</style>
+</resources>

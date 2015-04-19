@@ -1,0 +1,175 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:2:70
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:3:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:30
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:installLocation
+		ADDED from AndroidManifest.xml:3:55
+uses-sdk
+ADDED from AndroidManifest.xml:5:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:5:41
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:5:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:6:2
+	android:name
+		ADDED from AndroidManifest.xml:6:19
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:7:2
+	android:name
+		ADDED from AndroidManifest.xml:7:19
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:8:2
+	android:name
+		ADDED from AndroidManifest.xml:8:19
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:9:2
+	android:name
+		ADDED from AndroidManifest.xml:9:19
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:10:2
+	android:name
+		ADDED from AndroidManifest.xml:10:19
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:11:2
+	android:name
+		ADDED from AndroidManifest.xml:11:19
+application
+ADDED from AndroidManifest.xml:13:2
+	android:label
+		ADDED from AndroidManifest.xml:13:15
+	android:icon
+		ADDED from AndroidManifest.xml:13:94
+	android:description
+		ADDED from AndroidManifest.xml:13:48
+activity#me.guillaumin.android.osmtracker.activity.TrackManager
+ADDED from AndroidManifest.xml:15:3
+	android:label
+		ADDED from AndroidManifest.xml:15:51
+	android:name
+		ADDED from AndroidManifest.xml:15:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:16:4
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:13
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:15
+activity#me.guillaumin.android.osmtracker.activity.TrackLogger
+ADDED from AndroidManifest.xml:22:3
+	android:label
+		ADDED from AndroidManifest.xml:22:50
+	android:name
+		ADDED from AndroidManifest.xml:22:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:22:86
+activity#me.guillaumin.android.osmtracker.activity.Preferences
+ADDED from AndroidManifest.xml:23:3
+	android:label
+		ADDED from AndroidManifest.xml:23:50
+	android:name
+		ADDED from AndroidManifest.xml:23:13
+activity#me.guillaumin.android.osmtracker.activity.WaypointList
+ADDED from AndroidManifest.xml:24:3
+	android:label
+		ADDED from AndroidManifest.xml:24:51
+	android:name
+		ADDED from AndroidManifest.xml:24:13
+activity#me.guillaumin.android.osmtracker.activity.TrackDetail
+ADDED from AndroidManifest.xml:25:3
+	android:label
+		ADDED from AndroidManifest.xml:25:50
+	android:name
+		ADDED from AndroidManifest.xml:25:13
+activity#me.guillaumin.android.osmtracker.activity.OpenStreetMapUpload
+ADDED from AndroidManifest.xml:26:3
+	android:label
+		ADDED from AndroidManifest.xml:26:58
+	android:name
+		ADDED from AndroidManifest.xml:26:13
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:27:4
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:28:5
+	android:name
+		ADDED from AndroidManifest.xml:28:13
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:29:5
+	android:name
+		ADDED from AndroidManifest.xml:29:15
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:30:5
+	android:name
+		ADDED from AndroidManifest.xml:30:15
+data
+ADDED from AndroidManifest.xml:31:5
+	android:host
+		ADDED from AndroidManifest.xml:31:11
+	android:scheme
+		ADDED from AndroidManifest.xml:31:37
+activity#me.guillaumin.android.osmtracker.activity.About
+ADDED from AndroidManifest.xml:34:3
+	android:label
+		ADDED from AndroidManifest.xml:34:44
+	android:name
+		ADDED from AndroidManifest.xml:34:13
+activity#me.guillaumin.android.osmtracker.activity.DisplayTrack
+ADDED from AndroidManifest.xml:35:3
+	android:label
+		ADDED from AndroidManifest.xml:35:51
+	android:name
+		ADDED from AndroidManifest.xml:35:13
+activity#me.guillaumin.android.osmtracker.activity.DisplayTrackMap
+ADDED from AndroidManifest.xml:36:3
+	android:label
+		ADDED from AndroidManifest.xml:36:54
+	android:name
+		ADDED from AndroidManifest.xml:36:13
+service#me.guillaumin.android.osmtracker.service.gps.GPSLogger
+ADDED from AndroidManifest.xml:38:3
+	android:exported
+		ADDED from AndroidManifest.xml:38:50
+	android:name
+		ADDED from AndroidManifest.xml:38:12
+intent-filter#me.guillaumin.android.osmtracker.intent.GPS_SERVICE
+ADDED from AndroidManifest.xml:39:4
+action#me.guillaumin.android.osmtracker.intent.GPS_SERVICE
+ADDED from AndroidManifest.xml:40:5
+	android:name
+		ADDED from AndroidManifest.xml:40:13
+provider#me.guillaumin.android.osmtracker.db.TrackContentProvider
+ADDED from AndroidManifest.xml:44:3
+	android:exported
+		ADDED from AndroidManifest.xml:46:7
+	android:authorities
+		ADDED from AndroidManifest.xml:45:7
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+receiver#me.guillaumin.android.osmtracker.receiver.MediaButtonReceiver
+ADDED from AndroidManifest.xml:48:3
+	android:name
+		ADDED from AndroidManifest.xml:48:13
+intent-filter#android.intent.action.MEDIA_BUTTON
+ADDED from AndroidManifest.xml:49:10
+action#android.intent.action.MEDIA_BUTTON
+ADDED from AndroidManifest.xml:50:14
+	android:name
+		ADDED from AndroidManifest.xml:50:22

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-uk/strings-preferences.xml -->
+    <eat-comment/>
+    <string-array name="prefs_compass_heading_keys">
+    <item>Ні</item>
+    <item>у коментарі</item>
+    <item>у розширенні</item>
+  </string-array>
+    <string-array name="prefs_map_tile_keys">
+    <item>Mapnik</item>
+    <item>Cycle Map</item>
+    <item>MapQuest Open</item>
+  </string-array>
+    <string-array name="prefs_output_accuracy_keys">
+    <item> Ні </item>
+    <item> З ім\'ям дорожньої точки </item>
+    <item> У коментар дорожньої точки </item>
+  </string-array>
+    <string-array name="prefs_output_filename_keys">
+    <item> Ім\'я треку </item>
+    <item> Ім\'я, дата та час старту </item>
+    <item> Дата і час старту </item>
+  </string-array>
+    <string-array name="prefs_theme_keys">
+    <item>Типова у системі</item>
+    <item>Типова у системі(темна)</item>
+    <item>Типова у системі(світла)</item>
+    <item>Високий контраст</item>
+  </string-array>
+    <string-array name="prefs_ui_orientation_options_keys">
+    <item>Автоматична</item>
+    <item>Портретна</item>
+    <item>Ландшафтна</item>
+  </string-array>
+    <string-array name="prefs_ui_picture_source_keys">
+    <item>Камера</item>
+    <item>Галерея</item>
+    <item>Завжди запитувати</item>
+  </string-array>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-uk/strings.xml -->
+    <eat-comment/>
+    <string name="about">Про програму:</string>
+    <string name="about_debug_info">Налагоджувальна інформація</string>
+    <string name="about_text">Детальна інформація, повідомлення про помилки знаходяться на офіційному сайті проекту:</string>
+    <string name="about_translate_text">Допомогти з перекладом OSMTracker:</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-uk/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.osmtracker_logo">Логотип OSMTracker</string>
+    <string name="acc.record_indicator">Індикатор прогресу запису</string>
+    <string name="acc.sat_indicator">Індикатор рівня супутникового сигналу</string>
+    <string name="acc.track_status">Індикатор стану дороги</string>
+    <string name="acc.upload_status">Індикатор стану завантаження OpenStreetMap</string>
+    <string name="acc.zoom_in">Збільшити</string>
+    <string name="acc.zoom_out">Зменшити</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-uk/strings.xml -->
+    <eat-comment/>
+    <string name="app_description">Як і OSMTracker для Windows Mobile, програма дозволяє записувати Ваші подорожі, відзначаючи найважливіші точки (із записом аудіо, фото), експортувати їх у формат GPX для подальшого використання в редакторах Open Street Map, наприклад в JOSM.</string>
+    <string name="app_name">OSMTracker для Android™</string>
+    <string name="app_short_name">OSMTracker</string>
+    <string name="displaytrack">Показати шлях</string>
+    <string name="displaytrack_map">Відображати основну карту</string>
+    <string name="displaytrack_north">Пн</string>
+    <string name="displaytrackmap">Відображення шляху OpenStreetMap</string>
+    <string name="error_create_track_dir">Неможливо створити теку шляху %s</string>
+    <string name="error_externalstorage_not_writable">Неможливо записати на зовнішній носій.</string>
+    <string name="error_externalstorage_not_writable_hint">Перевірте, чи зовнішній носій вірно вставлений та змонтований</string>
+    <string name="error_userlayout_parsing">Помилка аналізу файлу розмітки XML. Верніться до типової розмітки.</string>
+    <string name="error_voicerec_failed">Помилка запису аудіо</string>
+    <string name="gpsstatus_record_stillimage">Зробити фото</string>
+    <string name="gpsstatus_record_textnote">Запис тексту</string>
+    <string name="gpsstatus_record_voicerec">Запис звуку</string>
+    <string name="gpx_hdop_approximation_cmt">Увага: значення записувані в файл як HDOP - це не значення HDOP, одержувані від GPS пристрою. Це наближено обчислені значення, отримані з метровою точністю розташування.</string>
+    <string name="gpx_track_name">Записано на OSMTracker для Android™</string>
+    <string name="menu_about">Про програму</string>
+    <string name="menu_cancel">Скасувати</string>
+    <string name="menu_center_to_gps">Центрувати по GPS</string>
+    <string name="menu_continue">Продовжити шлях</string>
+    <string name="menu_deletetracks">Вилучити всі шляхи</string>
+    <string name="menu_displaytrack">Показати шлях</string>
+    <string name="menu_export">Експортувати в GFX</string>
+    <string name="menu_exportall">Експортувати усе в GFX</string>
+    <string name="menu_newtrack">Новий шлях</string>
+    <string name="menu_osm_upload">Завантаження на OpenStreetMap</string>
+    <string name="menu_save">Зберегти</string>
+    <string name="menu_settings">Налаштування</string>
+    <string name="menu_stopcurrenttrack">Зупинити запис шляху</string>
+    <string name="menu_stoptracking">Зупинити і зберегти</string>
+    <string name="menu_waypointlist">Дорожні точки</string>
+    <string name="notification_text">Натисніть тут для повернення на головний екран</string>
+    <string name="notification_ticker_text">OSMTracker запущено</string>
+    <string name="notification_title">OSMTracker запущено (#{0})</string>
+    <string name="osm_upload">Завантаження на OpenStreetMap</string>
+    <string name="osm_upload_bad_response">Сервер OSM повернув помилку: ({0}) текст {1}</string>
+    <string name="osm_upload_error">Помилка завантаження шляху</string>
+    <string name="osm_upload_oauth_failed">Не вдалося пройти перевірку істинності на OSM</string>
+    <string name="osm_upload_ok">Зберегти і завантажити</string>
+    <string name="osm_upload_sending">Надсилається шлях #{0}...</string>
+    <string name="osm_upload_sucess">Завантаження на OpenStreetMap завершено</string>
+    <string name="osm_upload_tmpfile_failed">Не вдалося експортувати шлях у тимчасовий файл</string>
+    <string name="osm_upload_unauthorized">Помилка авторизації. Видалити збережені облікові дані OpenStreetMap?</string>
+    <string name="osm_upload_waiting_response">Очікування відповіді від сервера OpenStreetMap...</string>
+    <string name="osm_visibility_identifiable">Індентифікований</string>
+    <string name="osm_visibility_private">Приватний</string>
+    <string name="osm_visibility_public">Загальнодоступний</string>
+    <string name="osm_visibility_trackable">Відстежуваний</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-uk/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs">Налаштування</string>
+    <string name="prefs_check_gps_startup">Перевіряти GPS при запуску</string>
+    <string name="prefs_check_gps_startup_summary">Перевіряти статус GPS при запуску, пропонувати включити</string>
+    <string name="prefs_compass_heading">Напрямок експорту компасу</string>
+    <string name="prefs_compass_heading_summary">Визначає, коли і як дані компасу можна експортувати у файл GPX</string>
+    <string name="prefs_display_always_on">Не вимикати екран</string>
+    <string name="prefs_display_always_on_summary">Екран завжди буде включений під час запису шляху. Вимкніть для економії заряду батареї</string>
+    <string name="prefs_displaytrack_osm">Основна карта</string>
+    <string name="prefs_displaytrack_osm_summary">Відображати карти OpenStreetMap при відображенні шляху. Вимагає з\'єднання з інтернетом</string>
+    <string name="prefs_displaytrack_osm_summary_ask">Завжди відображати основу OpenStreetMap? Вимагає з\'єднання з інтернетом.</string>
+    <string name="prefs_gps">GPS</string>
+    <string name="prefs_gps_ignore_clock">Ігнорувати час GPS</string>
+    <string name="prefs_gps_ignore_clock_summary">Ігнорувати час GPS  та використовувати час телефону для часових міток</string>
+    <string name="prefs_gps_logging_interval">Інтервал журналювання GPS</string>
+    <string name="prefs_gps_logging_interval_seconds">секунд(и)</string>
+    <string name="prefs_gps_logging_interval_summary">Задайте 0 для мінімально можливого (прискорює розряд батарейки)</string>
+    <string name="prefs_gps_os_settings">Налаштування GPS</string>
+    <string name="prefs_gps_os_settings_summary">Показати екран системних налаштувань GPS</string>
+    <string name="prefs_map_tile">Постачальник основи карти</string>
+    <string name="prefs_map_tile_summary"/>
+    <string name="prefs_osm_clear_oauth_data">Скинути облікові дані OSM</string>
+    <string name="prefs_osm_clear_oauth_data_dialog">Потрібно буде заново авторизувати OSMTracker, щоб завантажувати шляхи. Ви впевнені?</string>
+    <string name="prefs_osm_clear_oauth_data_summary">Видалити облікові дані доступу до OSM і примусити OSMTracker запросити їх знову.</string>
+    <string name="prefs_output">Налаштування GPX</string>
+    <string name="prefs_output_accuracy">Точність у GPX файлі</string>
+    <string name="prefs_output_accuracy_summary">Записувати інформацію про точність в GPX файл, в назву дорожньої точки, або окремим тегом</string>
+    <string name="prefs_output_filename">Ім\'я файлів для названих шляхів</string>
+    <string name="prefs_output_filename_summary">Шаблон імені файлу</string>
+    <string name="prefs_output_gpx_hdop_approximation">Використовувати апроксимацію HDOP</string>
+    <string name="prefs_output_gpx_hdop_approximation_summary">Заповнювати тег HDOP в GPX файлі апроксимованим значенням точності</string>
+    <string name="prefs_output_one_dir_per_track">Окрема тека для шляху</string>
+    <string name="prefs_output_one_dir_per_track_summary">Зберігати кожен шлях і пов\'язані файли в окрему папку</string>
+    <string name="prefs_sound_enabled">Увімкнути звук</string>
+    <string name="prefs_sound_enabled_summary">Грати звук в момент початку і закінчення запису аудіо</string>
+    <string name="prefs_storage_dir">Каталог зовнішнього носія (SD)</string>
+    <string name="prefs_storage_dir_hint">Буде використовуватися для запису наступного шляху (не для поточного)</string>
+    <string name="prefs_theme">Основна тема оформлення</string>
+    <string name="prefs_theme_summary">Зміни будуть діяти після перезавантаження програми</string>
+    <string name="prefs_ui">Інтерфейс</string>
+    <string name="prefs_ui_buttons_layout">Розміщення кнопок</string>
+    <string name="prefs_ui_buttons_layout_defaut">Типово</string>
+    <string name="prefs_ui_buttons_layout_summary">Виберіть варіант розміщення кнопок (див. док.)</string>
+    <string name="prefs_ui_orientation">Орієнтація</string>
+    <string name="prefs_ui_orientation_summary">Переважна орієнтація екрану з кнопками</string>
+    <string name="prefs_ui_picture_source">Типове джерело зображення</string>
+    <string name="prefs_ui_picture_source_summary">Зробити знімок камерою чи вибрати з галереї?</string>
+    <string name="prefs_voicerec_duration">Тривалість запису аудіо</string>
+    <string name="prefs_voicerec_duration_seconds">секунд(и)</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-uk/strings-tags.xml -->
+    <eat-comment/>
+    <string name="tag.amenity">Інфраструктура</string>
+    <string name="tag.amenity_bench">Лавка</string>
+    <string name="tag.amenity_doctors">Лікарня</string>
+    <string name="tag.amenity_library">Бібліотека</string>
+    <string name="tag.amenity_marina">Гавань</string>
+    <string name="tag.amenity_more">Інфраструктура(+)</string>
+    <string name="tag.amenity_pharmacy">Аптека</string>
+    <string name="tag.amenity_place_of_worship">Святилище</string>
+    <string name="tag.amenity_post_office">Пошта</string>
+    <string name="tag.amenity_recycling">Сміттєзвалище</string>
+    <string name="tag.amenity_shop">Магазин</string>
+    <string name="tag.amenity_sport">Спорт</string>
+    <string name="tag.amenity_taxi">Таксі</string>
+    <string name="tag.amenity_water">Вода</string>
+    <string name="tag.amenitymore_bank">Банк</string>
+    <string name="tag.amenitymore_camp_site">Кемпінг</string>
+    <string name="tag.amenitymore_fastfood">Швидка їжа</string>
+    <string name="tag.amenitymore_fire_station">Пожежна</string>
+    <string name="tag.amenitymore_hostel">Хостел</string>
+    <string name="tag.amenitymore_hotel">Готель</string>
+    <string name="tag.amenitymore_motel">Мотель</string>
+    <string name="tag.amenitymore_playground">Ігровий майданчик</string>
+    <string name="tag.amenitymore_police">Міліція</string>
+    <string name="tag.amenitymore_pub">Бар</string>
+    <string name="tag.amenitymore_restaurant">Ресторан</string>
+    <string name="tag.amenitymore_school">Школа</string>
+    <string name="tag.car">Машина</string>
+    <string name="tag.car_emergency_phone">Екстренний телефон</string>
+    <string name="tag.car_fuel_station">АЗС</string>
+    <string name="tag.car_parking">Паркування</string>
+    <string name="tag.car_speed_camera">Камера швидкості</string>
+    <string name="tag.car_turning_circle">Коло для повороту</string>
+    <string name="tag.landuse">Землекористування</string>
+    <string name="tag.landuse_allotments">Дачі</string>
+    <string name="tag.landuse_basin">Басейн стоку</string>
+    <string name="tag.landuse_cemetery">Цвинтар</string>
+    <string name="tag.landuse_farm">Ферма</string>
+    <string name="tag.landuse_forest">Ліс</string>
+    <string name="tag.landuse_landfill">Звалище</string>
+    <string name="tag.landuse_recreation_ground">Зона відпочинку</string>
+    <string name="tag.landuse_reservoir">Резервуар</string>
+    <string name="tag.misc">Інше</string>
+    <string name="tag.misc_atm">Банкомат</string>
+    <string name="tag.misc_bollard">Перешкода</string>
+    <string name="tag.misc_bus_stop">Зупинка автобуса</string>
+    <string name="tag.misc_post_box">Пошта</string>
+    <string name="tag.misc_railway">Залізниця</string>
+    <string name="tag.misc_shelter">Навіс</string>
+    <string name="tag.misc_surveillance">Камера спостереження</string>
+    <string name="tag.misc_telephone">Телефон</string>
+    <string name="tag.misc_toilets">Туалет</string>
+    <string name="tag.restriction">Обмеження</string>
+    <string name="tag.restriction_100">Max 100</string>
+    <string name="tag.restriction_110">Max 110</string>
+    <string name="tag.restriction_120">Max 120</string>
+    <string name="tag.restriction_130">Max 130</string>
+    <string name="tag.restriction_20">Max 20</string>
+    <string name="tag.restriction_30">Max 30</string>
+    <string name="tag.restriction_40">Max 40</string>
+    <string name="tag.restriction_50">Max 50</string>
+    <string name="tag.restriction_60">Max 60</string>
+    <string name="tag.restriction_70">Max 70</string>
+    <string name="tag.restriction_80">Max 80</string>
+    <string name="tag.restriction_90">Max 90</string>
+    <string name="tag.restriction_no_exit">Нема виїзду</string>
+    <string name="tag.restriction_one_way">Односторонній</string>
+    <string name="tag.restriction_traffic_light">Світлофор</string>
+    <string name="tag.tourism">Туризм</string>
+    <string name="tag.tourism_attraction">Пам\'ятка</string>
+    <string name="tag.tourism_castle">Замок</string>
+    <string name="tag.tourism_cinema">Кіно</string>
+    <string name="tag.tourism_information">Інформація</string>
+    <string name="tag.tourism_monument">Пам\'ятник</string>
+    <string name="tag.tourism_museum">Музей</string>
+    <string name="tag.tourism_picnic">Місце для пікніка</string>
+    <string name="tag.tourism_theme_park">Парк розваг</string>
+    <string name="tag.tourism_view_point">Оглядовий майданчик</string>
+    <string name="tag.track">Шлях</string>
+    <string name="tag.track_bridleway">Кінна стежка</string>
+    <string name="tag.track_cycleway">Велосипедна доріжка</string>
+    <string name="tag.track_footway">Пішохідна доріжка</string>
+    <string name="tag.track_grade1">Клас 1</string>
+    <string name="tag.track_grade2">Клас 2</string>
+    <string name="tag.track_grade3">Клас 3</string>
+    <string name="tag.track_grade4">Клас 4</string>
+    <string name="tag.track_grade5">Клас 5</string>
+    <string name="tag.track_living_street">Житлова вулиця</string>
+    <string name="tag.track_pedestrian">Пішохідний</string>
+    <string name="tag.track_steps">Сходи</string>
+    <string name="tag.track_track">Шлях</string>
+    <string name="tag.way">Дорога</string>
+    <string name="tag.way_bridge">Міст</string>
+    <string name="tag.way_motorway">Автострада</string>
+    <string name="tag.way_primary">Первинне</string>
+    <string name="tag.way_residential">Житловий район</string>
+    <string name="tag.way_secondary">Вторинне</string>
+    <string name="tag.way_service">Службове</string>
+    <string name="tag.way_tertiary">Третинне</string>
+    <string name="tag.way_trunk">Магістраль</string>
+    <string name="tag.way_zebra_crossing">Пішохідний перехід</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-uk/strings.xml -->
+    <eat-comment/>
+    <string name="trackdetail">Подробиці шляху</string>
+    <string name="trackdetail_btn_export">Експортувати в GPX</string>
+    <string name="trackdetail_description">Опис</string>
+    <string name="trackdetail_description_mandatory">Вам необхідно ввести опис</string>
+    <string name="trackdetail_enddate">Час закінчення:</string>
+    <string name="trackdetail_endloc">Кінець:</string>
+    <string name="trackdetail_export_display">Показати</string>
+    <string name="trackdetail_export_notyet">(Ще не експортовано)</string>
+    <string name="trackdetail_exportdate">Експортовано:</string>
+    <string name="trackdetail_osm_upload_date">Завантажено на OpenStreetMap:</string>
+    <string name="trackdetail_osm_upload_notyet">(Ще не завантажено)</string>
+    <string name="trackdetail_save">Зберегти</string>
+    <string name="trackdetail_startdate">Час початку:</string>
+    <string name="trackdetail_startloc">Початок:</string>
+    <string name="trackdetail_tags">Мітки (через кому)</string>
+    <string name="tracklogger">Реєстратор шляхів</string>
+    <string name="tracklogger_btnBack">Назад</string>
+    <string name="tracklogger_camera">Зробити знімок камерою</string>
+    <string name="tracklogger_choose_gallery_camera">Галерея чи камера?</string>
+    <string name="tracklogger_gallery">Вибрати фото з галереї</string>
+    <string name="tracklogger_gps_disabled">GPS вимкнено</string>
+    <string name="tracklogger_gps_disabled_hint">GPS вимкнено. Бажаєте його включити?</string>
+    <string name="tracklogger_tracked">Відстежено</string>
+    <string name="tracklogger_voicerec_stop">Стоп</string>
+    <string name="tracklogger_voicerec_text">Записується аудіо: {0}с</string>
+    <string name="tracklogger_voicerec_title">Запис голосу</string>
+    <string name="tracklogger_waiting_gps">Очікування GPS фіксації для активації кнопок ...</string>
+    <string name="trackmgr">Менеджер шляхів</string>
+    <string name="trackmgr_contextmenu_delete">Вилучити</string>
+    <string name="trackmgr_contextmenu_details">Подробиці</string>
+    <string name="trackmgr_contextmenu_display">Показати</string>
+    <string name="trackmgr_contextmenu_export">Експортувати як GPX</string>
+    <string name="trackmgr_contextmenu_osm_upload">Завантажити на OpenStreetMap</string>
+    <string name="trackmgr_contextmenu_resume">Продовжити запис</string>
+    <string name="trackmgr_contextmenu_stop">Зупинити запис</string>
+    <string name="trackmgr_contextmenu_title">Шлях #{0}</string>
+    <string name="trackmgr_continuetrack_hint">Зараз ви записуєте <b>шлях #{0}</b>
+Виберіть його у списку для продовження</string>
+    <string name="trackmgr_delete_confirm">Шлях #{0} буде видалено</string>
+    <string name="trackmgr_deleteall_confirm">Усі шляхи буде вилучено. Ви впевнені?</string>
+    <string name="trackmgr_empty">У вас не має  шляхів.</string>
+    <string name="trackmgr_export_error">Неможливо експортувати шлях:{0}…</string>
+    <string name="trackmgr_exportall_confirm">Буде експортовано усі шляхи, що може зайняти тривалий час.</string>
+    <string name="trackmgr_exporting">Експорт шляху #{0}…</string>
+    <string name="trackmgr_newtrack_error">Неможливо створити новий шлях:{0}</string>
+    <string name="trackmgr_newtrack_hint">Для запису шляху, натисніть<b>Меню</b>, потім<b>Новий шлях</b></string>
+    <string name="trackmgr_tracklist">Список шляхів:</string>
+    <string name="trackmgr_trackpoints_count">Точки шляху:</string>
+    <string name="trackmgr_waypoints_count">Дорожні точки:</string>
+    <string name="various_accuracy">Точність</string>
+    <string name="various_accuracy_with_sats">Точність {0}{1} ({2}/{3})</string>
+    <string name="various_heading">Очікуємо на напрямок…</string>
+    <string name="various_heading_display">{0}°</string>
+    <string name="various_heading_unknown">Напрямок не можна визначити</string>
+    <string name="various_unit_meters">м</string>
+    <string name="various_waiting_gps_fix">Очікування фіксації GPS…({0}/{1})</string>
+    <string name="wplist">Список дорожніх точок</string>
+    <string name="wplist_accuracy">Точн:</string>
+    <string name="wplist_compass">Обчисл. напрям:</string>
+    <string name="wplist_compass_accuracy">Точн. обч.:</string>
+    <string name="wplist_elevation">Вис:</string>
+    <string name="wplist_latitude">Шир.:</string>
+    <string name="wplist_longitude">Довг.:</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-uk/waypoints.xml -->
+    <eat-comment/>
+    <string name="wpt_stillimage">Фото</string>
+    <string name="wpt_voicerec">Запис голосу</string>
+</resources>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-sk/strings-preferences.xml -->
+    <eat-comment/>
+    <string-array name="prefs_output_accuracy_keys">
+    <item>Žiadna</item>
+    <item>S názvom cestovného bodu</item>
+    <item>V komentári cestovného bodu</item>
+  </string-array>
+    <string-array name="prefs_output_filename_keys">
+    <item>Názov stopy</item>
+    <item>Názov, dátum a čas spustenia</item>
+    <item>Dátum a čas spustenia</item>
+  </string-array>
+    <string-array name="prefs_theme_keys">
+    <item>Štandardná OS</item>
+    <item>Štandardná OS (Tmavá)</item>
+    <item>Štandardná OS (Svetlá)</item>
+    <item>Vysoký kontrast</item>
+  </string-array>
+    <string-array name="prefs_ui_orientation_options_keys">
+    <item>Automaticky</item>
+    <item>Na výšku</item>
+    <item>Na šírku</item>
+  </string-array>
+    <string-array name="prefs_ui_picture_source_keys">
+    <item>Fotoaparát</item>
+    <item>Galéria</item>
+    <item>Vždy sa opýtať</item>
+  </string-array>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-sk/strings.xml -->
+    <eat-comment/>
+    <string name="about">O aplikácii</string>
+    <string name="about_debug_info">Ladiace info</string>
+    <string name="about_text">Pre viac informácií, dokumentov a nahlásenie problému, navštívte domovskú stránku projektu:</string>
+    <string name="about_translate_text">Pomôžte preložiť OSMTracker:</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-sk/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.osmtracker_logo">OSMTracker logo</string>
+    <string name="acc.record_indicator">Indikátor prebiehajúceho záznamu</string>
+    <string name="acc.sat_indicator">Indikátor sily signálu satelitov</string>
+    <string name="acc.track_status">Indikátor stavu stopy</string>
+    <string name="acc.upload_status">OpenStreetMap indikátor stavu odosielania</string>
+    <string name="acc.zoom_in">Priblížiť</string>
+    <string name="acc.zoom_out">Oddialiť</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-sk/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">OSMTracker pre Android™</string>
+    <string name="app_short_name">OSMTracker</string>
+    <string name="displaytrack">Zobrazenie stopy</string>
+    <string name="displaytrack_map">Zobraziť mapu v pozadí</string>
+    <string name="displaytrack_north">S</string>
+    <string name="displaytrackmap">Zobrazenie OpenStreetMap stopy</string>
+    <string name="error_create_track_dir">Nemôžem vytvoriť adresár %s na záznam trasy</string>
+    <string name="error_externalstorage_not_writable">Nedá sa zapisovať do externého úložiska.</string>
+    <string name="error_externalstorage_not_writable_hint">Prosím, skontrolujte, či je ext. úložisko správne vložené a pripojené.</string>
+    <string name="error_userlayout_parsing">Chyba počas analýzi XML súboru rozloženia. Prosím, vráťte sa k štandardnému rozloženiu.</string>
+    <string name="error_voicerec_failed">Hlasový záznam zlyhal</string>
+    <string name="gpsstatus_record_textnote">Písomná poznámka</string>
+    <string name="gpsstatus_record_voicerec">Hlasový záznam</string>
+    <string name="gpx_hdop_approximation_cmt">Varovanie: Hodnoty HDOP nie sú vrátené HDOP z GPS zariadenia. Sú odhadnuté pre presnosť umiestnenia v metroch, a nemali by byť vložené do účtu.</string>
+    <string name="gpx_track_name">Stopované s OSMTracker-om pre Android™</string>
+    <string name="menu_about">O aplikácii</string>
+    <string name="menu_cancel">Zrušiť</string>
+    <string name="menu_center_to_gps">Centrovať na GPS polohu</string>
+    <string name="menu_continue">Pokračovať v stopovaní</string>
+    <string name="menu_deletetracks">Zmazať všetky stopy</string>
+    <string name="menu_displaytrack">Zobraziť stopu</string>
+    <string name="menu_export">Exportovať ako GPX</string>
+    <string name="menu_exportall">Exportovať všetko ako GPX</string>
+    <string name="menu_newtrack">Nová stopa</string>
+    <string name="menu_osm_upload">Nahrávanie do OpenStreetMap</string>
+    <string name="menu_save">Uložiť</string>
+    <string name="menu_settings">Nastavenia</string>
+    <string name="menu_stopcurrenttrack">Zastaviť aktuálnu stopu</string>
+    <string name="menu_stoptracking">Zastaviť a uložiť</string>
+    <string name="menu_waypointlist">Cestovné body</string>
+    <string name="notification_text">Ťuknite sem na zobrazenie hlavnej obrazovky</string>
+    <string name="notification_ticker_text">OSMTracker stopuje</string>
+    <string name="notification_title">OSMTracker stopuje (#{0})</string>
+    <string name="osm_upload">Odoslať na OpenStreetMap</string>
+    <string name="osm_upload_bad_response">Server OSM vrátil chybu: ({0}) správa o chybe {1}</string>
+    <string name="osm_upload_error">Počas nahrávania záznamu trasy došlo k chybe</string>
+    <string name="osm_upload_oauth_failed">Nemôžem overiť pripojenie k OSM</string>
+    <string name="osm_upload_ok">Uložiť a odoslať</string>
+    <string name="osm_upload_sending">Posielam stopu #{0}…</string>
+    <string name="osm_upload_sucess">Nahrávanie OpenStreetMap bolo úspešné</string>
+    <string name="osm_upload_tmpfile_failed">Nemôžem exportovať záznam trasy do dočasného súboru</string>
+    <string name="osm_upload_unauthorized">Chyba autorizácie. Chcete vymazať údaje z OpenStreetMap uložené v zariadení?</string>
+    <string name="osm_upload_waiting_response">Čakám na odpoveď OpenStreetMap servera...</string>
+    <string name="osm_visibility_identifiable">Identifikovateľné</string>
+    <string name="osm_visibility_private">Súkromný</string>
+    <string name="osm_visibility_public">Verejný</string>
+    <string name="osm_visibility_trackable">Sledovateľné</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-sk/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs">Nastavenia</string>
+    <string name="prefs_check_gps_startup">Skontrolovať GPS po spustení</string>
+    <string name="prefs_check_gps_startup_summary">Skontrolovať, či je GPS vypnuté po spustení a navrhnúť jeho zapnutie</string>
+    <string name="prefs_display_always_on">Obrazovka vždy zapnutá</string>
+    <string name="prefs_display_always_on_summary">Obrazovka zostane zapnutá počas stopovania. Vypnite pre úsporu batérie</string>
+    <string name="prefs_displaytrack_osm">OSM pozadie</string>
+    <string name="prefs_displaytrack_osm_summary">Zobraziť OpenStreetMap pod stopou. Potrebuje dátové pripojenie</string>
+    <string name="prefs_displaytrack_osm_summary_ask">Vždy zobrazovať pozadie OpenStreetMap? Vyžaduje aktívne dátové pripojenie.</string>
+    <string name="prefs_gps">GPS</string>
+    <string name="prefs_gps_ignore_clock">Ignorovať čas GPS</string>
+    <string name="prefs_gps_ignore_clock_summary">Ignorovať čas GPS a použiť čas Androidu pre časové značky</string>
+    <string name="prefs_gps_logging_interval">Interval logovania GPS</string>
+    <string name="prefs_gps_logging_interval_seconds">sekundy</string>
+    <string name="prefs_gps_logging_interval_summary">Použite 0 pre najkratší možný (Ovplyvní výdrž batérie)</string>
+    <string name="prefs_gps_os_settings">Nastavenia GPS</string>
+    <string name="prefs_gps_os_settings_summary">Zobraziť systémovú obrazovku s nastaveniami GPS</string>
+    <string name="prefs_map_tile">Poskytovateľ mapových podkladov</string>
+    <string name="prefs_map_tile_summary"/>
+    <string name="prefs_osm_clear_oauth_data">Vymazať autentifikáciu OSM</string>
+    <string name="prefs_osm_clear_oauth_data_dialog">Znova sa pokúšate autorizovať OSMTracker, aby mohol nahrávať záznamy stôp. Ste si istý?</string>
+    <string name="prefs_osm_clear_oauth_data_summary">Vymaže prihlasovacie údaje a oprávnenia OSM uložené v telefóne a prinúti OSMTracker, aby si ich opätovne vyžiadal</string>
+    <string name="prefs_output">Výstup GPX súboru</string>
+    <string name="prefs_output_accuracy">Presnosť v GPX súbore</string>
+    <string name="prefs_output_accuracy_summary">Povoliť informácie o presnosti v GPX súbore, s názvom cestovného bodu alebo v oddelenom poli</string>
+    <string name="prefs_output_filename">Názov súboru pre pomenované stopy</string>
+    <string name="prefs_output_filename_summary">Vzor pre pomenovanie súboru ak má stopa názov</string>
+    <string name="prefs_output_gpx_hdop_approximation">Použiť odhad HDOP</string>
+    <string name="prefs_output_gpx_hdop_approximation_summary">Vyplniť HDOP v GPX s odhadovanou hodnotou presnosti</string>
+    <string name="prefs_output_one_dir_per_track">Jeden adresár na stopu</string>
+    <string name="prefs_output_one_dir_per_track_summary">Uloží každú stopu a priradené súbory do jej vlastného adresára</string>
+    <string name="prefs_sound_enabled">Zapnúť zvuky</string>
+    <string name="prefs_sound_enabled_summary">Prehrávať zvuky pri spustení a ukončení nahrávania hlasovej stopy</string>
+    <string name="prefs_storage_dir">Adresár externého úložiska (SD)</string>
+    <string name="prefs_storage_dir_hint">Použité až v ďalšej stope (nie v aktuálnej)</string>
+    <string name="prefs_theme">Grafická téma hlavnej obrazovky</string>
+    <string name="prefs_theme_summary">Je potrebný reštart aplikácie na vykonanie zmien</string>
+    <string name="prefs_ui">Užívateľské rozhranie</string>
+    <string name="prefs_ui_buttons_layout">Rozloženie tlačidiel</string>
+    <string name="prefs_ui_buttons_layout_defaut">Štandardné</string>
+    <string name="prefs_ui_buttons_layout_summary">Povoliť určenie vlastného rozloženia tlačidiel (Viď dokumenty)</string>
+    <string name="prefs_ui_orientation">Orientácia</string>
+    <string name="prefs_ui_orientation_summary">Preferovaná orientácia pre obrazovku s tlačidlami</string>
+    <string name="prefs_voicerec_duration">Dĺžka hlasového záznamu</string>
+    <string name="prefs_voicerec_duration_seconds">sekundy/sekúnd</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-sk/strings-tags.xml -->
+    <eat-comment/>
+    <string name="tag.amenity">Zariadenie</string>
+    <string name="tag.amenity_bench">Lavička</string>
+    <string name="tag.amenity_doctors">Nemocnica,
+Lekári</string>
+    <string name="tag.amenity_library">Knižnica</string>
+    <string name="tag.amenity_marina">Prístav</string>
+    <string name="tag.amenity_more">Zariadenie (+)</string>
+    <string name="tag.amenity_pharmacy">Lekáreň</string>
+    <string name="tag.amenity_place_of_worship">Miesto
+uctievania</string>
+    <string name="tag.amenity_post_office">Pošta</string>
+    <string name="tag.amenity_recycling">Recyklácia</string>
+    <string name="tag.amenity_shop">Obchod</string>
+    <string name="tag.amenity_sport">Šport</string>
+    <string name="tag.amenity_taxi">Taxislužba</string>
+    <string name="tag.amenity_water">Voda</string>
+    <string name="tag.amenitymore_bank">Banka</string>
+    <string name="tag.amenitymore_camp_site">Táborisko</string>
+    <string name="tag.amenitymore_fastfood">Rýchle
+občerstvenie</string>
+    <string name="tag.amenitymore_fire_station">Požiarna
+stanica</string>
+    <string name="tag.amenitymore_hostel">Internát</string>
+    <string name="tag.amenitymore_hotel">Hotel</string>
+    <string name="tag.amenitymore_motel">Motel</string>
+    <string name="tag.amenitymore_playground">Ihrisko</string>
+    <string name="tag.amenitymore_police">Polícia</string>
+    <string name="tag.amenitymore_pub">Hostinec</string>
+    <string name="tag.amenitymore_restaurant">Reštaurácia</string>
+    <string name="tag.amenitymore_school">Škola</string>
+    <string name="tag.car">Automobil</string>
+    <string name="tag.car_emergency_phone">Tiesňový
+telefón</string>
+    <string name="tag.car_fuel_station">Čerpacia
+stanica</string>
+    <string name="tag.car_parking">Parkovanie</string>
+    <string name="tag.car_speed_camera">Radar</string>
+    <string name="tag.car_turning_circle">Cesta na
+otáčanie</string>
+    <string name="tag.landuse">Územie</string>
+    <string name="tag.landuse_allotments">Záhrady</string>
+    <string name="tag.landuse_basin">Povodie</string>
+    <string name="tag.landuse_cemetery">Cintorín</string>
+    <string name="tag.landuse_farm">Farma</string>
+    <string name="tag.landuse_forest">Les</string>
+    <string name="tag.landuse_landfill">Skládka
+odpadkov</string>
+    <string name="tag.landuse_recreation_ground">Rekreačné
+stredisko</string>
+    <string name="tag.landuse_reservoir">Nádrž</string>
+    <string name="tag.misc">Rôzne</string>
+    <string name="tag.misc_atm">Bankomat</string>
+    <string name="tag.misc_bollard">Pätník</string>
+    <string name="tag.misc_bus_stop">Autobusová
+zastávka</string>
+    <string name="tag.misc_post_box">Poštová
+schránka</string>
+    <string name="tag.misc_railway">Železničná
+trať</string>
+    <string name="tag.misc_shelter">Prístrešok</string>
+    <string name="tag.misc_surveillance">Pozorovanie</string>
+    <string name="tag.misc_telephone">Telefón</string>
+    <string name="tag.misc_toilets">Toalety</string>
+    <string name="tag.restriction">Obmedzenie</string>
+    <string name="tag.restriction_100">Max 100</string>
+    <string name="tag.restriction_110">Max 110</string>
+    <string name="tag.restriction_120">Max 120</string>
+    <string name="tag.restriction_130">Max. 130</string>
+    <string name="tag.restriction_20">Max. 20</string>
+    <string name="tag.restriction_30">Max. 30</string>
+    <string name="tag.restriction_40">Max. 40</string>
+    <string name="tag.restriction_50">Max. 50</string>
+    <string name="tag.restriction_60">Max. 60</string>
+    <string name="tag.restriction_70">Max. 70</string>
+    <string name="tag.restriction_80">Max. 80</string>
+    <string name="tag.restriction_90">Max. 90</string>
+    <string name="tag.restriction_no_exit">Slepá ulica</string>
+    <string name="tag.restriction_one_way">Jednosmerka</string>
+    <string name="tag.tourism">Turistika</string>
+    <string name="tag.tourism_attraction">Atrakcia</string>
+    <string name="tag.tourism_castle">Hrad</string>
+    <string name="tag.tourism_cinema">Kino</string>
+    <string name="tag.tourism_information">Informácie</string>
+    <string name="tag.tourism_monument">Pamätník</string>
+    <string name="tag.tourism_museum">Múzeum</string>
+    <string name="tag.tourism_picnic">Miesto pre piknik</string>
+    <string name="tag.tourism_theme_park">Zábavný
+park</string>
+    <string name="tag.tourism_view_point">Vyhliadka</string>
+    <string name="tag.track">Nespevnená
+cesta</string>
+    <string name="tag.track_bridleway">Cesta pre
+kone</string>
+    <string name="tag.track_cycleway">Cesta pre
+bicykle</string>
+    <string name="tag.track_footway">Chodník</string>
+    <string name="tag.track_grade1">Stupeň 1</string>
+    <string name="tag.track_grade2">Stupeň 2</string>
+    <string name="tag.track_grade3">Stupeň 3</string>
+    <string name="tag.track_grade4">Stupeň 4</string>
+    <string name="tag.track_grade5">Stupeň 5</string>
+    <string name="tag.track_living_street">Obytná
+zóna</string>
+    <string name="tag.track_pedestrian">Pešia zóna</string>
+    <string name="tag.track_steps">Schody</string>
+    <string name="tag.track_track">Nespevnená
+cesta</string>
+    <string name="tag.way">Cesta</string>
+    <string name="tag.way_bridge">Most</string>
+    <string name="tag.way_motorway">Diaľnica</string>
+    <string name="tag.way_primary">Cesta
+1. triedy</string>
+    <string name="tag.way_residential">Rezidenčná</string>
+    <string name="tag.way_secondary">Cesta
+2. triedy</string>
+    <string name="tag.way_service">Servisná</string>
+    <string name="tag.way_tertiary">Cesta
+3. triedy</string>
+    <string name="tag.way_trunk">Rýchlostná
+komunikácia</string>
+    <string name="tag.way_zebra_crossing">Prechod
+pre chodcov</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-sk/strings.xml -->
+    <eat-comment/>
+    <string name="trackdetail">Podrobnosti o stope</string>
+    <string name="trackdetail_btn_export">Exportovať ako GPX</string>
+    <string name="trackdetail_description">Popis</string>
+    <string name="trackdetail_description_mandatory">Musíte zadať popis</string>
+    <string name="trackdetail_enddate">Čas ukončenia:</string>
+    <string name="trackdetail_endloc">Skončila v bode:</string>
+    <string name="trackdetail_export_display">Zobraziť</string>
+    <string name="trackdetail_export_notyet">(Zatiaľ neexportovaná)</string>
+    <string name="trackdetail_exportdate">Exportovaná:</string>
+    <string name="trackdetail_osm_upload_date">Odoslané na OpenStreetMap:</string>
+    <string name="trackdetail_osm_upload_notyet">(Zatiaľ nenahraté)</string>
+    <string name="trackdetail_save">Uložiť</string>
+    <string name="trackdetail_startdate">Čas začatia:</string>
+    <string name="trackdetail_startloc">Začala v bode:</string>
+    <string name="trackdetail_tags">Tagy (oddelené čiarkou)</string>
+    <string name="tracklogger">Záznam prejdených trás</string>
+    <string name="tracklogger_btnBack">Späť</string>
+    <string name="tracklogger_choose_gallery_camera">Z galérie alebo fotoaparátu?</string>
+    <string name="tracklogger_gps_disabled">GPS vypnuté</string>
+    <string name="tracklogger_gps_disabled_hint">GPS je vypnuté. Chcete ho zapnúť ?</string>
+    <string name="tracklogger_tracked">Zaznamenané trasy: </string>
+    <string name="tracklogger_voicerec_stop">Zastaviť</string>
+    <string name="tracklogger_voicerec_text">Nahráva sa zvuková stopa pre {0}.</string>
+    <string name="tracklogger_voicerec_title">Hlasový záznam</string>
+    <string name="tracklogger_waiting_gps">Čaká sa na GPS polohu pre povolenie tlačidiel…</string>
+    <string name="trackmgr">Správca prejdených trás</string>
+    <string name="trackmgr_contextmenu_delete">Vymazať</string>
+    <string name="trackmgr_contextmenu_details">Podrobnosti</string>
+    <string name="trackmgr_contextmenu_display">Zobraziť</string>
+    <string name="trackmgr_contextmenu_export">Exportovať ako GPX</string>
+    <string name="trackmgr_contextmenu_osm_upload">Odoslať na OpenStreetMap</string>
+    <string name="trackmgr_contextmenu_resume">Pokračovať v zázname</string>
+    <string name="trackmgr_contextmenu_stop">Zastaviť záznam</string>
+    <string name="trackmgr_contextmenu_title">Záznam #{0}</string>
+    <string name="trackmgr_continuetrack_hint">Práve nahrávate <b>trasu #{0}</b>
+Pre pokračovanie kliknite na ňu v zozname</string>
+    <string name="trackmgr_delete_confirm">Záznam #{0} bude vymazaný</string>
+    <string name="trackmgr_deleteall_confirm">Všetky stopy budú zmazané. Pokračovať?</string>
+    <string name="trackmgr_empty">Nemáte zaznamenané žiadne prejdené trasy.</string>
+    <string name="trackmgr_export_error">Nedá sa exportovať stopa: {0}</string>
+    <string name="trackmgr_exportall_confirm">Všetky stop budú exportované, čo môže chvíľu trvať. Pokračovať?</string>
+    <string name="trackmgr_exporting">Exportuje sa stopa #{0}…</string>
+    <string name="trackmgr_newtrack_error">Nedá sa vytvoriť nový záznam trasy: {0}</string>
+    <string name="trackmgr_newtrack_hint">Pre nahratie prejdenej trasy
+stlačte <b>Menu</b> a potom <b>Nová trasa</b></string>
+    <string name="trackmgr_tracklist">Zoznam prejdených trás:</string>
+    <string name="trackmgr_trackpoints_count">Trasové body: </string>
+    <string name="trackmgr_waypoints_count">Body trasy: </string>
+    <string name="various_accuracy">Presnosť</string>
+    <string name="various_unit_meters">m</string>
+    <string name="wplist">Zoznam cestovných bodov</string>
+    <string name="wplist_accuracy">Presnosť: </string>
+    <string name="wplist_elevation">Výška: </string>
+    <string name="wplist_latitude">Z. šírka: </string>
+    <string name="wplist_longitude">Z. dĺžka: </string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-sk/waypoints.xml -->
+    <eat-comment/>
+    <string name="wpt_voicerec">Hlasový záznam</string>
+</resources>

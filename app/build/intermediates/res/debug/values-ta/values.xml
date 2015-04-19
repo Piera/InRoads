@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ta/strings.xml -->
+    <eat-comment/>
+    <string name="about">பற்றி</string>
+    <string name="about_debug_info">தகவலை பிழைதிருத்து‍</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ta/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.osmtracker_logo">ஓஎஸ்ஐ கண்காணிப்பின் இலட்சினை</string>
+    <string name="acc.record_indicator">முன்னேற்றம் பதிவு காட்டி </string>
+    <string name="acc.sat_indicator">செயற்கைக்கோள் சிக்னல் வலிமை காட்டி</string>
+    <string name="acc.track_status">கண்காணிக்கும் நிலை காட்டி</string>
+    <string name="acc.upload_status">திறந்த தெரு வரைபடம் பதிவேற்ற நிலை காட்டி</string>
+    <string name="acc.zoom_in">பெரிதாக்கு</string>
+    <string name="acc.zoom_out">சிறிதாக்கு</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ta/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">ஓஎஸ்எம் தடமறியும் ஆண்ட்ராய்டு த </string>
+    <string name="displaytrack">தடத்தை காண்பி</string>
+    <string name="displaytrack_map">பின்புல வரைபடக் காட்சி</string>
+    <string name="displaytrack_north">காலகம்</string>
+    <string name="gpsstatus_record_textnote">உரை குறிப்பு</string>
+    <string name="gpsstatus_record_voicerec">குரல் பதிவு</string>
+    <string name="menu_about">பற்றி</string>
+    <string name="menu_cancel">ரத்து‍ செய்</string>
+    <string name="menu_newtrack">புதிய தடம்</string>
+    <string name="menu_save">சேமி</string>
+    <string name="menu_settings">அமைப்புகள்</string>
+    <string name="notification_text">பிரதானத் திரையில் காண்பிக்க இங்கே தட்டவும்</string>
+    <string name="osm_upload_error">தடம் பதிவேற்றுவதில் பிழை </string>
+    <string name="osm_upload_ok">சேமி மற்றும் பதிவேற்றுக</string>
+    <string name="osm_visibility_identifiable">அடையாளம் காணக்கூடிய</string>
+    <string name="osm_visibility_private">தனிப்பட்ட</string>
+    <string name="osm_visibility_public">பொது‍</string>
+    <string name="osm_visibility_trackable">தடமறிய முடிந்தவை</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ta/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs_map_tile_summary"/>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ta/strings-tags.xml -->
+    <eat-comment/>
+    <string name="tag.amenity">வசதிகள்</string>
+    <string name="tag.amenity_bench">மேசை</string>
+    <string name="tag.amenity_doctors">மருத்துவமனை,
+மருத்துவர்கள்</string>
+    <string name="tag.amenity_library">நூலகம்</string>
+    <string name="tag.amenity_marina">சிறுகலத் துறைமுகம்</string>
+    <string name="tag.amenity_more">வசதிகள்(+)</string>
+    <string name="tag.amenity_pharmacy">மருந்துக் கடை</string>
+    <string name="tag.amenity_place_of_worship">வழிபாட்டு
+இடம்</string>
+    <string name="tag.amenity_post_office">அஞ்சல் அலுவலகம்</string>
+    <string name="tag.amenity_recycling">மறுசுழற்சி</string>
+    <string name="tag.amenity_shop">கடை</string>
+    <string name="tag.amenity_sport">விளையாட்டு‍</string>
+    <string name="tag.amenity_taxi">வாடகை உந்து‍</string>
+    <string name="tag.amenity_water">தண்ணீர்</string>
+    <string name="tag.amenitymore_bank">வங்கி</string>
+    <string name="tag.amenitymore_camp_site">முகாமிடம்</string>
+    <string name="tag.amenitymore_fastfood">துரித உணவு</string>
+    <string name="tag.amenitymore_fire_station">தீயணைப்பு 
+நிலையம்</string>
+    <string name="tag.amenitymore_hostel">தங்கும் விடுதி</string>
+    <string name="tag.amenitymore_hotel">உணவகம்</string>
+    <string name="tag.amenitymore_motel">சாலையோர உணவகம்</string>
+    <string name="tag.amenitymore_playground">விளையாட்டு‍ மைதானம்</string>
+    <string name="tag.amenitymore_police">காவல்</string>
+    <string name="tag.amenitymore_pub">கேளிக்கை விடுதி</string>
+    <string name="tag.amenitymore_restaurant">உணவகம்</string>
+    <string name="tag.amenitymore_school">பள்ளி</string>
+    <string name="tag.car">வண்டி‍</string>
+    <string name="tag.car_emergency_phone">அவசரநிலை தொலைபேசி</string>
+    <string name="tag.car_fuel_station">எரிபொருள் நிலையம்</string>
+    <string name="tag.car_parking">வாகன நிறுத்துமிடம்</string>
+    <string name="tag.car_speed_camera">வேகத்தை கண்காணிக்கும் புகைப்படக் கருவி</string>
+    <string name="tag.car_turning_circle">திருப்பல் வட்டம்</string>
+    <string name="tag.landuse">நிலப் பயன்பாடு</string>
+    <string name="tag.landuse_allotments">ஒதுக்கீடுகள்</string>
+    <string name="tag.landuse_basin">கொள்கலன்</string>
+    <string name="tag.landuse_cemetery">மயானம்</string>
+    <string name="tag.landuse_farm">வயல்</string>
+    <string name="tag.landuse_forest">காடு‍</string>
+    <string name="tag.landuse_landfill">நிலப்பரப்பு</string>
+    <string name="tag.landuse_recreation_ground">பொழுதுபோக்கு‍
+மைதானம்</string>
+    <string name="tag.landuse_reservoir">நீர்த்தேக்கம்</string>
+    <string name="tag.misc">வகையுறா</string>
+    <string name="tag.misc_atm">தானியியக்க வங்கி இயந்திரம்</string>
+    <string name="tag.misc_bollard">கட்டைத் தூண்</string>
+    <string name="tag.misc_bus_stop">பேருந்து‍ நிறுத்தம்</string>
+    <string name="tag.misc_post_box">அஞ்சல் பெட்டி‍</string>
+    <string name="tag.misc_railway">தொடர் வண்டி</string>
+    <string name="tag.misc_shelter">உறைவிடம்</string>
+    <string name="tag.misc_surveillance">கண்காணிப்பு</string>
+    <string name="tag.misc_telephone">தொலைபேசி</string>
+    <string name="tag.misc_toilets">கழிப்பறைகள்</string>
+    <string name="tag.restriction">கட்டுப்பாடு</string>
+    <string name="tag.restriction_100">அதிகபட்சம் 100</string>
+    <string name="tag.restriction_110">அதிகபட்சம் 110</string>
+    <string name="tag.restriction_120">அதிகபட்சம் 120</string>
+    <string name="tag.restriction_130">அதிகபட்சம் 130</string>
+    <string name="tag.restriction_20">அதிகபட்சம் 20</string>
+    <string name="tag.restriction_30">அதிகபட்சம் 30</string>
+    <string name="tag.restriction_40">அதிகபட்சம் 40</string>
+    <string name="tag.restriction_50">அதிகபட்சம் 50</string>
+    <string name="tag.restriction_60">அதிகபட்சம் 60</string>
+    <string name="tag.restriction_70">அதிகபட்சம் 70</string>
+    <string name="tag.restriction_80">அதிகபட்சம் 80</string>
+    <string name="tag.restriction_90">அதிகபட்சம் 90</string>
+    <string name="tag.restriction_no_exit">வெளியேற வழி இல்லை</string>
+    <string name="tag.restriction_one_way">ஒரு‍ வழிப் பாதை</string>
+    <string name="tag.tourism">சுற்றுலா</string>
+    <string name="tag.tourism_attraction">ஈர்ப்பு</string>
+    <string name="tag.tourism_castle">அரண்மனை</string>
+    <string name="tag.tourism_cinema">திரைப்படம்</string>
+    <string name="tag.tourism_information">தகவல்</string>
+    <string name="tag.tourism_monument">நினைவுச் சின்னம்</string>
+    <string name="tag.tourism_museum">அருங்காட்சியகம்</string>
+    <string name="tag.tourism_picnic">மகிழ்வுலா இடங்கள்</string>
+    <string name="tag.tourism_theme_park">வணிக நோக்குடைய பூங்கா</string>
+    <string name="tag.tourism_view_point">பார்வைக் கோணம்</string>
+    <string name="tag.track">தடம்</string>
+    <string name="tag.track_bridleway">குதிரைப் பாதை</string>
+    <string name="tag.track_cycleway">மிதிவண்டிப் பாதை</string>
+    <string name="tag.track_footway">நடைபாதை</string>
+    <string name="tag.track_grade1">தரம் 1</string>
+    <string name="tag.track_grade2">தரம் 2</string>
+    <string name="tag.track_grade3">தரம் 3</string>
+    <string name="tag.track_grade4">தரம் 4</string>
+    <string name="tag.track_grade5">தரம் 5</string>
+    <string name="tag.track_living_street">வாழும் தெரு‍</string>
+    <string name="tag.track_pedestrian">பாதசாரி</string>
+    <string name="tag.track_steps">படிகள்</string>
+    <string name="tag.track_track">வழித்தடம்</string>
+    <string name="tag.way">வழி</string>
+    <string name="tag.way_bridge">பாலம்</string>
+    <string name="tag.way_motorway">நெடுஞ்சாலை</string>
+    <string name="tag.way_primary">முதன்மை</string>
+    <string name="tag.way_residential">தங்குமிடம்</string>
+    <string name="tag.way_secondary">இரண்டாம் நிலை</string>
+    <string name="tag.way_service">சேவை</string>
+    <string name="tag.way_tertiary">மூன்றாவதான</string>
+    <string name="tag.way_trunk">அடிமரம்</string>
+    <string name="tag.way_zebra_crossing">பாதையை கடப்பதற்கான வரிக்குதிரை கோடுகள் </string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ta/strings.xml -->
+    <eat-comment/>
+    <string name="trackdetail">தடத்தின் விளக்கங்கள்</string>
+    <string name="trackdetail_btn_export">புவி நிலை காட்டி‍ போல் ஏற்று‍</string>
+    <string name="trackdetail_description">விளக்கம்</string>
+    <string name="trackdetail_description_mandatory">நீங்கள் கண்டிப்பாக விளக்கத்தை உள்ளிட வேண்டும்</string>
+    <string name="trackdetail_enddate">முடிவு நேரம்‌:</string>
+    <string name="trackdetail_endloc">முடியும் நேரம்:</string>
+    <string name="trackdetail_exportdate">ஏற்றுமதி செய்யப்பட்ட:</string>
+    <string name="trackdetail_osm_upload_date">திறந்த தெரு‍ வரைபடத்திற்கு‍ பதிவேற்றப்பட்டது:</string>
+    <string name="trackdetail_save">சேமி</string>
+    <string name="trackdetail_startdate">தொடங்கும் நேரம்:</string>
+    <string name="trackdetail_startloc">துவங்கும் நேரம்:</string>
+    <string name="trackdetail_tags">இணைப்புப் புரி (காற்புள்ளியால் பிரிக்கப்பட்டது‍)</string>
+    <string name="tracklogger_btnBack">பின்னால்</string>
+    <string name="tracklogger_choose_gallery_camera">படத்தொகுப்பு அல்லது புகைப்படக் கருவி?</string>
+    <string name="tracklogger_gps_disabled">ஜிபிஎஸ் செயலிழக்கச் செய்யப்பட்டுள்ளது</string>
+    <string name="tracklogger_gps_disabled_hint">ஜிபிஎஸ் செயலிழக்கச் செய்யப்பட்டுள்ளது. நீங்கள் அதை செயலாக்க வேண்டுமா?</string>
+    <string name="tracklogger_tracked">தடமறியப்பட்டது‍: </string>
+    <string name="tracklogger_voicerec_stop">நிறுத்தம்</string>
+    <string name="tracklogger_voicerec_text">ஒலிக் கீற்று‍ {0} கள் பதிவிடு.</string>
+    <string name="tracklogger_voicerec_title">ஒலிப்பதிவு செய்தல்</string>
+    <string name="tracklogger_waiting_gps">புவி நிலை காட்டி பொத்தான்கள் செயல்படுத்த காத்திருக்கிறது...</string>
+    <string name="trackmgr">தடத்தின் மேலாளர்</string>
+    <string name="trackmgr_contextmenu_delete">நீக்கு</string>
+    <string name="trackmgr_contextmenu_details">விவரங்கள்</string>
+    <string name="trackmgr_contextmenu_export">புவி நிலை காட்டி போல் ஏற்று‍</string>
+    <string name="trackmgr_contextmenu_osm_upload">திறந்த தெரு‍ வரைபடத்தில் தரவேற்று‍</string>
+    <string name="trackmgr_contextmenu_stop">தடத்தை நிறுத்து‍</string>
+    <string name="trackmgr_contextmenu_title">தடம் #{0}</string>
+    <string name="trackmgr_continuetrack_hint">நீங்கள் தற்போது பதிவு செய்கிறீர்கள்<b>தடம்#{0}</b>
+தொடர, பட்டியலில் இருந்து தேர்வு செய்யவும்</string>
+    <string name="trackmgr_delete_confirm">தடம் #{0} நீக்கப்படும்</string>
+    <string name="trackmgr_empty">உங்களுக்கு‍ எந்த வழித் தடங்களும் இல்லை.</string>
+    <string name="trackmgr_newtrack_error">புதிய தடத்தை உருவாக்க முடியவில்லை: {0}</string>
+    <string name="trackmgr_newtrack_hint">ஒரு தடத்தை பதிவு செய்ய,
+அழுத்து‍<b>பட்டியல்</b>பிறகு‍<b>புதிய தடம்</b></string>
+    <string name="trackmgr_tracklist">தடத்தின் பட்டியல்</string>
+    <string name="trackmgr_trackpoints_count">தடத்தின் புள்ளி</string>
+    <string name="trackmgr_waypoints_count">வழிக் குறிப்பு</string>
+    <string name="various_unit_meters">மெகா</string>
+    <string name="wplist">பாதைப் புள்ளி பட்டியல்</string>
+    <string name="wplist_accuracy">துல்லியம்</string>
+    <string name="wplist_elevation">ஏற்றம்</string>
+    <string name="wplist_longitude">நீண்ட</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ta/waypoints.xml -->
+    <eat-comment/>
+    <string name="wpt_voicerec">ஒலிப்பதிவு, குரல் பதிவு</string>
+</resources>

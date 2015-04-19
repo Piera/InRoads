@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-ro-rRO/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs_map_tile_summary"/>
+</resources>

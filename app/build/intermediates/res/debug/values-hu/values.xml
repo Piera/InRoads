@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-hu/strings-preferences.xml -->
+    <eat-comment/>
+    <string-array name="prefs_compass_heading_keys">
+    <item>Semmi</item>
+    <item>megjegyzésben</item>
+    <item>kiterjesztésben</item>
+  </string-array>
+    <string-array name="prefs_map_tile_keys">
+    <item>Mapnik</item>
+    <item>Biciklis térkép</item>
+    <item>MapQuest Open</item>
+  </string-array>
+    <string-array name="prefs_output_accuracy_keys">
+    <item>None</item>
+    <item>With waypoint name</item>
+    <item>In waypoint comment</item>
+  </string-array>
+    <string-array name="prefs_output_filename_keys">
+    <item>Nyomkövetés neve</item>
+    <item>Név, kezdeti dátum és időpont</item>
+    <item>Kezdeti dátum és időpont</item>
+  </string-array>
+    <string-array name="prefs_theme_keys">
+    <item>Rendszer alapértelmezett</item>
+    <item>Rendszer alapértelmezett (sötét)</item>
+    <item>Rendszer alapértelmezett (világos)</item>
+    <item>Nagy kontrasztú</item>
+  </string-array>
+    <string-array name="prefs_ui_orientation_options_keys">
+    <item>Automatikus</item>
+    <item>Álló</item>
+    <item>Fekvő</item>
+  </string-array>
+    <string-array name="prefs_ui_picture_source_keys">
+    <item>Kamera</item>
+    <item>Galéria</item>
+    <item>Mindig kérdez</item>
+  </string-array>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-hu/strings.xml -->
+    <eat-comment/>
+    <string name="about">Névjegy</string>
+    <string name="about_debug_info">Hibakeresési információ</string>
+    <string name="about_text">További információkért, dokumentációért és hibabejelentésért, kérjük tekintse meg a projekt honlapját:</string>
+    <string name="about_translate_text">Segítsen az OSMTracker fordításában:</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-hu/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.osmtracker_logo">OSMTracker logo</string>
+    <string name="acc.record_indicator">Rögzítés folyamatban jelző</string>
+    <string name="acc.sat_indicator">Műhold jelerősség jelző</string>
+    <string name="acc.track_status">Nyomkövetés állapot jelző</string>
+    <string name="acc.upload_status">OpenStreetMap feltöltés állapot jelző</string>
+    <string name="acc.zoom_in">Nagyítás</string>
+    <string name="acc.zoom_out">Kicsinyítés</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-hu/strings.xml -->
+    <eat-comment/>
+    <string name="app_description">A Windows Mobile-on elérhető OSMTracker inspirálta, amely lehetővé teszi utazásai követését, megjelölésés fontos pontokkal (hangrögzítés, fényképek) exportálhatja GPX formában a későbbi olyan Open Street Map eszközökkel történő használathoz, mint például a JOSM.</string>
+    <string name="app_name">OSMTracker Android™-ra</string>
+    <string name="app_short_name">OSMTracker</string>
+    <string name="displaytrack">Nyomvonal mutatása</string>
+    <string name="displaytrack_map">Háttér térkép megjelenítése</string>
+    <string name="displaytrack_north">É</string>
+    <string name="displaytrackmap">OpenStreetMap nyomvonal megjelenítés</string>
+    <string name="error_create_track_dir">%s nyomvonal mappa létrehozása sikertelen</string>
+    <string name="error_externalstorage_not_writable">A külső tárolóra írás nem sikerült.</string>
+    <string name="error_externalstorage_not_writable_hint">Kérem ellenőrizze, hogy a külső tároló csatlakoztatását.</string>
+    <string name="error_userlayout_parsing">Hiba az XML séma fájl értelmezésekor. Kérjük térjen vissza az alapértelmezett sémához.</string>
+    <string name="error_voicerec_failed">Hangrögzítés sikertelen</string>
+    <string name="gpsstatus_record_stillimage">Fényképezés</string>
+    <string name="gpsstatus_record_textnote">Szöveges megjegyzés</string>
+    <string name="gpsstatus_record_voicerec">Hangrögzítés</string>
+    <string name="gpx_hdop_approximation_cmt">Figyelem: A HDOP értékek nem azok a HDOP értékek, amit a GPS eszköz ad vissza. Ezek becsült értékek a hely pontosságából, méterben.</string>
+    <string name="gpx_track_name">Tracked with OSMTracker for Android™</string>
+    <string name="menu_about">Névjegy</string>
+    <string name="menu_cancel">Mégsem</string>
+    <string name="menu_center_to_gps">GPS-hez központosítás</string>
+    <string name="menu_continue">Nyomvonal folytatása</string>
+    <string name="menu_deletetracks">Minden nyomvonal törlése</string>
+    <string name="menu_displaytrack">Nyomvonal megjelenítése</string>
+    <string name="menu_export">Exportálás GPX fájlként</string>
+    <string name="menu_exportall">Minden exportálása GPX fájlba</string>
+    <string name="menu_newtrack">Új nyomvonal</string>
+    <string name="menu_osm_upload">OpenStreetMap feltöltés</string>
+    <string name="menu_save">Mentés</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="menu_stopcurrenttrack">Aktuális rögzítés leállítása</string>
+    <string name="menu_stoptracking">Leállítás &amp; mentés</string>
+    <string name="menu_waypointlist">Útpontok</string>
+    <string name="notification_text">Érintse meg itt a fő képernyő mgjelenítéséhez</string>
+    <string name="notification_ticker_text">Az OSMTracker rögzít</string>
+    <string name="notification_title">Az OSMTracker rögzít ({0}.)</string>
+    <string name="osm_upload">OpenStreetMap feltöltés</string>
+    <string name="osm_upload_bad_response">Az OSM szerver hibával tért vissza: ({0}) üzenet {1}</string>
+    <string name="osm_upload_error">Hiba a nyomvonal feltöltése közben</string>
+    <string name="osm_upload_oauth_failed">Az OSM bejelentkezés nem sikerült</string>
+    <string name="osm_upload_ok">Mentés és feltöltés</string>
+    <string name="osm_upload_sending">{0}. nyomvonal küldése…</string>
+    <string name="osm_upload_sucess">OpenStreetMap feltöltés sikeres</string>
+    <string name="osm_upload_tmpfile_failed">A nyomvonal exportálása az átmeneti fájlba nem sikerült</string>
+    <string name="osm_upload_unauthorized">Bejelentkezési hiba. Szeretné törölni a mentett OpenStreetMap bejelentkezési információkat?</string>
+    <string name="osm_upload_waiting_response">Várakozás az OpenStreetMap szerver válaszára…</string>
+    <string name="osm_visibility_identifiable">Azonosítható</string>
+    <string name="osm_visibility_private">Privát</string>
+    <string name="osm_visibility_public">Publikus</string>
+    <string name="osm_visibility_trackable">Követhető</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-hu/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs">Beállítások</string>
+    <string name="prefs_check_gps_startup">GPS ellenőrzése indításkor</string>
+    <string name="prefs_check_gps_startup_summary">A GPS ellenőrzése indításkor, és lehetőség a bekapcsolására</string>
+    <string name="prefs_compass_heading">Az iránytű állásnak exportálása</string>
+    <string name="prefs_compass_heading_summary">Definiálja, hogy bekerüljön-e és hogyan az iránytű adat az exportált GPX fájlba</string>
+    <string name="prefs_display_always_on">Képernyő mindig bekapcsolva</string>
+    <string name="prefs_display_always_on_summary">A képernyő bekapcsolva marad nyomkövetéskor. Kapcsolja ki az akku jobb üzemidejéhez</string>
+    <string name="prefs_displaytrack_osm">Háttér térkép</string>
+    <string name="prefs_displaytrack_osm_summary">Az OpenStreetMap megjelenítése a nyomkövetés alatt. Adatkapcsolatot igényel</string>
+    <string name="prefs_displaytrack_osm_summary_ask">Az OpenStreetMap háttér megjelenítése mindig? Adatkapcsolatot igényel.</string>
+    <string name="prefs_gps">GPS</string>
+    <string name="prefs_gps_ignore_clock">GPS óra figyelmen kívül hagyása</string>
+    <string name="prefs_gps_ignore_clock_summary">A GPS óra figyelmen kívül hagyása és az Android óra használata az időbélyegzéshez</string>
+    <string name="prefs_gps_logging_interval">GPS rögzítés időköze</string>
+    <string name="prefs_gps_logging_interval_seconds">másodperc</string>
+    <string name="prefs_gps_logging_interval_summary">Állítson be 0-t a legrövidebb lehetségesként (az akkumulátor üzemidejét befolyásolja)</string>
+    <string name="prefs_gps_os_settings">GPS beállítások</string>
+    <string name="prefs_gps_os_settings_summary">A rendszer GPS beállítások megjelenítése</string>
+    <string name="prefs_map_tile">Térképcsempe szolgáltató</string>
+    <string name="prefs_map_tile_summary"/>
+    <string name="prefs_osm_clear_oauth_data">OSM authentikáció alaphelyzetbe állítása</string>
+    <string name="prefs_osm_clear_oauth_data_dialog">Az OSMTrackert majd újból azonosítani kell a nyomvonalak feltöltéséhez. Biztosan ezt szeretné?</string>
+    <string name="prefs_osm_clear_oauth_data_summary">Az OSM belépési adatok és jogosultságok elfelejtése és az OSMTracker kényszerítése, hogy megkérdezze újra azokat</string>
+    <string name="prefs_output">GPX beállítások</string>
+    <string name="prefs_output_accuracy">Pontosság a GPX fájlban</string>
+    <string name="prefs_output_accuracy_summary">Pontosság információ hozzáadása a GPX fájlhoz, útpont névvel vagy útpont megjegyzéssel</string>
+    <string name="prefs_output_filename">Fájlnév az elnevezett nyomvonalakhoz</string>
+    <string name="prefs_output_filename_summary">Fájlnév minta, ha a nyomvonalnak neve van</string>
+    <string name="prefs_output_gpx_hdop_approximation">A HDOP becslés használata</string>
+    <string name="prefs_output_gpx_hdop_approximation_summary">Töltse ki a HDOP értéket a GPX fájlban egy becsült értékkel a pontosságból</string>
+    <string name="prefs_output_one_dir_per_track">Egy könyvtár nyomvonalanként</string>
+    <string name="prefs_output_one_dir_per_track_summary">Minden nyomkövetés és kapcsolódó fájljai egy saját könyvtárba mentése</string>
+    <string name="prefs_sound_enabled">Hang engedélyezése</string>
+    <string name="prefs_sound_enabled_summary">Hang lejátszása rögzítés indításakor és befejezésekor</string>
+    <string name="prefs_storage_dir">Külső tároló (SD) könyvtár</string>
+    <string name="prefs_storage_dir_hint">A következő nyomkövetésnél lép életbe (nem az aktuálisnál)
+</string>
+    <string name="prefs_theme">Fő képernyő grafikus téma</string>
+    <string name="prefs_theme_summary">Az alkalmazás újraindítása szükséges a változások érvénybe lépéséhez</string>
+    <string name="prefs_ui">Felhasználói felület</string>
+    <string name="prefs_ui_buttons_layout">Gomb alapértelmezések</string>
+    <string name="prefs_ui_buttons_layout_defaut">Alapértelmezett</string>
+    <string name="prefs_ui_buttons_layout_summary">Válasszon egy egyedi nyomógomb készletet (lásd dokumentáció)</string>
+    <string name="prefs_ui_orientation">Tájolás</string>
+    <string name="prefs_ui_orientation_summary">Az előnyben részesített tájolás a gombos képernyőhöz</string>
+    <string name="prefs_ui_picture_source">Alapértelmezett fénykép forrás</string>
+    <string name="prefs_ui_picture_source_summary">A fotókat a kameráról vagy a galériából vegye?</string>
+    <string name="prefs_voicerec_duration">Hangrögzítés hosszúsága</string>
+    <string name="prefs_voicerec_duration_seconds">másodperc</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-hu/strings-tags.xml -->
+    <eat-comment/>
+    <string name="tag.amenity">Szolgáltatás</string>
+    <string name="tag.amenity_bench">Pad</string>
+    <string name="tag.amenity_doctors">Kórház,
+Orvos</string>
+    <string name="tag.amenity_library">Könyvtár</string>
+    <string name="tag.amenity_marina">Marina</string>
+    <string name="tag.amenity_more">Szolgáltatás (+)</string>
+    <string name="tag.amenity_pharmacy">Gyógyszertár</string>
+    <string name="tag.amenity_place_of_worship">Templom</string>
+    <string name="tag.amenity_post_office">Postahivatal</string>
+    <string name="tag.amenity_recycling">Hulladék
+újrahasznosítás</string>
+    <string name="tag.amenity_shop">Bolt</string>
+    <string name="tag.amenity_sport">Sport</string>
+    <string name="tag.amenity_taxi">Taxi</string>
+    <string name="tag.amenity_water">Víz</string>
+    <string name="tag.amenitymore_bank">Bank</string>
+    <string name="tag.amenitymore_camp_site">Kempingezőhely</string>
+    <string name="tag.amenitymore_fastfood">Gyorsétterem</string>
+    <string name="tag.amenitymore_fire_station">Tűzoltó állomás</string>
+    <string name="tag.amenitymore_hostel">Hostel</string>
+    <string name="tag.amenitymore_hotel">Hotel</string>
+    <string name="tag.amenitymore_motel">Motel</string>
+    <string name="tag.amenitymore_playground">Játszótér</string>
+    <string name="tag.amenitymore_police">Rendőrség</string>
+    <string name="tag.amenitymore_pub">Kocsma</string>
+    <string name="tag.amenitymore_restaurant">Étterem</string>
+    <string name="tag.amenitymore_school">Iskola</string>
+    <string name="tag.car">Autó</string>
+    <string name="tag.car_emergency_phone">Vészhívó telefon</string>
+    <string name="tag.car_fuel_station">Benzinkút</string>
+    <string name="tag.car_parking">Parkoló</string>
+    <string name="tag.car_speed_camera">Sebességmérő kamera</string>
+    <string name="tag.car_turning_circle">Fordulókör</string>
+    <string name="tag.landuse">Földhasználat</string>
+    <string name="tag.landuse_allotments">Veteményes kertek</string>
+    <string name="tag.landuse_basin">Medence</string>
+    <string name="tag.landuse_cemetery">Temető</string>
+    <string name="tag.landuse_farm">Farm</string>
+    <string name="tag.landuse_forest">Erdő</string>
+    <string name="tag.landuse_landfill">Hulladéklerakó</string>
+    <string name="tag.landuse_recreation_ground">Rekreációs
+terület</string>
+    <string name="tag.landuse_reservoir">Víztároló</string>
+    <string name="tag.misc">Egyéb</string>
+    <string name="tag.misc_atm">ATM</string>
+    <string name="tag.misc_bollard">Karó</string>
+    <string name="tag.misc_bus_stop">Buszmegálló</string>
+    <string name="tag.misc_post_box">Postaláda</string>
+    <string name="tag.misc_railway">Vasút</string>
+    <string name="tag.misc_shelter">Menedékház</string>
+    <string name="tag.misc_surveillance">Megfigyelés</string>
+    <string name="tag.misc_telephone">Telefon</string>
+    <string name="tag.misc_toilets">WC</string>
+    <string name="tag.restriction">Korlátozások</string>
+    <string name="tag.restriction_100">Max 100</string>
+    <string name="tag.restriction_110">Max 110</string>
+    <string name="tag.restriction_120">Max 120</string>
+    <string name="tag.restriction_130">Max 130</string>
+    <string name="tag.restriction_20">Max 20</string>
+    <string name="tag.restriction_30">Max 30</string>
+    <string name="tag.restriction_40">Max 40</string>
+    <string name="tag.restriction_50">Max 50</string>
+    <string name="tag.restriction_60">Max 60</string>
+    <string name="tag.restriction_70">Max 70</string>
+    <string name="tag.restriction_80">Max 80</string>
+    <string name="tag.restriction_90">Max 90</string>
+    <string name="tag.restriction_no_exit">Út vége</string>
+    <string name="tag.restriction_one_way">Egyirányú út</string>
+    <string name="tag.restriction_traffic_light">Közlekedési lámpák</string>
+    <string name="tag.tourism">Turizmus</string>
+    <string name="tag.tourism_attraction">Látnivaló</string>
+    <string name="tag.tourism_castle">Kastély</string>
+    <string name="tag.tourism_cinema">Mozi</string>
+    <string name="tag.tourism_information">Információ</string>
+    <string name="tag.tourism_monument">Emlékmű</string>
+    <string name="tag.tourism_museum">Múzeum</string>
+    <string name="tag.tourism_picnic">Piknikezőhely</string>
+    <string name="tag.tourism_theme_park">Szórakoztató park</string>
+    <string name="tag.tourism_view_point">Kilátó</string>
+    <string name="tag.track">Nyomkövetés</string>
+    <string name="tag.track_bridleway">Lovaglóút</string>
+    <string name="tag.track_cycleway">Bicikliút</string>
+    <string name="tag.track_footway">Gyalogút</string>
+    <string name="tag.track_grade1">1. fokú</string>
+    <string name="tag.track_grade2">2. fokú</string>
+    <string name="tag.track_grade3">3. fokú</string>
+    <string name="tag.track_grade4">4. fokú</string>
+    <string name="tag.track_grade5">5. fokú</string>
+    <string name="tag.track_living_street">Pihenőút</string>
+    <string name="tag.track_pedestrian">Sétálóutca</string>
+    <string name="tag.track_steps">Lépcső</string>
+    <string name="tag.track_track">Földút</string>
+    <string name="tag.way">Út</string>
+    <string name="tag.way_bridge">Híd</string>
+    <string name="tag.way_motorway">Autópálya</string>
+    <string name="tag.way_primary">Első- vagy másodrendű főút</string>
+    <string name="tag.way_residential">Lakóút</string>
+    <string name="tag.way_secondary">Összekötő út</string>
+    <string name="tag.way_service">Szervizút</string>
+    <string name="tag.way_tertiary">Bekötőút</string>
+    <string name="tag.way_trunk">Autóút</string>
+    <string name="tag.way_zebra_crossing">Zebra</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-hu/strings.xml -->
+    <eat-comment/>
+    <string name="trackdetail">Nyomvonal részletek</string>
+    <string name="trackdetail_btn_export">Exportálás GPX fájlként</string>
+    <string name="trackdetail_description">Leírás</string>
+    <string name="trackdetail_description_mandatory">Meg kell adnia egy leírást</string>
+    <string name="trackdetail_enddate">Befejezés ideje:</string>
+    <string name="trackdetail_endloc">Végpont:</string>
+    <string name="trackdetail_export_display">Megjelenítés</string>
+    <string name="trackdetail_export_notyet">(Még nem exportált)</string>
+    <string name="trackdetail_exportdate">Exportálva:</string>
+    <string name="trackdetail_osm_upload_date">Feltöltve az OpenStreetMapre:</string>
+    <string name="trackdetail_osm_upload_notyet">(Még nem volt feltöltve)</string>
+    <string name="trackdetail_save">Mentés</string>
+    <string name="trackdetail_startdate">Kezdési időpont:</string>
+    <string name="trackdetail_startloc">Kezdőpont:</string>
+    <string name="trackdetail_tags">Címkék (vesszővel elválasztva)</string>
+    <string name="tracklogger">Nyomvonal rögzítő</string>
+    <string name="tracklogger_btnBack">Vissza</string>
+    <string name="tracklogger_camera">Fénykép készítése a kamerával</string>
+    <string name="tracklogger_choose_gallery_camera">Galéria vagy kamera?</string>
+    <string name="tracklogger_gallery">Fénykép kiválasztása galériából</string>
+    <string name="tracklogger_gps_disabled">GPS kikapcsolva</string>
+    <string name="tracklogger_gps_disabled_hint">A GPS ki van kapcsolva. Szeretné engedélyezni?</string>
+    <string name="tracklogger_tracked">Rögzítve:</string>
+    <string name="tracklogger_voicerec_stop">Leállítás</string>
+    <string name="tracklogger_voicerec_text">{0} mp hangfájl rögzítése.</string>
+    <string name="tracklogger_voicerec_title">Hangrögzítés</string>
+    <string name="tracklogger_waiting_gps">Várakozás a GPS beállására a gombok engedélyezéséhez...</string>
+    <string name="trackmgr">Nyomvonal kezelő</string>
+    <string name="trackmgr_contextmenu_delete">Törlés</string>
+    <string name="trackmgr_contextmenu_details">Részletek</string>
+    <string name="trackmgr_contextmenu_display">Megjelenítés</string>
+    <string name="trackmgr_contextmenu_export">Exportálás GPX fájlként</string>
+    <string name="trackmgr_contextmenu_osm_upload">Feltöltés az OpenStreetMapre</string>
+    <string name="trackmgr_contextmenu_resume">Nyomkövetés folytatása</string>
+    <string name="trackmgr_contextmenu_stop">Nyomkövetés leállítása</string>
+    <string name="trackmgr_contextmenu_title">{0}. nyomvonal </string>
+    <string name="trackmgr_continuetrack_hint">Jelenleg a <b>{0}. nyomvonalat</b> rögzíti.
+Válassza ki a listából a folytatáshoz</string>
+    <string name="trackmgr_delete_confirm"> {0}. nyomvonal törlésre kerül</string>
+    <string name="trackmgr_deleteall_confirm">Minden nyomvonal törlésre kerül. Biztosan ezt akarja?</string>
+    <string name="trackmgr_empty">Nincs egyetlen nyomvonala sem.</string>
+    <string name="trackmgr_export_error">{0}. nyomvonal exportálása sikertelen</string>
+    <string name="trackmgr_exportall_confirm">Minden nyomvonal exportálásra kerül, ami sokáig tarthat. Biztosan ezt akarja?</string>
+    <string name="trackmgr_exporting">{0}. nyomvonal exportálása…</string>
+    <string name="trackmgr_newtrack_error">Nem sikerült új nyomvonalat létrehozni: {0}</string>
+    <string name="trackmgr_newtrack_hint">Az új nyomvonal rögzítéséhez,
+nyomja meg a <b>Menü</b> majd az <b>Új nyomvonal</b> gombot</string>
+    <string name="trackmgr_tracklist">Nyomvonal lista:</string>
+    <string name="trackmgr_trackpoints_count">Nyompontok:</string>
+    <string name="trackmgr_waypoints_count">Útpontok:</string>
+    <string name="various_accuracy">Pontosság</string>
+    <string name="various_accuracy_with_sats">Pontosság {0}{1} ({2}/{3})</string>
+    <string name="various_heading">Várakozás az irányra...</string>
+    <string name="various_heading_display">{0}°</string>
+    <string name="various_heading_unknown">Az irány nem meghatározható</string>
+    <string name="various_unit_meters">m</string>
+    <string name="various_waiting_gps_fix">GPS javításra vár... ({0}/{1})</string>
+    <string name="wplist">Útpont lista</string>
+    <string name="wplist_accuracy">Pontos:</string>
+    <string name="wplist_compass">Irányt. állás:</string>
+    <string name="wplist_compass_accuracy">Irányt. pontosság:</string>
+    <string name="wplist_elevation">Mag:</string>
+    <string name="wplist_latitude">Szél:</string>
+    <string name="wplist_longitude">Hossz:</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-hu/waypoints.xml -->
+    <eat-comment/>
+    <string name="wpt_stillimage">Fénykép</string>
+    <string name="wpt_voicerec">Hangrögzítés</string>
+</resources>

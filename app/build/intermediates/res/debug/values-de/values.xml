@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-de/strings-preferences.xml -->
+    <eat-comment/>
+    <string-array name="prefs_compass_heading_keys">
+    <item>Kein</item>
+    <item>im Kommentar</item>
+    <item>in der Erweiterung</item>
+  </string-array>
+    <string-array name="prefs_map_tile_keys">
+    <item>Mapnik</item>
+    <item>Cycle Map</item>
+    <item>MapQuest Open</item>
+  </string-array>
+    <string-array name="prefs_output_accuracy_keys">
+    <item>Kein</item>
+    <item>Mit Waypoint-Name</item>
+    <item>Im Waypoint-Kommentar</item>
+  </string-array>
+    <string-array name="prefs_output_filename_keys">
+    <item>Track Name</item>
+    <item>Name, Startdatum und -zeit</item>
+    <item>Startdatum und -zeit</item>
+  </string-array>
+    <string-array name="prefs_theme_keys">
+    <item>OS Standard</item>
+    <item>OS Standard (Dunkel)</item>
+    <item>OS Standard (Hell)</item>
+    <item>Hoher Kontrast</item>
+  </string-array>
+    <string-array name="prefs_ui_orientation_options_keys">
+    <item>Automatisch</item>
+    <item>Hochformat</item>
+    <item>Querformat</item>
+  </string-array>
+    <string-array name="prefs_ui_picture_source_keys">
+    <item>Kamera</item>
+    <item>Galerie</item>
+    <item>Immer fragen</item>
+  </string-array>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="about">Über</string>
+    <string name="about_debug_info">Debug Informationen</string>
+    <string name="about_text">Für mehr Information, Dokumentation und Meldungen besuchen Sie bitte die Projekt-Homepage:</string>
+    <string name="about_translate_text">Hilf OSM Tracker zu übersetzten</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-de/accessibility.xml -->
+    <eat-comment/>
+    <string name="acc.osmtracker_logo">OSMTracker Logo</string>
+    <string name="acc.record_indicator">Aufnahme-Fortschrittsanzeige</string>
+    <string name="acc.sat_indicator">Anzeige der Stärke des Satellitensignals</string>
+    <string name="acc.track_status">Anzeige des Track-Status</string>
+    <string name="acc.upload_status">OpenStreetMap-Upload-Statusanzeige</string>
+    <string name="acc.zoom_in">Zoom Hinein</string>
+    <string name="acc.zoom_out">Zoom Heraus</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="app_description">Inspiriert durch OSMTracker auf Windows Mobile. OSMTracker erlaubt die Aufzeichnung von Routen, das Markieren signifikanter Wegepunkte (Sprachaufnahme, Foto) und dessen Export in eine GPX-Datei zur weiteren Bearbeitung mit OpenStreetMap-Tools, wie z.B. JOSM.</string>
+    <string name="app_name">OSMTracker für Android™</string>
+    <string name="app_short_name">OSMTracker</string>
+    <string name="displaytrack">Zeige Track</string>
+    <string name="displaytrack_map">Karte als Hintergrund anzeigen</string>
+    <string name="displaytrack_north">N</string>
+    <string name="displaytrackmap">OpenStreetMap Track Anzeige</string>
+    <string name="error_create_track_dir">Der Ordner %s kann nicht erstellt werden.</string>
+    <string name="error_externalstorage_not_writable">Schreiben auf externen Speicher nicht möglich.</string>
+    <string name="error_externalstorage_not_writable_hint">Bitte überprüfen Sie, ob der externe Speicher korrekt eingesetzt und eingebunden ist.</string>
+    <string name="error_userlayout_parsing">Fehler während Parsen der XML-Datei. Bitte auf Standardlayout wechseln.</string>
+    <string name="error_voicerec_failed">Sprachaufnahme fehlgeschlagen</string>
+    <string name="gpsstatus_record_stillimage">Foto aufnehmen</string>
+    <string name="gpsstatus_record_textnote">Textnotiz</string>
+    <string name="gpsstatus_record_voicerec">Sprachaufnahme</string>
+    <string name="gpx_hdop_approximation_cmt">Warnung: HDOP-Werte sind nicht vom GPS. Es sind geschätzte Meter-Werte zur Ortsbestimmung, die nicht berücksichtigt werden sollten.</string>
+    <string name="gpx_track_name">Aufgezeichnet mit OSMTracker für Android™</string>
+    <string name="menu_about">Über</string>
+    <string name="menu_cancel">Abbrechen</string>
+    <string name="menu_center_to_gps">An GPS zentrieren</string>
+    <string name="menu_continue">Track weiterbearbeiten</string>
+    <string name="menu_deletetracks">Lösche alle Tracks</string>
+    <string name="menu_displaytrack">Zeige Track</string>
+    <string name="menu_export">Als GPX exportieren</string>
+    <string name="menu_exportall">Exportiere als GPX</string>
+    <string name="menu_newtrack">Neuer Track</string>
+    <string name="menu_osm_upload">Upload zu OpenStreetMap</string>
+    <string name="menu_save">Speichern</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_stopcurrenttrack">Aktuellen Track anhalten</string>
+    <string name="menu_stoptracking">Stoppen &amp; Speichern</string>
+    <string name="menu_waypointlist">Waypoints</string>
+    <string name="notification_text">Hier tippen um den Hauptbildschirm aufzurufen</string>
+    <string name="notification_ticker_text">OSMTracker ist aktiv</string>
+    <string name="notification_title">OSMTracker ist aktiv (#{0})</string>
+    <string name="osm_upload">OpenStreetMap-Upload</string>
+    <string name="osm_upload_bad_response">Der OSM Server meldet einen Fehler: ({0})message{1}</string>
+    <string name="osm_upload_error">Fehler beim Hochladen des Tracks</string>
+    <string name="osm_upload_oauth_failed">Konnte keine Anmeldung bei OSM durchführen</string>
+    <string name="osm_upload_ok">Speichern und hochladen</string>
+    <string name="osm_upload_sending">Übertrage Track #{0}...</string>
+    <string name="osm_upload_sucess">Hochladen erfolgreich</string>
+    <string name="osm_upload_tmpfile_failed">Konnte den Track nicht in eine temporäre Datei exportieren</string>
+    <string name="osm_upload_unauthorized">Autorisierungsfehler. Möchtest Du die gespeicherten OpenStreetMap-Anmeldedaten zurücksetzen?</string>
+    <string name="osm_upload_waiting_response">Warte auf die Antwort des OpenStreetMap Servers</string>
+    <string name="osm_visibility_identifiable">Identifizierbar</string>
+    <string name="osm_visibility_private">Privat</string>
+    <string name="osm_visibility_public">Öffentlich</string>
+    <string name="osm_visibility_trackable">Sichtbar</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-de/strings-preferences.xml -->
+    <eat-comment/>
+    <string name="prefs">Einstellungen</string>
+    <string name="prefs_check_gps_startup">Prüfe GPS beim Start</string>
+    <string name="prefs_check_gps_startup_summary">Prüfen ob GPS beim Start deaktiviert ist und biete an es zu aktivieren</string>
+    <string name="prefs_compass_heading">Export der Kompass-Richtung</string>
+    <string name="prefs_compass_heading_summary">Definiert ob und wie die Kompass-Daten in die GPX-Datei exportiert werden</string>
+    <string name="prefs_display_always_on">Bildschirm immer an</string>
+    <string name="prefs_display_always_on_summary">Bildschirm bleibt während des Trackings beleuchtet. Deaktivieren um Batterie zu sparen</string>
+    <string name="prefs_displaytrack_osm">Hintergrundkarte</string>
+    <string name="prefs_displaytrack_osm_summary">OpenStreetMap als Track-Hintergrund. Benötigt Datenverbindung</string>
+    <string name="prefs_displaytrack_osm_summary_ask">OpenStreetMap als Track-Hintergrund. Benötigt Datenverbindung</string>
+    <string name="prefs_gps">GPS</string>
+    <string name="prefs_gps_ignore_clock">GPS Zeit ignorieren</string>
+    <string name="prefs_gps_ignore_clock_summary">Android Zeit anstelle der GPS Zeit für Zeitstempel verwenden</string>
+    <string name="prefs_gps_logging_interval">GPS Intervall</string>
+    <string name="prefs_gps_logging_interval_seconds">Sekunden</string>
+    <string name="prefs_gps_logging_interval_summary">0 für das kürzest mögliche Intervall</string>
+    <string name="prefs_gps_os_settings">GPS Einstellungen</string>
+    <string name="prefs_gps_os_settings_summary">Zeige GPS-Einstellungen des Systems</string>
+    <string name="prefs_map_tile">Hintergrund-Karte Anbieter</string>
+    <string name="prefs_map_tile_summary"/>
+    <string name="prefs_osm_clear_oauth_data">OSM-Anmeldedaten rücksetzen</string>
+    <string name="prefs_osm_clear_oauth_data_dialog">Du musst OSMTracker neu erlauben, Tracks hochladen zu dürfen. Bist Du sicher?</string>
+    <string name="prefs_osm_clear_oauth_data_summary">OSM-Anmeldedaten und -Rechte vergessen und OSMTracker neu danach fragen lassen</string>
+    <string name="prefs_output">GPX Dateiausgabe</string>
+    <string name="prefs_output_accuracy">Genauigkeit in der GPX-Datei</string>
+    <string name="prefs_output_accuracy_summary">Erlaube Genauigkeitsanzeige in der GPX-Datei mit Waypoint-Name oder in einem separaten Tag</string>
+    <string name="prefs_output_filename">Dateiname für Tracks</string>
+    <string name="prefs_output_filename_summary">Form des Dateinamens, wenn ein Track einen Namen hat</string>
+    <string name="prefs_output_gpx_hdop_approximation">Benutze HDOP-Annäherung</string>
+    <string name="prefs_output_gpx_hdop_approximation_summary">Fülle HDOP (im GPX) mit Näherungswerten der Genauigkeitsmessung</string>
+    <string name="prefs_output_one_dir_per_track">Ein Verzeichnis je Track</string>
+    <string name="prefs_output_one_dir_per_track_summary">Speichert jeden Track und zugehörige Dateien in einem eigenen Verzeichnis</string>
+    <string name="prefs_sound_enabled">Sound aktivieren</string>
+    <string name="prefs_sound_enabled_summary">Spiele Sounds ab, wenn Sprachaufnahme startet und endet</string>
+    <string name="prefs_storage_dir">Externes Speicherverzeichnis (SD)</string>
+    <string name="prefs_storage_dir_hint">Dies gilt nur für neue Tracks.</string>
+    <string name="prefs_theme">Motiv Hauptbildschirm</string>
+    <string name="prefs_theme_summary">Applikationsneustart notwendig, damit Einstellungen wirksam werden</string>
+    <string name="prefs_ui">Benutzeroberfläche</string>
+    <string name="prefs_ui_buttons_layout">Tastenlayout</string>
+    <string name="prefs_ui_buttons_layout_defaut">Standard</string>
+    <string name="prefs_ui_buttons_layout_summary">Erlaube benutzerdefiniertes Tastenlayout (siehe Dokumentation)</string>
+    <string name="prefs_ui_orientation">Ausrichtung</string>
+    <string name="prefs_ui_orientation_summary">Bevorzugte Ausrichtung für die Buttonanzeige</string>
+    <string name="prefs_ui_picture_source">Standard Foto-Quelle</string>
+    <string name="prefs_ui_picture_source_summary">Foto von Kamera oder Galerie?</string>
+    <string name="prefs_voicerec_duration">Dauer Sprachaufnahme</string>
+    <string name="prefs_voicerec_duration_seconds">Sekunden</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-de/strings-tags.xml -->
+    <eat-comment/>
+    <string name="tag.amenity">Einrichtungen</string>
+    <string name="tag.amenity_bench">Parkbank</string>
+    <string name="tag.amenity_doctors">Krankenhaus,
+Doktor</string>
+    <string name="tag.amenity_library">Bibliothek</string>
+    <string name="tag.amenity_marina">Hafen</string>
+    <string name="tag.amenity_more">Einrichtungen (+)</string>
+    <string name="tag.amenity_pharmacy">Apotheke</string>
+    <string name="tag.amenity_place_of_worship">Gebetsstätte</string>
+    <string name="tag.amenity_post_office">Postamt</string>
+    <string name="tag.amenity_recycling">Recycling</string>
+    <string name="tag.amenity_shop">Geschäft</string>
+    <string name="tag.amenity_sport">Sport</string>
+    <string name="tag.amenity_taxi">Taxi</string>
+    <string name="tag.amenity_water">Wasser</string>
+    <string name="tag.amenitymore_bank">Bank</string>
+    <string name="tag.amenitymore_camp_site">Campingplatz</string>
+    <string name="tag.amenitymore_fastfood">Fastfood</string>
+    <string name="tag.amenitymore_fire_station">Feuerwache</string>
+    <string name="tag.amenitymore_hostel">Hostel</string>
+    <string name="tag.amenitymore_hotel">Hotel</string>
+    <string name="tag.amenitymore_motel">Motel</string>
+    <string name="tag.amenitymore_playground">Spielplatz</string>
+    <string name="tag.amenitymore_police">Polizei</string>
+    <string name="tag.amenitymore_pub">Kneipe</string>
+    <string name="tag.amenitymore_restaurant">Restaurant</string>
+    <string name="tag.amenitymore_school">Schule</string>
+    <string name="tag.car">Auto</string>
+    <string name="tag.car_emergency_phone">Notruf</string>
+    <string name="tag.car_fuel_station">Tankstelle</string>
+    <string name="tag.car_parking">Parkplatz</string>
+    <string name="tag.car_speed_camera">Radargerät</string>
+    <string name="tag.car_turning_circle">Kreisverkehr</string>
+    <string name="tag.landuse">Landnutzung</string>
+    <string name="tag.landuse_allotments">Kleingarten</string>
+    <string name="tag.landuse_basin">Wasserbecken</string>
+    <string name="tag.landuse_cemetery">Friedhof</string>
+    <string name="tag.landuse_farm">Landwirtschaftlich
+genutzte Fläche</string>
+    <string name="tag.landuse_forest">Forstwirtschaft</string>
+    <string name="tag.landuse_landfill">Deponie</string>
+    <string name="tag.landuse_recreation_ground">Erholungsgebiet</string>
+    <string name="tag.landuse_reservoir">Speicherbecken</string>
+    <string name="tag.misc">Verschiedenes</string>
+    <string name="tag.misc_atm">Bankautomat</string>
+    <string name="tag.misc_bollard">Poller</string>
+    <string name="tag.misc_bus_stop">Bushaltestelle</string>
+    <string name="tag.misc_post_box">Briefkasten</string>
+    <string name="tag.misc_railway">Eisenbahn</string>
+    <string name="tag.misc_shelter">Wartehalle</string>
+    <string name="tag.misc_surveillance">Überwachung</string>
+    <string name="tag.misc_telephone">Telefon</string>
+    <string name="tag.misc_toilets">Toiletten</string>
+    <string name="tag.restriction">Barrieren</string>
+    <string name="tag.restriction_100">Max 100</string>
+    <string name="tag.restriction_110">Max 110</string>
+    <string name="tag.restriction_120">Max 120</string>
+    <string name="tag.restriction_130">MAximal 130</string>
+    <string name="tag.restriction_20">Maximal 20</string>
+    <string name="tag.restriction_30">Max 30</string>
+    <string name="tag.restriction_40">Maximal 40</string>
+    <string name="tag.restriction_50">Max 50</string>
+    <string name="tag.restriction_60">Maximal 60</string>
+    <string name="tag.restriction_70">Maximal 70</string>
+    <string name="tag.restriction_80">Max 80</string>
+    <string name="tag.restriction_90">Maximal 90</string>
+    <string name="tag.restriction_no_exit">Sackgasse</string>
+    <string name="tag.restriction_one_way">Einbahnstraße</string>
+    <string name="tag.restriction_traffic_light">Ampel</string>
+    <string name="tag.tourism">Tourismus</string>
+    <string name="tag.tourism_attraction">Attraktion</string>
+    <string name="tag.tourism_castle">Burg/Schloß</string>
+    <string name="tag.tourism_cinema">Kino</string>
+    <string name="tag.tourism_information">Information</string>
+    <string name="tag.tourism_monument">Monument</string>
+    <string name="tag.tourism_museum">Museum</string>
+    <string name="tag.tourism_picnic">Rastplatz</string>
+    <string name="tag.tourism_theme_park">Freizeitpark</string>
+    <string name="tag.tourism_view_point">Aussichtspunkt</string>
+    <string name="tag.track">Pfade</string>
+    <string name="tag.track_bridleway">Reitweg</string>
+    <string name="tag.track_cycleway">Fahrradweg</string>
+    <string name="tag.track_footway">Fußweg</string>
+    <string name="tag.track_grade1">Befestigter Weg
+(Grade 1)</string>
+    <string name="tag.track_grade2">Unbefestigter Weg
+(Grade 2)</string>
+    <string name="tag.track_grade3">Unbefestigter Weg
+(Grade 3)</string>
+    <string name="tag.track_grade4">Unbefestigter Weg
+(Grade 4)</string>
+    <string name="tag.track_grade5">Unbefestigter Weg
+(Grade 5)</string>
+    <string name="tag.track_living_street">Verkehrsberuhigter
+Bereich</string>
+    <string name="tag.track_pedestrian">Fußgängerweg</string>
+    <string name="tag.track_steps">Treppen</string>
+    <string name="tag.track_track">Feldweg</string>
+    <string name="tag.way">Wege</string>
+    <string name="tag.way_bridge">Brücke</string>
+    <string name="tag.way_motorway">Autobahn</string>
+    <string name="tag.way_primary">Bundesstraße</string>
+    <string name="tag.way_residential">Straße an/in
+Wohngebieten</string>
+    <string name="tag.way_secondary">Landstraße</string>
+    <string name="tag.way_service">Erschließungsweg</string>
+    <string name="tag.way_tertiary">Kreisstraße</string>
+    <string name="tag.way_trunk">Schnellstraße</string>
+    <string name="tag.way_zebra_crossing">Zebrastreifen</string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="trackdetail">Track Details</string>
+    <string name="trackdetail_btn_export">Als GPX exportieren</string>
+    <string name="trackdetail_description">Beschreibung</string>
+    <string name="trackdetail_description_mandatory">Sie müssen eine Beschreibung eingeben.</string>
+    <string name="trackdetail_enddate">Endzeit: </string>
+    <string name="trackdetail_endloc">Endet bei: </string>
+    <string name="trackdetail_export_display">Anzeigen</string>
+    <string name="trackdetail_export_notyet">(Noch nicht exportiert)</string>
+    <string name="trackdetail_exportdate">Exportiert: </string>
+    <string name="trackdetail_osm_upload_date">Zu OpenStreetMap hochgeladen:</string>
+    <string name="trackdetail_osm_upload_notyet">(Noch nicht hochgeladen)</string>
+    <string name="trackdetail_save">Speichern</string>
+    <string name="trackdetail_startdate">Startzeit: </string>
+    <string name="trackdetail_startloc">Startet bei: </string>
+    <string name="trackdetail_tags">Tags (mit Komma trennen)</string>
+    <string name="tracklogger">Track Logger</string>
+    <string name="tracklogger_btnBack">Zurück</string>
+    <string name="tracklogger_camera">Foto mit Kamera aufnehmen</string>
+    <string name="tracklogger_choose_gallery_camera">Galerie oder Kamera?</string>
+    <string name="tracklogger_gallery">Foto aus Galerie auswählen</string>
+    <string name="tracklogger_gps_disabled">GPS ist deaktiviert</string>
+    <string name="tracklogger_gps_disabled_hint">GPS ist deaktiviert. Möchten Sie es aktivieren?</string>
+    <string name="tracklogger_tracked">Tracked: </string>
+    <string name="tracklogger_voicerec_stop">Stop</string>
+    <string name="tracklogger_voicerec_text">Aufnahme eines {0}s Audio-Clips.</string>
+    <string name="tracklogger_voicerec_title">Sprachaufnahme</string>
+    <string name="tracklogger_waiting_gps">Warte auf GPS-Standortbestimmung bevor Tasten verfügbar sind…</string>
+    <string name="trackmgr">Track Verwaltung</string>
+    <string name="trackmgr_contextmenu_delete">Löschen</string>
+    <string name="trackmgr_contextmenu_details">Details</string>
+    <string name="trackmgr_contextmenu_display">Anzeigen</string>
+    <string name="trackmgr_contextmenu_export">Als GPX exportieren</string>
+    <string name="trackmgr_contextmenu_osm_upload">Zu OpenStreetMap hochladen</string>
+    <string name="trackmgr_contextmenu_resume">Tracking fortsetzen</string>
+    <string name="trackmgr_contextmenu_stop">Tracking stoppen</string>
+    <string name="trackmgr_contextmenu_title">Track bearbeiten</string>
+    <string name="trackmgr_continuetrack_hint">Aktuell wird <b>Track #{0}</b> aufgezeichnet.
+Wählen Sie diesen aus der Liste aus, um fortzufahren.</string>
+    <string name="trackmgr_delete_confirm">Track #{0} wird gelöscht</string>
+    <string name="trackmgr_deleteall_confirm">Alle Tracks werden gelöscht. Sind Sie sicher?</string>
+    <string name="trackmgr_empty">Bisher sind keine Tracks vorhanden.</string>
+    <string name="trackmgr_export_error">Track kann nicht exportiert werden: {0}</string>
+    <string name="trackmgr_exportall_confirm">Alle Tracks werden hochgeladen. Dies kann einige Zeit dauern. Möchten Sie fortfahren?</string>
+    <string name="trackmgr_exporting">Track #{0} wird exportiert…</string>
+    <string name="trackmgr_newtrack_error">Neuer Track kann nicht erstellt werden: {0}</string>
+    <string name="trackmgr_newtrack_hint">Drücken Sie <b>Menü</b> und dann <b>Neuer Track</b> um einen Track aufzuzeichnen.</string>
+    <string name="trackmgr_tracklist">Track Liste:</string>
+    <string name="trackmgr_trackpoints_count">Trackpoints: </string>
+    <string name="trackmgr_waypoints_count">Waypoints: </string>
+    <string name="various_accuracy">Genauigkeit</string>
+    <string name="various_accuracy_with_sats">Genauigkeit {0}{1} ({2}/{3})</string>
+    <string name="various_heading">Warte auf Richtung...</string>
+    <string name="various_heading_display">{0}°</string>
+    <string name="various_heading_unknown">Richtung kann nicht bestimmt werden</string>
+    <string name="various_unit_meters">m</string>
+    <string name="various_waiting_gps_fix">Warte auf GPS Standortbestimmung… ({0}/{1})</string>
+    <string name="wplist">Waypoint Liste</string>
+    <string name="wplist_accuracy">Accur: </string>
+    <string name="wplist_compass">Kompass-Richtung</string>
+    <string name="wplist_compass_accuracy">Kompass-Genauigkeit</string>
+    <string name="wplist_elevation">Ele: </string>
+    <string name="wplist_latitude">Lat: </string>
+    <string name="wplist_longitude">Long: </string>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-de/waypoints.xml -->
+    <eat-comment/>
+    <string name="wpt_stillimage">Foto</string>
+    <string name="wpt_voicerec">Sprachaufnahme</string>
+</resources>

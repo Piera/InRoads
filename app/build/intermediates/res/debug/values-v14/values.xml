@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-v14/themes.xml -->
+    <eat-comment/>
+    <style name="DarkTheme" parent="@android:style/Theme.DeviceDefault"/>
+    <style name="DefaultTheme" parent="@android:style/Theme.DeviceDefault"/>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-v14/theme_highcontrast.xml -->
+    <eat-comment/>
+    <style name="HighContrast" parent="@android:style/Theme.DeviceDefault">
+		<!-- item name="android:background">#ffffff</item -->
+		<item name="android:buttonStyle">@style/Widget.Button</item>
+		<item name="android:buttonStyleToggle">@style/Widget.Button.Toggle</item>
+	</style>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-v14/themes.xml -->
+    <eat-comment/>
+    <style name="LightTheme" parent="@android:style/Theme.DeviceDefault.Light"/>
+    <!-- From: file:/Users/pieradamonte/projects/osmtracker-android2/app/src/main/res/values-v14/theme_highcontrast.xml -->
+    <eat-comment/>
+    <style name="Widget.Button" parent="@android:style/Widget.DeviceDefault.Button">
+		<item name="android:background">@drawable/theme_highcontrast_btn</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+    <style name="Widget.Button.Toggle" parent="@android:style/Widget.DeviceDefault.Button.Toggle">
+			<item name="android:textColor">#ffffff</item>
+	</style>
+</resources>

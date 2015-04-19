@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/pieradamonte/projects/osmtracker-android2/app/libs/slf4j-android-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="404eece4bb07ea211f5a879c22458775c612f0df">
+        <dex dex="/Users/pieradamonte/projects/osmtracker-android2/app/build/intermediates/pre-dexed/debug/slf4j-android-1.5.8-7fdaa81b1760446d33c0e026d24f7bcc467b04d6.jar" />
+    </item>
+    <item
+        jar="/Users/pieradamonte/projects/osmtracker-android2/app/libs/osmdroid-android-4.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f3a0c73a9ed04a5d0959789c53da9f08462bfcc2">
+        <dex dex="/Users/pieradamonte/projects/osmtracker-android2/app/build/intermediates/pre-dexed/debug/osmdroid-android-4.2-cec127067a6c58f1d5df3538f9f9030023f96875.jar" />
+    </item>
+    <item
+        jar="/Users/pieradamonte/projects/osmtracker-android2/app/libs/signpost-core-1.2.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
+        <dex dex="/Users/pieradamonte/projects/osmtracker-android2/app/build/intermediates/pre-dexed/debug/signpost-core-1.2.1.2-57828cc6600de83994dae1f530f6cf1319aacecd.jar" />
+    </item>
+    <item
+        jar="/Users/pieradamonte/projects/osmtracker-android2/app/libs/httpcore-4.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd">
+        <dex dex="/Users/pieradamonte/projects/osmtracker-android2/app/build/intermediates/pre-dexed/debug/httpcore-4.2.1-eb89e5faec8cdf6dcd1b5618bf4522c5d8d1536c.jar" />
+    </item>
+    <item
+        jar="/Users/pieradamonte/projects/osmtracker-android2/app/libs/httpclient-4.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="64849efdc10ea21eed3be7cc19ea7ec5af186776">
+        <dex dex="/Users/pieradamonte/projects/osmtracker-android2/app/build/intermediates/pre-dexed/debug/httpclient-4.2.1-11b314c9eaea0a8e8fc7f75da3ec88f4eff1175d.jar" />
+    </item>
+    <item
+        jar="/Users/pieradamonte/projects/osmtracker-android2/app/libs/signpost-commonshttp4-1.2.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="731e05de30cfeb1f41d417f886277f9597fe0f36">
+        <dex dex="/Users/pieradamonte/projects/osmtracker-android2/app/build/intermediates/pre-dexed/debug/signpost-commonshttp4-1.2.1.2-b7f9a2ec697690b5f74de52ccc24f7c189a400f0.jar" />
+    </item>
+    <item
+        jar="/Users/pieradamonte/projects/osmtracker-android2/app/libs/httpmime-4.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c7349b04e5d76895fdfc0f38bdc0699e5f6fef5a">
+        <dex dex="/Users/pieradamonte/projects/osmtracker-android2/app/build/intermediates/pre-dexed/debug/httpmime-4.2.1-474ae57b69b8e5f304fa6cb1f07ab89675c6737d.jar" />
+    </item>
+    <item
+        jar="/Users/pieradamonte/projects/osmtracker-android2/app/libs/apache-mime4j-core-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/pieradamonte/projects/osmtracker-android2/app/build/intermediates/pre-dexed/debug/apache-mime4j-core-0.7.2-f3536ce68763703b2f9beb18ba9fd0d79228c2d4.jar" />
+    </item>
+
+</items>
